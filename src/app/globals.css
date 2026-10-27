@@ -88,7 +88,7 @@ li > p { margin: 0 0 var(--space-2); }
 .hero__content { position: relative; padding-block: clamp(4rem, 10vw, 8rem); max-width: 46rem; }
 .hero h1, .hero h2, .hero h3, .hero h4 { color: #fff; }
 .hero__eyebrow { text-transform: uppercase; letter-spacing: .16em; font-size: .8rem; font-weight: 700; margin-bottom: var(--space-3); opacity: .9; }
-.hero h1 { font-family: var(--font-campaign); font-weight: var(--fw-heading-strong); }
+.hero h1 { font-family: var(--font-campaign); }
 .hero__body p:first-child { font-size: 1.3rem; font-family: var(--font-heading); }
 .hero__content::after { content: ''; display: block; width: 3.5rem; height: 3px; background: var(--color-highlight); margin-top: var(--space-6); }
 .hero a:not(.btn) { color: #fff; }
@@ -136,7 +136,7 @@ li > p { margin: 0 0 var(--space-2); }
 /* FAQ / accordion */
 .faq { border-top: 1px solid var(--color-border); }
 .faq details { border-bottom: 1px solid var(--color-border); }
-.faq summary { cursor: pointer; list-style: none; padding: var(--space-5) 2.5rem var(--space-5) 0; position: relative; font-family: var(--font-heading); font-size: 1.25rem; color: var(--color-primary); font-weight: 600; }
+.faq summary { cursor: pointer; list-style: none; padding: var(--space-5) 2.5rem var(--space-5) 0; position: relative; font-family: var(--font-heading); font-size: 1.25rem; color: var(--color-primary); font-weight: 500; }
 .faq summary::-webkit-details-marker { display: none; }
 .faq summary::after { content: '+'; position: absolute; right: 0.5rem; top: 50%; transform: translateY(-50%); font-size: 1.6rem; font-family: var(--font-body); font-weight: 400; }
 .faq details[open] summary::after { content: '−'; }
@@ -247,8 +247,8 @@ li > p { margin: 0 0 var(--space-2); }
 
 /* ===== Refresh: consistent heroes, cause cards, donation flow ===== */
 body { font-size: 1.0625rem; -webkit-font-smoothing: antialiased; }
-h1, h2 { font-variation-settings: 'opsz' 60; letter-spacing: -0.01em; }
-.hero h1 { font-size: clamp(2.4rem, 5vw, 3.8rem); font-variation-settings: 'opsz' 144, 'SOFT' 50; letter-spacing: -0.015em; }
+h1, h2, h3, h4 { letter-spacing: 0.01em; } /* Beaufort is set slightly wider than Spectral */
+.hero h1 { font-size: clamp(2.4rem, 5vw, 3.8rem); font-weight: var(--fw-campaign); font-variant-numeric: oldstyle-nums; letter-spacing: -0.01em; }
 .hero { min-height: clamp(22rem, 46vw, 30rem); display: flex; align-items: center; }
 .hero > .container { width: min(100% - 2.5rem, var(--content-width)); }
 .template-home .hero { min-height: clamp(26rem, 58vw, 38rem); }
@@ -322,8 +322,8 @@ h1, h2 { font-variation-settings: 'opsz' 60; letter-spacing: -0.01em; }
 
 /* News cards: logos contained, photos cropped */
 .card__media img[src*="logo"], .card__media img[src*="-400-x-400"], .card__media img[src*="-500-x-500"] { object-fit: contain; padding: var(--space-5); background: #fff; }
-h1, h2, h3, h4 { font-weight: 500; }
-h3, h4 { font-variation-settings: 'opsz' 24; }
+h1, h2 { font-weight: var(--fw-heading-strong); }
+h3, h4 { font-weight: var(--fw-heading-regular); }
 .cause-card__title { font-weight: 600; }
 .cause-card__media > img { position: absolute; inset: 0; }
 .cause-aside__logo { padding: var(--space-3); }

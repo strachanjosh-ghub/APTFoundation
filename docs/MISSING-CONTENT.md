@@ -16,6 +16,7 @@
 
 - `/causes`: "Donations through  are tax deductible…". The organisation name is missing in the source (a template variable that never rendered).
 - Matching statements were inconsistent in the source ("$150,000 / $1000.00" on `/donate` and the legacy Antarctic page vs "$200,000 / $1,000" on all cause pages). **Standardised on the most common wording, $200,000 per year and up to $1,000 per individual donor** (owner request, 27 Oct 2026).
+- "ATG" is not used (owner request, 27 Oct 2026): "APT Travel Group (ATG)" became "the APT Travel Group", and standalone "ATG" became "the APT Travel Group" (`scripts/editorial.mjs`).
 - Spellings as published: "Médecins San Frontieres", "tax-deductable", "Médecins San Frontiers" (About Us).
 - About Us: "for over 96 years" and "for over 97 years" in different sections.
 - Contact form: "Your Email (required)" and "Message (required)" are labelled required, but the original form only enforced the name field. The behaviour was reproduced; decide whether to enforce them (`content/site.json` → `contact.form.fields[].required`).

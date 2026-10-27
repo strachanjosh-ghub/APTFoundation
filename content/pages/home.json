@@ -6,7 +6,7 @@
   "template": "home",
   "hero": {
     "heading": "The APT Foundation",
-    "html": "<p>For nature. For humanity. For tomorrow.</p><p>The APT Foundation is the APT Travel Group’s (ATG) not-for-profit charitable fund. Joining the brands APT, Travelmarvel, Botanica, Captain’s Choice, Antarctica Flights and TravelGlo, the APT Foundation’s mission is to make a positive and enduring impact on nature and the communities we touch. This is achieved through immediate and long-term influence in various environmental and humanitarian causes.</p>",
+    "html": "<p>For nature. For humanity. For tomorrow.</p><p>The APT Foundation is the APT Travel Group’s not-for-profit charitable fund. Joining the brands APT, Travelmarvel, Botanica, Captain’s Choice, Antarctica Flights and TravelGlo, the APT Foundation’s mission is to make a positive and enduring impact on nature and the communities we touch. This is achieved through immediate and long-term influence in various environmental and humanitarian causes.</p>",
     "ctas": [
       {
         "label": "Donate Now",
@@ -25,7 +25,7 @@
   "contentBlocks": [
     {
       "type": "richText",
-      "html": "<p>The APT Foundation is the philanthropic arm of the APT Travel Group (ATG) of companies </p>"
+      "html": "<p>The APT Foundation is the philanthropic arm of the APT Travel Group of companies </p>"
     },
     {
       "type": "partnerBrands"

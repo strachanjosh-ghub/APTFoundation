@@ -24,14 +24,17 @@ Source: *APT Luxury Travel Brand Guidelines, Version 7 (11 Nov 2024)*. The guide
 
 ## Typography
 
-The guide's Adobe fonts are replaced by free, self-hosted lookalikes (Fontsource packages, served from the site itself, so there are no third-party font requests or licences to manage):
+The guide's Adobe fonts are replaced by free, self-hosted lookalikes (Fontsource packages served from the site itself, so there are no third-party font requests or licences). Each was chosen by rendering candidates side by side with the guide's specimen page (page 13) and comparing letterforms:
 
-| Guide role | Guide typeface | Web typeface | Why |
+| Guide role | Guide typeface | Web typeface | Why it's the closest practical match |
 |---|---|---|---|
-| Campaign headlines | Thermal VF Medium | **Fraunces** (variable) | Soft, warm display serif with the same friendly curves; used for page heroes |
-| Headings, subheadings | Beaufort Pro Medium / Regular | **Newsreader** (variable, optical sizes) | Crisp contemporary serif with similar proportions; weight 500 |
-| Body copy | Maison Book | **DM Sans** (variable) | Clean geometric grotesque, close to Maison's shapes |
-| CTAs, T&Cs | Maison Light | **DM Sans** 500 | Light weights at small screen sizes fall below comfortable legibility, so buttons use a medium weight |
+| Campaign headlines (page heroes) | Thermal VF Medium | **Gelasio SemiBold** | Sturdy text serif with wedge serifs, and the same old-style (descending) numerals as Thermal |
+| Headings | Beaufort Pro Medium | **Spectral SemiBold** | Wide classical capitals, low contrast and fine flared serifs. SemiBold matches Beaufort Medium's visible weight better than Spectral Medium. Letter-spacing +0.01em to match Beaufort's wider setting |
+| Subheadings, offers | Beaufort Pro Regular | **Spectral Regular** | As above |
+| Body copy | Maison Book | **Hanken Grotesk** 400 | Neutral neo-grotesk with similar proportions, single-storey "g" and flat terminals |
+| CTAs, T&Cs | Maison Light | **Hanken Grotesk** 450 | Slightly heavier than Light so button text stays legible on screen |
+
+Candidates considered and rejected: Fraunces, Literata, Source Serif, Newsreader (Thermal/Beaufort: too soft, too much contrast, or lining numerals); Quattrocento and Marcellus (Beaufort: no medium weight); Inter, DM Sans, Instrument Sans, Public Sans (Maison: too geometric or too condensed).
 
 ## Logo
 

@@ -5,9 +5,12 @@ import { brand } from '@config/brand';
 import { getSite } from '@/lib/content';
 import { SiteHeader } from '@/components/SiteHeader';
 import { SiteFooter } from '@/components/SiteFooter';
-import '@fontsource-variable/fraunces';
-import '@fontsource-variable/newsreader';
-import '@fontsource-variable/dm-sans';
+import '@fontsource/gelasio/600.css';
+import '@fontsource/spectral/400.css';
+import '@fontsource/spectral/400-italic.css';
+import '@fontsource/spectral/600.css';
+import '@fontsource-variable/hanken-grotesk/wght.css';
+import '@fontsource-variable/hanken-grotesk/wght-italic.css';
 import './globals.css';
 
 const site = getSite();
@@ -37,6 +40,7 @@ const tokens = {
   '--font-campaign': brand.fonts.campaign,
   '--font-heading': brand.fonts.heading,
   '--font-body': brand.fonts.body,
+  '--fw-campaign': brand.fontWeights.campaign,
   '--fw-heading-strong': brand.fontWeights.headingStrong,
   '--fw-heading-regular': brand.fontWeights.headingRegular,
   '--fw-cta': brand.fontWeights.cta,

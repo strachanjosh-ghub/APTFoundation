@@ -57,18 +57,20 @@ export const brand = {
     overlay: 'rgba(27, 31, 82, 0.72)', // Navy overlay so white text on imagery stays legible
   },
   /**
-   * Typefaces: free, self-hosted (Fontsource) lookalikes for the guide's Adobe fonts.
-   *  - Thermal VF (campaign headlines) -> Fraunces: soft, warm display serif
-   *  - Beaufort Pro (headings)         -> Newsreader: crisp contemporary serif with optical sizes
-   *  - Maison (body, CTAs)             -> DM Sans: clean geometric grotesque
+   * Typefaces: free, self-hosted (Fontsource) lookalikes for the guide's Adobe fonts,
+   * chosen by side-by-side comparison with the guide's specimens (docs/BRAND.md):
+   *  - Thermal VF Medium (campaign headlines) -> Gelasio SemiBold: sturdy wedge-serif text face with old-style figures
+   *  - Beaufort Pro Regular/Medium (headings)  -> Spectral Regular/SemiBold (Beaufort Medium is heavier than Spectral Medium): wide classical capitals, low contrast, fine flared serifs
+   *  - Maison Book/Light (body, CTAs)          -> Hanken Grotesk: neutral neo-grotesk with similar proportions
    * Loaded in src/app/layout.tsx; no third-party font requests.
    */
   fonts: {
-    campaign: "'Fraunces Variable', 'Newsreader Variable', Georgia, serif",
-    heading: "'Newsreader Variable', Georgia, 'Times New Roman', serif",
-    body: "'DM Sans Variable', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif",
+    campaign: "'Gelasio', 'Spectral', Georgia, serif",
+    heading: "'Spectral', Georgia, 'Times New Roman', serif",
+    body: "'Hanken Grotesk Variable', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif",
   },
-  fontWeights: { headingStrong: 500, headingRegular: 400, body: 400, cta: 500 },
+  /** Guide: headings Beaufort Medium, subheadings Beaufort Regular, body Maison Book, CTAs Maison Light (Book used on screen for legibility). */
+  fontWeights: { campaign: 600, headingStrong: 600, headingRegular: 400, body: 400, cta: 450 },
   /** Square-cornered, restrained geometry, matching the guide's print layouts. */
   radius: '2px',
 } as const;

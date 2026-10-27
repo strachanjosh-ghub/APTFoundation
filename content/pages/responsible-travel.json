@@ -6,7 +6,7 @@
   "template": "standard",
   "hero": {
     "heading": "Responsible Travel",
-    "html": "<h2>What is Responsible Travel?</h2>\n<p>The world is waking up to the need for more sustainable ways of travelling, and here at the APT Foundation we understand we have a responsibility to our planet. Responsible travel is all about being socially and culturally aware, minimising our environmental footprint and travelling in a way that takes into consideration the locals, environment and individual cultures. We encourage this sustainable way of travel through journeys with the APT Travel Group (ATG).<br><br>The UN defines the responsible traveller as one who keeps an open mind towards new cultures and traditions. They respect human rights. They participate in activities which safeguard natural environments. And responsible travellers will buy local goods to contribute to social and economic development.  <br><br></p>",
+    "html": "<h2>What is Responsible Travel?</h2>\n<p>The world is waking up to the need for more sustainable ways of travelling, and here at the APT Foundation we understand we have a responsibility to our planet. Responsible travel is all about being socially and culturally aware, minimising our environmental footprint and travelling in a way that takes into consideration the locals, environment and individual cultures. We encourage this sustainable way of travel through journeys with the APT Travel Group.<br><br>The UN defines the responsible traveller as one who keeps an open mind towards new cultures and traditions. They respect human rights. They participate in activities which safeguard natural environments. And responsible travellers will buy local goods to contribute to social and economic development.  <br><br></p>",
     "backgroundImage": {
       "src": "/media/a-as-myanmar-workshop-tour-92-apt-1920-x-600-jpg-d05957.jpg",
       "alt": ""
@@ -39,7 +39,7 @@
         }
       ],
       "imagePosition": "right",
-      "html": "<h2>Our Responsible Travel Commitments</h2><p>The APT Travel Group (ATG) cares about giving its guests unforgettable journeys – ones that benefit everyone involved. Here at the APT Foundation, we endorse various initiatives across the company, working together so you can travel with the assurance that the places you visit are impacted positively. Below is a snapshot of the various initiatives we are running.</p>"
+      "html": "<h2>Our Responsible Travel Commitments</h2><p>The APT Travel Group cares about giving its guests unforgettable journeys – ones that benefit everyone involved. Here at the APT Foundation, we endorse various initiatives across the company, working together so you can travel with the assurance that the places you visit are impacted positively. Below is a snapshot of the various initiatives we are running.</p>"
     },
     {
       "type": "mediaText",
@@ -52,7 +52,7 @@
         }
       ],
       "imagePosition": "left",
-      "html": "<h3>Supporting Indigenous Communities in the Kimberley</h3><p>An Advanced Ecotourism certificate in the Kimberley speaks volumes about the commitment APT Travel Group (ATG) and the APT Foundation have to maintain our long-standing Indigenous partnerships in Australia. Some of our areas of work include creating sustainable employment opportunities and making donations to the local communities.</p>"
+      "html": "<h3>Supporting Indigenous Communities in the Kimberley</h3><p>An Advanced Ecotourism certificate in the Kimberley speaks volumes about the commitment the APT Travel Group and the APT Foundation have to maintain our long-standing Indigenous partnerships in Australia. Some of our areas of work include creating sustainable employment opportunities and making donations to the local communities.</p>"
     },
     {
       "type": "mediaText",
@@ -62,7 +62,7 @@
         }
       ],
       "imagePosition": "right",
-      "html": "<h3>Reducing Plastic Waste on Tour</h3><p>For each minute of every single day, the equivalent of a truckload of plastic enters our world’s waterways. The APT Travel Group (ATG) is committed to changing this. From July 2019, all single-use plastic bottles have been removed on APT and Travelmarvel Mekong and Irrawaddy river cruises. Brand-new Travelmarvel ships on Europe’s waterways are now fitted with environmental water stations. And on our APT Small Ships, refillable water bottles are provided to all guests. Each day, we continue to work with our suppliers in the effort to eliminate single-use plastic bottles in other areas on tour.</p>"
+      "html": "<h3>Reducing Plastic Waste on Tour</h3><p>For each minute of every single day, the equivalent of a truckload of plastic enters our world’s waterways. The APT Travel Group is committed to changing this. From July 2019, all single-use plastic bottles have been removed on APT and Travelmarvel Mekong and Irrawaddy river cruises. Brand-new Travelmarvel ships on Europe’s waterways are now fitted with environmental water stations. And on our APT Small Ships, refillable water bottles are provided to all guests. Each day, we continue to work with our suppliers in the effort to eliminate single-use plastic bottles in other areas on tour.</p>"
     },
     {
       "type": "mediaText",
@@ -75,7 +75,7 @@
         }
       ],
       "imagePosition": "left",
-      "html": "<h3>Respecting Local Cultures</h3><p>Throughout journeys with APT Travel Group (ATG), we place a heavy importance on respecting the rights, history, culture and dignity of local and Indigenous people, wherever we go. Encountering local cultures is often the highlight of travelling the world, and it’s important as visitors that we honour them.</p>"
+      "html": "<h3>Respecting Local Cultures</h3><p>Throughout journeys with the APT Travel Group, we place a heavy importance on respecting the rights, history, culture and dignity of local and Indigenous people, wherever we go. Encountering local cultures is often the highlight of travelling the world, and it’s important as visitors that we honour them.</p>"
     },
     {
       "type": "mediaText",
@@ -85,7 +85,7 @@
         }
       ],
       "imagePosition": "right",
-      "html": "<h3>Plant-a-Tree Scheme</h3><p>We’ve reduced the amount of paper used company-wide, choosing to go digital wherever possible. We envision a future where guests on tour with APT Travel Group (ATG) will be able to opt to receive their travel documents electronically. When you choose to go paper-free, the APT Foundation will plant a tree in bushfire-stricken communities. This way, we can help support a more sustainable future.</p>"
+      "html": "<h3>Plant-a-Tree Scheme</h3><p>We’ve reduced the amount of paper used company-wide, choosing to go digital wherever possible. We envision a future where guests on tour with the APT Travel Group will be able to opt to receive their travel documents electronically. When you choose to go paper-free, the APT Foundation will plant a tree in bushfire-stricken communities. This way, we can help support a more sustainable future.</p>"
     },
     {
       "type": "mediaText",
@@ -95,7 +95,7 @@
         }
       ],
       "imagePosition": "left",
-      "html": "<h3>The APT Foundation</h3><p>By forming the APT Foundation, APT Travel Group (ATG) are taking the necessary steps towards responsible travel, continually finding ways to move closer to the ultimate goal of sustainability. Through guest and workplace giving programs, and a range of fundraising efforts, we are collectively working to help people and places around the world.</p>"
+      "html": "<h3>The APT Foundation</h3><p>By forming the APT Foundation, the APT Travel Group are taking the necessary steps towards responsible travel, continually finding ways to move closer to the ultimate goal of sustainability. Through guest and workplace giving programs, and a range of fundraising efforts, we are collectively working to help people and places around the world.</p>"
     },
     {
       "type": "partnerBrands"

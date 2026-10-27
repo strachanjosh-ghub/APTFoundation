@@ -2,7 +2,7 @@
 
 Rebuild of the OneTomorrow Charitable Fund website (`one-tomorrow.raiselysite.com`, hosted on Raisely) as an independently deployable Next.js application, rebranded as the **APT Foundation**, hosted on **Netlify** (`netlify.toml`; see `docs/DEPLOYMENT.md`).
 
-- **All original editorial content is preserved**, with only owner-approved editorial changes applied on top: "OneTomorrow" renamed "The APT Foundation", and the donation-matching statement standardised (`scripts/editorial.mjs`). Every page, cause and article is checked automatically against the source snapshot with those changes applied (55/55 match; see `docs/MIGRATION-REGISTER.md`).
+- **All original editorial content is preserved**, with only owner-approved editorial changes applied on top: "OneTomorrow" renamed "The APT Foundation", the acronym "ATG" replaced with "the APT Travel Group", and the donation-matching statement standardised (`scripts/editorial.mjs`). Every page, cause and article is checked automatically against the source snapshot with those changes applied (55/55 match; see `docs/MIGRATION-REGISTER.md`).
 - **All content is in structured, schema-validated CMS objects.** Editors change JSON in `/content`; no code changes are needed.
 - **Brand identity is isolated in `config/brand.ts`**: the APT brand guidelines (colours, logo rules) adapted for screen and accessibility, with free self-hosted lookalike fonts. Imagery and layout rules are in `scripts/presentation.mjs`. See `docs/BRAND.md`.
 
