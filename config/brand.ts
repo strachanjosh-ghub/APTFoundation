@@ -38,7 +38,8 @@ export const brand = {
   /** White version for navy backgrounds (footer). */
   logoReversed: null as null | { src: string; alt: string; width: number; height: number },
   copyrightHolder: 'APT Foundation',
-  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || 'https://www.aptfoundation.org',
+  // NEXT_PUBLIC_SITE_URL, else Netlify's primary site URL (URL), else Netlify's deploy URL for previews.
+  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || (process.env.CONTEXT === 'production' ? process.env.URL : process.env.DEPLOY_PRIME_URL) || process.env.URL || 'https://www.aptfoundation.org',
   palette,
   /** Semantic tokens consumed by the UI (all derived from the palette above). */
   colors: {

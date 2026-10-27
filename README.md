@@ -1,6 +1,6 @@
 # APT Foundation website
 
-Rebuild of the OneTomorrow Charitable Fund website (`one-tomorrow.raiselysite.com`, hosted on Raisely) as an independently deployable Next.js application, rebranded as the **APT Foundation**.
+Rebuild of the OneTomorrow Charitable Fund website (`one-tomorrow.raiselysite.com`, hosted on Raisely) as an independently deployable Next.js application, rebranded as the **APT Foundation**, hosted on **Netlify** (`netlify.toml`; see `docs/DEPLOYMENT.md`).
 
 - **All original editorial content is preserved**, with only owner-approved editorial changes applied on top: "OneTomorrow" renamed "The APT Foundation", and the donation-matching statement standardised (`scripts/editorial.mjs`). Every page, cause and article is checked automatically against the source snapshot with those changes applied (55/55 match; see `docs/MIGRATION-REGISTER.md`).
 - **All content is in structured, schema-validated CMS objects.** Editors change JSON in `/content`; no code changes are needed.

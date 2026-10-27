@@ -1,0 +1,15 @@
+# Netlify deploys Next.js with zero config via its OpenNext adapter (auto-installed).
+# Do not pin @netlify/plugin-nextjs; Netlify keeps it current.
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "22"
+  NEXT_TELEMETRY_DISABLED = "1"
+
+# Long-lived caching for self-hosted media (filenames are content-hashed)
+[[headers]]
+  for = "/media/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"

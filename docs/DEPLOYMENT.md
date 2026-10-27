@@ -2,37 +2,36 @@
 
 ## Requirements
 
-- Node.js 20.9+ (tested on 22)
-- Any Next.js-capable host. Vercel is the zero-config option; any Node host (Azure App Service, AWS Amplify, a container) works with `npm run build && npm start`. Every page is statically generated; only `/api/contact` and the redirect proxy need a server runtime.
+- Node.js 20.9+ (Netlify builds use Node 22, set in `netlify.toml`)
+- **Hosting: Netlify.** Next.js 16 is supported with zero configuration through Netlify's OpenNext adapter (`@netlify/plugin-nextjs`, installed automatically; don't pin it). Pages are pre-rendered and served from Netlify's CDN; `/api/contact` runs as a Netlify Function; `src/proxy.ts` (case-insensitive legacy URLs) runs as a Netlify Edge Function. The proxy uses no filesystem access or native add-ons, so Netlify's Node middleware limitations don't apply.
 
-## Environment variables
+## Deploy to Netlify
 
-| Variable | Required | Purpose |
+1. **Add new site → Import an existing project → GitHub → `strachanjosh-ghub/APTFoundation`.**
+2. Build settings are read from `netlify.toml` (command `npm run build`, publish `.next`). Leave them as detected.
+3. **Site configuration → Environment variables**, add:
+
+| Variable | Value | Scope |
 |---|---|---|
-| `NEXT_PUBLIC_SITE_URL` | Yes | Canonical origin, e.g. `https://www.aptfoundation.org`. Used for canonical URLs, the sitemap and Open Graph |
-| `NEXT_PUBLIC_DONATION_PROVIDER` | Yes | `raisely` (default), `stripe` (not implemented, which disables donations) or `none` |
-| `NEXT_PUBLIC_DONATION_RAISELY_BASE_URL` | If `raisely` | Hosted Raisely campaign origin. Default `https://one-tomorrow.raiselysite.com` |
-| `CONTACT_FORM_ENDPOINT` | No | Overrides `content/site.json → contact.form.deliveryEndpoint` (currently FormSubmit, emailing Josh.Strachan@aptouring.com.au) |
-| `NEXT_PUBLIC_ADOBE_FONTS_KIT` | Recommended | Adobe Fonts web project ID for Thermal VF, Beaufort Pro and Maison |
-| `NEXT_PUBLIC_GTM_ID` | No | Google Tag Manager container for the new site |
-| `CONTENT_PREVIEW` | No | `true` renders draft content (preview environments only) |
+| `NEXT_PUBLIC_SITE_URL` | The final domain, e.g. `https://www.aptfoundation.org`. If unset, Netlify's `URL` is used in production and the deploy URL for previews | Production |
+| `NEXT_PUBLIC_ADOBE_FONTS_KIT` | Adobe Fonts web project ID (Thermal VF, Beaufort Pro, Maison). Add the Netlify domain and the custom domain to the project | All |
+| `NEXT_PUBLIC_DONATION_PROVIDER` | `raisely` | All |
+| `NEXT_PUBLIC_DONATION_RAISELY_BASE_URL` | `https://one-tomorrow.raiselysite.com` | All |
+| `CONTACT_FORM_ENDPOINT` | Optional. Overrides `content/site.json → contact.form.deliveryEndpoint` (currently FormSubmit, emailing Josh.Strachan@aptouring.com.au). Use it for the Salesforce endpoint later | Production |
+| `NEXT_PUBLIC_GTM_ID` | Optional analytics container | Production |
+| `CONTENT_PREVIEW` | `true` on deploy previews only, if drafts should show | Deploy previews |
 
-No secrets are committed. `CONTACT_FORM_ENDPOINT` is read only on the server.
+4. **Deploy site.** Each push to `main` deploys production; each pull request gets a deploy preview. `robots.txt` blocks indexing on everything except production (based on Netlify's `CONTEXT`).
+5. **Domain management → Add a domain**, then point DNS at Netlify. HTTPS is provisioned automatically.
+6. Optional: Netlify's own build checks run on every deploy. The GitHub Actions workflow (`.github/workflows/ci.yml`) also runs the full test suite on each push.
 
-## Deploy to Vercel
+### Alternative contact delivery on Netlify
 
-1. Import the GitHub repository in Vercel (framework: Next.js, default settings).
-2. Add the environment variables above for Production and Preview.
-3. Deploy. Preview deployments get `robots.txt` set to disallow automatically (based on `VERCEL_ENV`).
-4. Add the custom domain, then update `NEXT_PUBLIC_SITE_URL`.
+Netlify Forms could replace FormSubmit later, but Netlify's form detection needs a static HTML form, and this site posts through `/api/contact`. The simplest path to Salesforce is to point `CONTACT_FORM_ENDPOINT` at a Salesforce web-to-lead or Flow endpoint, or to change `src/app/api/contact/route.ts`.
 
-## Deploy to a Node host or container
+## Other hosts
 
-```bash
-npm ci
-npm run build
-NODE_ENV=production PORT=3000 npm start
-```
+The app also runs on Vercel (zero config) or any Node host: `npm ci && npm run build && npm start`.
 
 ## Go-live checklist
 
@@ -40,7 +39,7 @@ NODE_ENV=production PORT=3000 npm start
 - [ ] Legal review of the renamed legal and bequest wording (see `MISSING-CONTENT.md`)
 - [ ] Contact form: send a test message and click FormSubmit's one-time activation email
 - [ ] Donation hand-off verified end to end on the live Raisely campaign (see `DONATIONS.md`)
-- [ ] `npm test` and `npm run test:e2e` green against the production URL (`E2E_BASE_URL=https://… npm run test:e2e`)
+- [ ] `npm test` and `npm run test:e2e` green against the Netlify URL (`E2E_BASE_URL=https://<site>.netlify.app npm run test:e2e`)
 - [ ] DNS: if `one-tomorrow.raiselysite.com` or another old domain is retired, point it at the new site. Original paths are preserved, so links keep working
 - [ ] Analytics container configured (`NEXT_PUBLIC_GTM_ID`)
 - [ ] Sitemap submitted in Google Search Console
