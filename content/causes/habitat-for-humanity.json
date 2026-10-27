@@ -33,5 +33,6 @@
     "title": "Habitat for Humanity",
     "description": "Severe storms in the Pacific are only getting worse, but through your donations we can reduce their impact."
   },
-  "status": "published"
+  "status": "published",
+  "impactAmounts": []
 }

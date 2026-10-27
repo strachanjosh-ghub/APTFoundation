@@ -7,11 +7,12 @@
   "order": 7,
   "isGeneralFund": true,
   "logo": {
-    "src": "/media/onetomorrow-400-x-400-png-9e9404.png",
+    "src": "/brand/apt-foundation-tile.svg",
     "alt": "The APT Foundation logo"
   },
   "heroImage": {
-    "src": "/media/do-something-great-animated-clark-tibbs-oq-stl-2-l-5-ox-i-unsplash-1920-x-600-gif-636d1f.gif"
+    "src": "/media/o-au-australian-outback-aerial-1019817386-i-1920-x-400-jpg-9c00b6.jpg",
+    "alt": ""
   },
   "footerImage": {
     "src": "/media/o-misc-hands-philanthropy-1014930184-s-jpg-b49523.jpg"
@@ -32,5 +33,6 @@
     "title": "The APT Foundation",
     "description": "\"Make a tax-deductable donation to any of our chosen partners, and we’ll match you. Dollar for dollar.\""
   },
-  "status": "published"
+  "status": "published",
+  "impactAmounts": []
 }

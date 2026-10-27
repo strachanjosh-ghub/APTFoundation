@@ -32,5 +32,19 @@
     "title": "Royal Flying Doctor Service (RFDS)",
     "description": "“The Royal Flying Doctor Service provides 24-hour emergency service to Australians across 7.69 million square kilometres.”"
   },
-  "status": "published"
+  "status": "published",
+  "impactAmounts": [
+    {
+      "amount": 30,
+      "text": "will ensure children in remote areas of Australia can be immunised."
+    },
+    {
+      "amount": 150,
+      "text": "will provide pilots with noise-cancelling headsets."
+    },
+    {
+      "amount": 500,
+      "text": "will put a heart monitor in an aircraft or emergency vehicle."
+    }
+  ]
 }

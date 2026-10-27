@@ -24,15 +24,14 @@ Source: *APT Luxury Travel Brand Guidelines, Version 7 (11 Nov 2024)*. The guide
 
 ## Typography
 
-| Guide role | Typeface | Web use |
-|---|---|---|
-| Campaign headlines | Thermal VF Medium | Hero headings (`--font-campaign`) |
-| Headings | Beaufort Pro Medium | h1–h2 (weight 500) |
-| Subheadings, offers | Beaufort Pro Regular | h3–h6 (weight 400) |
-| Body copy | Maison Book | Body text (weight 400) |
-| CTAs, T&Cs | Maison Light | Buttons use **weight 500** with 0.04em tracking: light weights at small screen sizes fall below comfortable legibility, so this is a deliberate digital adaptation |
+The guide's Adobe fonts are replaced by free, self-hosted lookalikes (Fontsource packages, served from the site itself, so there are no third-party font requests or licences to manage):
 
-**Font loading.** These are Adobe Fonts. Create an Adobe Fonts **web project** under APT's licence containing Thermal VF, Beaufort Pro and Maison, add the site's domains, and set `NEXT_PUBLIC_ADOBE_FONTS_KIT` to the project ID. Then check that the family names in `config/brand.ts → fonts` match the names in the project's CSS (assumed: `thermal-variable`, `beaufort-pro`, `maison-neue`). Until the kit is set, the site falls back to Georgia (serif) and the system sans-serif. (The old OneTomorrow Typekit project was deliberately not reused.)
+| Guide role | Guide typeface | Web typeface | Why |
+|---|---|---|---|
+| Campaign headlines | Thermal VF Medium | **Fraunces** (variable) | Soft, warm display serif with the same friendly curves; used for page heroes |
+| Headings, subheadings | Beaufort Pro Medium / Regular | **Newsreader** (variable, optical sizes) | Crisp contemporary serif with similar proportions; weight 500 |
+| Body copy | Maison Book | **DM Sans** (variable) | Clean geometric grotesque, close to Maison's shapes |
+| CTAs, T&Cs | Maison Light | **DM Sans** 500 | Light weights at small screen sizes fall below comfortable legibility, so buttons use a medium weight |
 
 ## Logo
 
@@ -46,3 +45,14 @@ Source: *APT Luxury Travel Brand Guidelines, Version 7 (11 Nov 2024)*. The guide
 ## Geometry
 
 The guide's layouts are square-edged and restrained, so corners use a 2px radius and decoration is limited to thin Tuscan Tile rules.
+
+## Imagery (presentation layer)
+
+Rules in `scripts/presentation.mjs`, applied on top of the migrated content (text is never changed):
+
+- Every page opens with a full-width photo hero (existing site photography) under a Navy overlay, so white text always meets contrast requirements.
+- The repeated decorative stock-photo strips (the same "hands" images appeared on 8 pages) were removed.
+- The source's green OneTomorrow leaf artwork used as page backgrounds was replaced with photography.
+- The causes world map and the "How it works" step icons were recoloured from OneTomorrow green to APT Navy (`scripts/brand-images.py`). The OneTomorrow logo tile for the general fund was replaced with an APT Foundation tile (`/public/brand/apt-foundation-tile.svg`).
+- Charities are presented as photo cards (photo, logo, region, summary, Donate) everywhere.
+- In-page photos use a consistent 3:2 crop; logos and badges are shown uncropped.

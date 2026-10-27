@@ -32,5 +32,19 @@
     "title": "Rural Aid",
     "description": "\"With your contribution, you can safeguard Australian farmers and communities from devastation.\""
   },
-  "status": "published"
+  "status": "published",
+  "impactAmounts": [
+    {
+      "amount": 100,
+      "text": "buys a large 400kg bale of hay."
+    },
+    {
+      "amount": 450,
+      "text": "provides a tank of fresh drinking water."
+    },
+    {
+      "amount": 5700,
+      "text": "buys an entire truckload of hay."
+    }
+  ]
 }

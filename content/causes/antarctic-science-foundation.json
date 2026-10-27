@@ -32,5 +32,27 @@
     "title": "Antarctic Science Foundation",
     "description": "“Antarctica offers us the answers. Let’s ask the questions together.”"
   },
-  "status": "published"
+  "status": "published",
+  "impactAmounts": [
+    {
+      "amount": 28,
+      "text": "provides spatial analysis of a penguin’s breeding habits."
+    },
+    {
+      "amount": 95,
+      "text": "provides for seawater analysis to understand impact of climate change on plankton and krill."
+    },
+    {
+      "amount": 270,
+      "text": "provides a data-analysis session, a vital input models of interaction to develop climate change mitigation strategies."
+    },
+    {
+      "amount": 480,
+      "text": "provides a seal tracker which will assist mapping of the undersides of ice-shelves."
+    },
+    {
+      "amount": 980,
+      "text": "provides a marine probe to assess changes in whale habitats."
+    }
+  ]
 }

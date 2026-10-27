@@ -32,5 +32,23 @@
     "title": "Blue Dragon Children's Foundation",
     "description": "\"With our help, Blue Dragon can continue giving exceptional care to the children who need it most.\""
   },
-  "status": "published"
+  "status": "published",
+  "impactAmounts": [
+    {
+      "amount": 20,
+      "text": "gives a night of emergency shelter, with clothing and meals"
+    },
+    {
+      "amount": 150,
+      "text": "keeps a child in school for a year"
+    },
+    {
+      "amount": 500,
+      "text": "provides lunch for all the kids at Blue Dragon centre for a month"
+    },
+    {
+      "amount": 1000,
+      "text": "will fund the rescue mission that saves someone from human trafficking."
+    }
+  ]
 }

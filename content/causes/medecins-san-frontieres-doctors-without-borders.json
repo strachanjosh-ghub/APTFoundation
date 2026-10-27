@@ -29,5 +29,15 @@
     "title": "Médecins San Frontieres (Doctors Without Borders)",
     "description": "\"The act of humanitarianism comes down to one thing: individual human beings reaching out to those others who find themselves in the most difficult circumstance"
   },
-  "status": "published"
+  "status": "published",
+  "impactAmounts": [
+    {
+      "amount": 25,
+      "text": "per month over a year could provide urgent ready to use therapeutic food to 690 malnourished children"
+    },
+    {
+      "amount": 75,
+      "text": "per month over a year could supply a medical team with emergency health kits to treat 300 people in need."
+    }
+  ]
 }

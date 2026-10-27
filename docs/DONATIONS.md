@@ -11,7 +11,17 @@
 
 ## What this site does
 
-`src/components/DonationForm.tsx` reproduces step 1 (frequency, preset and custom amounts, validation of at least $2, the step indicator) and hands the donor off to the configured provider through `src/lib/donations.ts`. **No payment flow is simulated, and no card data is collected or stored.**
+`src/components/DonationForm.tsx` handles step 1 and hands the donor off to the configured provider through `src/lib/donations.ts`. **No payment flow is simulated, and no card data is collected or stored.**
+
+Donor experience (step 1, on this site):
+
+- **Cause:** fixed on a cause page. On `/donate` (the target of every site-wide "Donate" button) donors pick from a list, defaulting to "Where it's needed most" (the general fund).
+- **Frequency:** One-time or Monthly.
+- **Amount:** the cause's own impact amounts as one-tap choices (e.g. "$35 can provide an essential first aid kit"), taken from each cause's "What difference will your money make?" text (`impactAmounts` in `content/causes/*.json`). Causes without them use $25 / $50 / $100 / $500 / $1,000. A custom amount is always available; the minimum is $2.
+- **Matching:** a live note shows the dollar-for-dollar match ("your $100 becomes $200"), respecting the $1,000 per-donor cap.
+- **Button:** "Donate $100" / "Donate $40 monthly" opens Raisely with the cause, amount and frequency pre-selected.
+
+On mobile, cause pages keep a "Donate to …" bar fixed at the bottom of the screen.
 
 | Provider (`NEXT_PUBLIC_DONATION_PROVIDER`) | Behaviour |
 |---|---|

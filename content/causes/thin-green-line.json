@@ -33,5 +33,19 @@
     "title": "Thin Green Line",
     "description": "Rangers are the missing link in conservation. That’s why I’ll do everything I can to support The Thin Green Line Foundation — Dr Jane Goodall, DBE"
   },
-  "status": "published"
+  "status": "published",
+  "impactAmounts": [
+    {
+      "amount": 35,
+      "text": "can provide an essential first aid kit."
+    },
+    {
+      "amount": 110,
+      "text": "can provide a pair of sturdy waterproof walking boots."
+    },
+    {
+      "amount": 220,
+      "text": "can provide a GPS unit to enable rangers to communicate and stay safe while working in remote areas in often challenging conditions."
+    }
+  ]
 }

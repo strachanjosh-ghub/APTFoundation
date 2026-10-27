@@ -8,8 +8,7 @@
  *    of Navy and Sandstone, not new hues, in line with "new colours should never be created".
  *  - Tuscan Tile (#d44b33) reaches 4.33:1 on white, which fails WCAG AA for body text.
  *    It is therefore used only as an accent (rules, focus ring, highlights), never for text or buttons.
- *  - Typefaces are Adobe Fonts (Thermal VF, Beaufort Pro, Maison), loaded via an Adobe Fonts
- *    web project (NEXT_PUBLIC_ADOBE_FONTS_KIT) with metric-compatible system fallbacks.
+ *  - Typefaces: free self-hosted lookalikes of the guide's Adobe fonts (see `fonts` below).
  *  - The APT monogram lockup must never be recreated or altered, so "APT Foundation" is set
  *    as a typographic wordmark until an approved APT Foundation lockup is supplied.
  */
@@ -58,13 +57,16 @@ export const brand = {
     overlay: 'rgba(27, 31, 82, 0.72)', // Navy overlay so white text on imagery stays legible
   },
   /**
-   * Typefaces per the guide. Font family names must match the Adobe Fonts web
-   * project CSS (verify the exact names in the project's "Use these fonts" panel).
+   * Typefaces: free, self-hosted (Fontsource) lookalikes for the guide's Adobe fonts.
+   *  - Thermal VF (campaign headlines) -> Fraunces: soft, warm display serif
+   *  - Beaufort Pro (headings)         -> Newsreader: crisp contemporary serif with optical sizes
+   *  - Maison (body, CTAs)             -> DM Sans: clean geometric grotesque
+   * Loaded in src/app/layout.tsx; no third-party font requests.
    */
   fonts: {
-    campaign: "'thermal-variable', 'beaufort-pro', Georgia, 'Times New Roman', serif", // Thermal VF: campaign headlines (hero)
-    heading: "'beaufort-pro', Georgia, 'Times New Roman', serif", // Beaufort Pro Medium/Regular: headings, subheadings, offers
-    body: "'maison-neue', 'Maison', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif", // Maison Book: body
+    campaign: "'Fraunces Variable', 'Newsreader Variable', Georgia, serif",
+    heading: "'Newsreader Variable', Georgia, 'Times New Roman', serif",
+    body: "'DM Sans Variable', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif",
   },
   fontWeights: { headingStrong: 500, headingRegular: 400, body: 400, cta: 500 },
   /** Square-cornered, restrained geometry, matching the guide's print layouts. */

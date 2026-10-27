@@ -10,13 +10,17 @@
     "ctas": [
       {
         "label": "Donate Now",
-        "href": "/t/donate-to-one-tomorrow"
+        "href": "/donate"
       },
       {
         "label": "Learn More",
         "href": "/about-us"
       }
-    ]
+    ],
+    "backgroundImage": {
+      "src": "/media/ot-generic-hand-holding-tree-planting-1407793820-s-cropped-jpg-9f5579.jpg",
+      "alt": ""
+    }
   },
   "contentBlocks": [
     {
@@ -24,49 +28,7 @@
       "html": "<p>The APT Foundation is the philanthropic arm of the APT Travel Group (ATG) of companies </p>"
     },
     {
-      "type": "logoGrid",
-      "items": [
-        {
-          "image": {
-            "src": "/media/apt-logo-primary-blue-png-a4c5eb.png",
-            "alt": "www.aptouring.com.au"
-          },
-          "label": "www.aptouring.com.au",
-          "href": "https://www.aptouring.com.au/"
-        },
-        {
-          "image": {
-            "src": "/media/tm-logo-centered-pine-png-d88b94.png",
-            "alt": "www.travelmarvel.com.au"
-          },
-          "label": "www.travelmarvel.com.au",
-          "href": "https://www.travelmarvel.com.au/"
-        },
-        {
-          "image": {
-            "src": "/media/captains-choice-500-x-300-png-e29070.png",
-            "alt": "www.captainschoice.com.au"
-          },
-          "label": "www.captainschoice.com.au",
-          "href": "http://www.captainschoice.com.au/"
-        },
-        {
-          "image": {
-            "src": "/media/botanica-500-x-300-png-f149d1.png",
-            "alt": "www.botanica.travel"
-          },
-          "label": "www.botanica.travel",
-          "href": "https://www.botanica.travel/"
-        },
-        {
-          "image": {
-            "src": "/media/antarctica-flights-logo-500-x-300-png-3cb3e4.png",
-            "alt": "Antarctica Flights"
-          },
-          "label": "Antarctica Flights",
-          "href": "https://antarcticaflights.com.au/"
-        }
-      ]
+      "type": "partnerBrands"
     },
     {
       "type": "video",
@@ -74,123 +36,12 @@
       "title": "The APT Foundation video"
     },
     {
-      "type": "imageBand",
-      "image": {
-        "src": "/media/o-misc-hands-philanthropy-1014930184-s-jpg-15067b.jpg"
-      }
-    },
-    {
       "type": "richText",
       "html": "<h2>Who do we support?</h2><p>The APT Foundation  has partnered with the following charities. You can choose who you want to support while being assured every dollar you donate will go directly to funding vital programs and services. Click on any of the logos below to find out more about a cause that interests you.</p>"
     },
     {
-      "type": "logoGrid",
-      "items": [
-        {
-          "image": {
-            "src": "/media/antarctic-science-foundation-480-x-300-png-001a5f.png",
-            "alt": "Antarctic Science Foundation"
-          },
-          "label": "Antarctic Science Foundation",
-          "href": "/t/antarctic-science-foundation"
-        },
-        {
-          "image": {
-            "src": "/media/blue-dragon-480-x-300-png-512ed9.png",
-            "alt": "Blue Dragon Children's Foundation"
-          },
-          "label": "Blue Dragon Children's Foundation",
-          "href": "/t/blue-dragon"
-        },
-        {
-          "image": {
-            "src": "/media/grt-logo-vfa-1-jpg-1701c8.jpg",
-            "alt": "Gondwana Rainforest Trust"
-          },
-          "label": "Gondwana Rainforest Trust",
-          "href": "/t/gondwana-rainforest-trust"
-        },
-        {
-          "image": {
-            "src": "/media/grizzly-bear-foundation-logo-jpg-5cf389.jpg",
-            "alt": "Grizzly Bear Foundation"
-          },
-          "label": "Grizzly Bear Foundation",
-          "href": "/t/grizzly-bear-foundation"
-        },
-        {
-          "image": {
-            "src": "/media/habitat-for-humanity-nz-logo-black-jpg-72a022.jpg",
-            "alt": "Habitat for Humanity"
-          },
-          "label": "Habitat for Humanity",
-          "href": "/t/habitat-for-humanity"
-        },
-        {
-          "image": {
-            "src": "/media/kilimatembo-school-480-x-300-png-ff6d04.png",
-            "alt": "Kilimatembo School"
-          },
-          "label": "Kilimatembo School",
-          "href": "/t/kilimatembo-school"
-        },
-        {
-          "image": {
-            "src": "/media/032510-1524-msfdnoncel-1-jpg-022671.jpg",
-            "alt": "Médecins San Frontieres (Doctors Without Borders)"
-          },
-          "label": "Médecins San Frontieres (Doctors Without Borders)",
-          "href": "/t/medecins-san-frontieres-doctors-without-borders"
-        },
-        {
-          "image": {
-            "src": "/media/oda-480-x-300-png-d348aa.png",
-            "alt": "Opportunities of Development Thru Art"
-          },
-          "label": "Opportunities of Development Thru Art",
-          "href": "/t/oda"
-        },
-        {
-          "image": {
-            "src": "/media/rfds-480-x-300-png-423e09.png",
-            "alt": "Royal Flying Doctor Service (RFDS)"
-          },
-          "label": "Royal Flying Doctor Service (RFDS)",
-          "href": "/t/royal-flying-doctor-service-rfds"
-        },
-        {
-          "image": {
-            "src": "/media/rural-aid-480-x-300-png-2f995d.png",
-            "alt": "Rural Aid"
-          },
-          "label": "Rural Aid",
-          "href": "/t/rural-aid"
-        },
-        {
-          "image": {
-            "src": "/media/terry-fox-foundation-png-ce4177.png",
-            "alt": "Terry Fox Foundation"
-          },
-          "label": "Terry Fox Foundation",
-          "href": "/t/terry-fox-foundation"
-        },
-        {
-          "image": {
-            "src": "/media/thin-green-line-logo-png-a0b8e0.png",
-            "alt": "Thin Green Line"
-          },
-          "label": "Thin Green Line",
-          "href": "/t/thin-green-line"
-        },
-        {
-          "image": {
-            "src": "/media/wunan-foundation-480-x-300-png-78206a.png",
-            "alt": "Wunan Foundation"
-          },
-          "label": "Wunan Foundation",
-          "href": "/t/wunan-foundation"
-        }
-      ]
+      "type": "causeGrid",
+      "variant": "featured"
     },
     {
       "type": "richText",
@@ -201,21 +52,21 @@
       "items": [
         {
           "image": {
-            "src": "/media/infographic-separate-2-white-3-logos-01-png-c0b036.png"
+            "src": "/media/step-01-you-donate-apt.png"
           },
           "title": "You donate",
           "html": "<p>Donate to a cause you feel passionate about.</p>"
         },
         {
           "image": {
-            "src": "/media/infographic-separate-2-white-3-logos-02-png-fb4c52.png"
+            "src": "/media/step-02-we-double-apt.png"
           },
           "title": "We double",
           "html": "<p>We will match your donation to double the impact.</p>"
         },
         {
           "image": {
-            "src": "/media/infographic-separate-2-white-3-logos-03-png-ce48c9.png"
+            "src": "/media/step-03-make-a-difference-apt.png"
           },
           "title": "Make a difference",
           "html": "<p>Together, our actions help shape the world.</p>"
@@ -227,15 +78,9 @@
       "ctas": [
         {
           "label": "Donate Now",
-          "href": "/t/donate-to-one-tomorrow"
+          "href": "/donate"
         }
       ]
-    },
-    {
-      "type": "imageBand",
-      "image": {
-        "src": "/media/ot-generic-hand-holding-tree-planting-1407793820-s-cropped-jpg-9f5579.jpg"
-      }
     },
     {
       "type": "richText",
@@ -255,9 +100,6 @@
       "type": "newsFeed",
       "pageSize": 3,
       "showPagination": false
-    },
-    {
-      "type": "partnerBrands"
     }
   ],
   "seo": {

@@ -7,7 +7,8 @@
   "hero": {
     "heading": "The APT Foundation Privacy Policy",
     "backgroundImage": {
-      "src": "/media/ot-18-campaign-image-1-jpg-cb6158.jpg"
+      "src": "/media/ot-misc-pine-trees-strip-1121038793-1920-x-400-jpg-81575e.jpg",
+      "alt": ""
     }
   },
   "contentBlocks": [
@@ -102,12 +103,6 @@
     {
       "type": "richText",
       "html": "<h4>Contact Us</h4><p>If you require further information or have any questions regarding this policy, then please contact us.</p><p><strong>Australia, New Zealand and North America</strong></p><p>Privacy Officer<br>APT Group<br>C/- Australian Pacific (Touring) Pty Ltd<br>Level 4, 1230 Nepean Hwy<br>Cheltenham, Victoria 3192<br>Australia<br>T: (03) 8526 1300<br>F: (03) 8526 1786<br><a href=\"mailto:CustomerRelations@aptouring.com.au\" target=\"_blank\" rel=\"noopener noreferrer\">Customer.Relations@aptouring.com.au</a></p><p><strong>Europe and United Kingdom</strong></p><p>Data Protection Officer<br>APT Group<br>APT<br>First Floor, Chalfont Court<br>5 Hill Avenue<br>Amersham, Buckinghamshire HP6 5BD<br>United Kingdom<br>T: 0800 012 6686<br><a href=\"mailto:dataprotection@aptouring.co.uk\" target=\"_blank\" rel=\"noopener noreferrer\">dataprotection@aptouring.co.uk</a><br><br> <br></p>"
-    },
-    {
-      "type": "imageBand",
-      "image": {
-        "src": "/media/ot-generic-hand-holding-tree-planting-1407793820-s-cropped-jpg-9f5579.jpg"
-      }
     },
     {
       "type": "partnerBrands"

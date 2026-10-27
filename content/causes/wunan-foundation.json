@@ -32,5 +32,19 @@
     "title": "Wunan Foundation",
     "description": "“Empowering Aboriginal communities begins with opportunity.”"
   },
-  "status": "published"
+  "status": "published",
+  "impactAmounts": [
+    {
+      "amount": 150,
+      "text": "provides a day’s Remote School Attendance transport service."
+    },
+    {
+      "amount": 320,
+      "text": "gives a child a week’s worth of housing in a KEEP house."
+    },
+    {
+      "amount": 480,
+      "text": "provides a Wunan Foundation worker with a week of hostel accommodation."
+    }
+  ]
 }

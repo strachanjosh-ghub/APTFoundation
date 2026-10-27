@@ -99,24 +99,52 @@ test.describe('journeys', () => {
     await expect(page.getByRole('status')).toBeVisible();
   });
 
-  test('donation form hands off to the provider with the chosen amount', async ({ page }) => {
+  test('cause impact amounts are one-tap choices and hand off with the amount', async ({ page }) => {
     await page.route('https://one-tomorrow.raiselysite.com/**', (r) => r.fulfill({ status: 200, body: 'handoff' }));
     await page.goto('/t/thin-green-line');
-    await page.getByRole('button', { name: '$50', exact: true }).click();
-    await page.getByRole('button', { name: 'Continue to donate' }).click();
-    await page.waitForURL(/raiselysite\.com\/t\/thin-green-line\?amount=50/);
+    const panel = page.locator('#donate');
+    await panel.getByText('can provide an essential first aid kit.').click();
+    await expect(panel.getByText(/your \$35 becomes/)).toBeVisible();
+    await panel.getByRole('button', { name: 'Donate $35' }).click();
+    await page.waitForURL(/raiselysite\.com\/t\/thin-green-line\?amount=35/);
+  });
+
+  test('monthly gifts hand off with frequency=MONTH', async ({ page }) => {
+    await page.route('https://one-tomorrow.raiselysite.com/**', (r) => r.fulfill({ status: 200, body: 'handoff' }));
+    await page.goto('/t/rural-aid');
+    const panel = page.locator('#donate');
+    await panel.getByRole('button', { name: 'Monthly' }).click();
+    await panel.getByPlaceholder('Enter custom amount').fill('40');
+    await panel.getByRole('button', { name: 'Donate $40 monthly' }).click();
+    await page.waitForURL(/\/t\/rural-aid\?amount=40&frequency=MONTH/);
+  });
+
+  test('donate page lets donors choose a cause', async ({ page }) => {
+    await page.route('https://one-tomorrow.raiselysite.com/**', (r) => r.fulfill({ status: 200, body: 'handoff' }));
+    await page.goto('/donate');
+    await page.getByLabel('I’d like to support').selectOption('rural-aid');
+    await page.getByText('buys a large 400kg bale of hay.').click();
+    await page.getByRole('button', { name: 'Donate $100' }).click();
+    await page.waitForURL(/\/t\/rural-aid\?amount=100/);
+  });
+
+  test('header Donate goes to the cause chooser', async ({ page, isMobile }) => {
+    await page.goto('/about-us');
+    if (isMobile) await page.getByRole('button', { name: 'Open menu' }).click();
+    await page.locator('.site-header').getByRole('link', { name: 'Donate Now' }).click();
+    await expect(page).toHaveURL(/\/donate$/);
   });
 
   test('donation form rejects amounts under $2', async ({ page }) => {
     await page.goto('/t/donate-to-one-tomorrow');
-    await page.getByPlaceholder('Enter custom amount').fill('1');
-    await page.getByRole('button', { name: 'Continue to donate' }).click();
+    await page.locator('#donate').getByPlaceholder('Enter custom amount').fill('1');
+    await page.locator('#donate').getByRole('button', { name: 'Continue to donate' }).click();
     await expect(page.locator('.field__error')).toContainText('$2 or more');
   });
 });
 
 test.describe('accessibility (WCAG 2.2 AA, axe)', () => {
-  for (const path of ['/', '/about-us', '/causes', '/t/rural-aid', '/news', articles[0], '/faqs', '/Contact', '/donate', '/PrivacyPolicy']) {
+  for (const path of ['/', '/about-us', '/causes', '/t/rural-aid', '/t/thin-green-line', '/news', articles[0], '/faqs', '/Contact', '/donate', '/PrivacyPolicy']) {
     test(`no critical/serious violations on ${path}`, async ({ page }) => {
       await page.goto(path);
       const r = await new AxeBuilder({ page } as unknown as ConstructorParameters<typeof AxeBuilder>[0]).withTags(['wcag2a', 'wcag2aa', 'wcag21aa', 'wcag22aa']).exclude('iframe').analyze();

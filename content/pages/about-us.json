@@ -6,15 +6,13 @@
   "template": "about",
   "hero": {
     "heading": "About Us",
-    "html": "<p>The APT Foundation is an initiative of the APT Travel Group (ATG), a not-for-profit program with a vision to strive for a positive, enduring impact on the nature and communities we touch. This is achieved through immediate and long-term influence in various environmental and humanitarian causes.</p><p>Over the years APT Travel Group (ATG) has contributed to and partnered with several worthy charities, both locally and abroad. The APT Foundation was created to establish a more formalised approach to these activities.<br></p>"
+    "html": "<p>The APT Foundation is an initiative of the APT Travel Group (ATG), a not-for-profit program with a vision to strive for a positive, enduring impact on the nature and communities we touch. This is achieved through immediate and long-term influence in various environmental and humanitarian causes.</p><p>Over the years APT Travel Group (ATG) has contributed to and partnered with several worthy charities, both locally and abroad. The APT Foundation was created to establish a more formalised approach to these activities.<br></p>",
+    "backgroundImage": {
+      "src": "/media/o-as-vie-a-43-r-9606-apt-exp-1-11-19-1920-x-600-jpg-294149.jpg",
+      "alt": ""
+    }
   },
   "contentBlocks": [
-    {
-      "type": "imageBand",
-      "image": {
-        "src": "/media/ot-generic-hand-holding-tree-planting-1407793820-s-cropped-jpg-9f5579.jpg"
-      }
-    },
     {
       "type": "mediaText",
       "images": [
@@ -67,12 +65,6 @@
       "html": "<h3>Our People</h3><p>The APT Foundation and the APT Travel Group (ATG) are made up of a team of incredible staff whose personal values shine through in what they do. Volunteer days and staff fundraising initiatives, ranging from office bake sales to raffles, allows us to express our support for causes we feel passionate about. Instigated and run by staff voluntarily, these activities are supported by APT Travel Group and furthered by the APT Foundation’s matched funding.</p>"
     },
     {
-      "type": "imageBand",
-      "image": {
-        "src": "/media/o-misc-hands-philanthropy-1014930184-s-jpg-15067b.jpg"
-      }
-    },
-    {
       "type": "richText",
       "html": "<h2>Background</h2><h3>The APT Foundation's Origin</h3><p> The APT Foundation has been 21 years in the making, since the APT Travel Group (ATG) first established a philanthropic fund with the Australian Communities Foundation (ACF). Owned and operated by the McGeary family for over 97 years, the APT Travel Group (ATG) has always stood by its social integrity and strong family values. Today, this means delivering guests exceptional journeys globally, while providing meaningful connections and strategic philanthropic investment within the communities they visit. Launched in 2019, the APT Foundation is the resulting philanthropic initiative of the APT Travel Group (ATG). </p><h3>Our Mission</h3><p>The APT Foundation strives to have a positive, enduring impact on the nature and communities we touch. Our mission is conscientious travel, and we hope to achieve this by creating an immediate and long-term positive influence on the environmental and humanitarian causes we support. This is achieved through:</p><ul><li><p>Connecting the world with sustainable movements. </p></li><li><p>Enhancing and empowering the livelihood of communities. </p></li><li><p>Being leaders in change, and educating through our global business and social reach. </p></li><li><p>Forging meaningful connections between the APT Foundation and our guests that are preserved long after their return home.</p></li></ul><h3>Accountability and Governance</h3><p>The APT Foundation is a not-for-profit sub-fund of the Australian Communities Foundation (ACF: ABN 57967620066) and a partner of Australian NGO, Global Development Group (GDG: ABN 57 102 400 993). Together these provide a formalised, legally compliant framework to ensure donated funds benefit the designated projects. </p>",
       "anchor": "background"
@@ -104,55 +96,7 @@
       "html": "<h3>APT Travel Group (ATG) Brands</h3><p>Through a comprehensive suite of travel brands, the APT Travel Group (ATG) has pioneered global and domestic travel experiences that cater to everyone. The APT Travel Group (ATG) is comprised of the brands APT, Travelmarvel, Captain’s Choice, Botanica World Discoveries, Antarctica Flights and TravelGlo. </p>"
     },
     {
-      "type": "logoGrid",
-      "items": [
-        {
-          "image": {
-            "src": "/media/apt-logo-primary-blue-png-a4c5eb.png",
-            "alt": "APT"
-          },
-          "label": "APT",
-          "href": "https://www.aptouring.com"
-        },
-        {
-          "image": {
-            "src": "/media/tm-logo-centered-pine-png-d88b94.png",
-            "alt": "Travelmarvel"
-          },
-          "label": "Travelmarvel",
-          "href": "https://www.travelmarvel.com/"
-        },
-        {
-          "image": {
-            "src": "/media/captains-choice-500-x-300-png-e29070.png",
-            "alt": "Captain's Choice"
-          },
-          "label": "Captain's Choice",
-          "href": "https://www.captainschoice.com.au/"
-        },
-        {
-          "image": {
-            "src": "/media/botanica-500-x-300-png-f149d1.png",
-            "alt": "Botanica"
-          },
-          "label": "Botanica",
-          "href": "https://www.botanicatours.com/"
-        },
-        {
-          "image": {
-            "src": "/media/antarctica-flights-logo-500-x-300-png-3cb3e4.png",
-            "alt": "Antarctica Flights"
-          },
-          "label": "Antarctica Flights",
-          "href": "https://www.antarcticaflights.com.au/"
-        }
-      ]
-    },
-    {
-      "type": "imageBand",
-      "image": {
-        "src": "/media/o-as-vie-a-43-r-9606-apt-exp-1-11-19-1920-x-600-jpg-294149.jpg"
-      }
+      "type": "partnerBrands"
     },
     {
       "type": "richText",
@@ -163,9 +107,6 @@
           "href": "/faqs"
         }
       ]
-    },
-    {
-      "type": "partnerBrands"
     }
   ],
   "seo": {

@@ -6,7 +6,11 @@
   "template": "contact",
   "hero": {
     "heading": "Get in touch",
-    "html": "<p><strong>Let's connect!</strong> If you have any questions or enquiries about the APT Foundation please feel free to get in touch</p>"
+    "html": "<p><strong>Let's connect!</strong> If you have any questions or enquiries about the APT Foundation please feel free to get in touch</p>",
+    "backgroundImage": {
+      "src": "/media/o-misc-hands-philanthropy-1014930184-s-jpg-15067b.jpg",
+      "alt": ""
+    }
   },
   "contentBlocks": [
     {
@@ -15,12 +19,6 @@
     {
       "type": "richText",
       "html": "<p><strong>The APT Foundation</strong></p><p>Level 1, Building 4, 15 Cochranes Road</p><p>Moorabbin, VIC 3189</p><p>Australia</p><p><a href=\"mailto:info@onetomorrow.com.au\" target=\"_blank\" rel=\"noopener noreferrer\">info@onetomorrow.com.au</a></p><p><strong>(03) 8526 1631</strong> or <strong>1300 278 278</strong></p>"
-    },
-    {
-      "type": "imageBand",
-      "image": {
-        "src": "/media/o-misc-hands-philanthropy-1014930184-s-jpg-b49523.jpg"
-      }
     },
     {
       "type": "partnerBrands"

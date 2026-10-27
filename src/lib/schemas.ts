@@ -49,6 +49,7 @@ export const ContentBlock = z.discriminatedUnion('type', [
   z.object({ type: z.literal('richText'), ...base, html: RichText, ctas: z.array(CTA).optional(), backgroundImage: MediaAsset.optional() }),
   z.object({ type: z.literal('mediaText'), ...base, html: RichText, images: z.array(MediaAsset).min(1), imagePosition: z.enum(['left', 'right']), ctas: z.array(CTA).optional() }),
   z.object({ type: z.literal('imageBand'), ...base, image: MediaAsset }),
+  z.object({ type: z.literal('figure'), ...base, image: MediaAsset, caption: z.string().optional() }),
   z.object({ type: z.literal('logoGrid'), ...base, heading: z.string().optional(), items: z.array(z.object({ image: MediaAsset, label: z.string(), href: z.string().optional() })).min(1) }),
   z.object({ type: z.literal('cardGrid'), ...base, heading: z.string().optional(), items: z.array(z.object({ title: z.string(), html: RichText.optional(), image: MediaAsset.optional(), href: z.string().optional() })) }),
   z.object({ type: z.literal('steps'), ...base, items: z.array(z.object({ image: MediaAsset.optional(), title: z.string(), html: RichText })).min(1) }),
@@ -61,10 +62,10 @@ export const ContentBlock = z.discriminatedUnion('type', [
   z.object({ type: z.literal('quote'), ...base, html: RichText, cite: z.string().optional() }),
   z.object({ type: z.literal('relatedContent'), ...base, heading: z.string().optional(), refs: z.array(z.string()) }),
   z.object({ type: z.literal('donationCta'), ...base, causeId: z.string().optional(), label: z.string().optional() }),
-  z.object({ type: z.literal('donationForm'), ...base, causeId: z.string(), heading: z.string().optional() }),
+  z.object({ type: z.literal('donationForm'), ...base, causeId: z.string(), heading: z.string().optional(), allowCauseChoice: z.boolean().optional(), introHtml: RichText.optional() }),
   z.object({ type: z.literal('embed'), ...base, html: RichText }),
   z.object({ type: z.literal('partnerBrands'), ...base }),
-  z.object({ type: z.literal('causeGrid'), ...base, heading: z.string().optional() }),
+  z.object({ type: z.literal('causeGrid'), ...base, heading: z.string().optional(), variant: z.enum(['full', 'featured']).optional() }),
   z.object({ type: z.literal('newsFeed'), ...base, pageSize: z.number().int().positive(), showPagination: z.boolean() }),
   z.object({ type: z.literal('contactForm'), ...base }),
 ]);
@@ -124,6 +125,8 @@ export const Cause = z.object({
   contentBlocks: z.array(ContentBlock),
   donationCampaignId: z.string().optional(),
   donationHeading: z.string().optional(),
+  /** Cause-specific suggested amounts with their impact text (from the cause description). */
+  impactAmounts: z.array(z.object({ amount: z.number().positive(), text: z.string() })).optional(),
   externalWebsite: z.string().url().optional(),
   fundraising: z.object({
     currency: z.string(),

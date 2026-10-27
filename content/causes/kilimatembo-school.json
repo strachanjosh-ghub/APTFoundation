@@ -32,5 +32,19 @@
     "title": "Kilimatembo School",
     "description": "“Kilimatembo is dedicated to creating a brighter future for their students.”"
   },
-  "status": "published"
+  "status": "published",
+  "impactAmounts": [
+    {
+      "amount": 80,
+      "text": "will purchase 10 new textbooks."
+    },
+    {
+      "amount": 315,
+      "text": "will cover a teacher’s salary for a month."
+    },
+    {
+      "amount": 1500,
+      "text": "will provide the school with two new computers."
+    }
+  ]
 }

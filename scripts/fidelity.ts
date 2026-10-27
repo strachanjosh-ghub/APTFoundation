@@ -48,6 +48,7 @@ function collectPageText(p: Page, site: Site): string {
     if (b.type === 'logoGrid') b.items.forEach((i) => parts.push(i.label));
     if (b.type === 'contactForm') parts.push(...site.contact.form.fields.map((f) => f.label));
     if (b.type === 'donationForm' && b.heading) parts.push(b.heading);
+    if (b.type === 'donationForm' && b.introHtml) parts.push(b.introHtml);
   }
   return parts.map((x) => textOf(x)).join(' \n ');
 }

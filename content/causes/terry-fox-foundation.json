@@ -33,5 +33,19 @@
     "title": "Terry Fox Foundation",
     "description": "“I could not leave [the cancer ward] knowing these faces and feelings would still exist, even though I would be set free from mine. I was determined to take mys"
   },
-  "status": "published"
+  "status": "published",
+  "impactAmounts": [
+    {
+      "amount": 100,
+      "text": "will accelerate cancer research"
+    },
+    {
+      "amount": 200,
+      "text": "is an investment in the future that ensures we can continue to make progress in the fight against cancer for future generations."
+    },
+    {
+      "amount": 500,
+      "text": "can support the Canadian Tissue Repository Network (CTRNet)"
+    }
+  ]
 }

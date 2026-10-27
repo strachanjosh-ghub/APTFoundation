@@ -6,7 +6,11 @@
   "template": "news-listing",
   "hero": {
     "heading": "News",
-    "html": "<p>Catch up on the latest initiatives and news from the APT Foundation</p>"
+    "html": "<p>Catch up on the latest initiatives and news from the APT Foundation</p>",
+    "backgroundImage": {
+      "src": "/media/a-au-wa-kimberley-guide-hands-with-berries-52-apt-1920-x-600-jpg-1b6567.jpg",
+      "alt": ""
+    }
   },
   "contentBlocks": [
     {

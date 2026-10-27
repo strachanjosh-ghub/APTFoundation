@@ -18,6 +18,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { parse } from 'node-html-parser';
 import { applyEditorialDeep, EDITORIAL_CHANGES } from './editorial.mjs';
+import { presentCause, presentPage, presentSite } from './presentation.mjs';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const SRC = process.argv[2] || path.join(ROOT, 'content/raw/onetomorrow-source-snapshot.json');
@@ -36,7 +37,11 @@ const write = (rel, obj) => {
   fs.mkdirSync(path.dirname(f), { recursive: true });
   // Owner-approved editorial changes (rename, standardised statements) are applied to every
   // content object except the raw snapshot and the registers. See scripts/editorial.mjs.
-  const out = /^(assets|migration-register)\.json$/.test(rel) ? obj : applyEditorialDeep(obj);
+  let out = /^(assets|migration-register)\.json$/.test(rel) ? obj : applyEditorialDeep(obj);
+  // Presentation layer (imagery, block types, CTA targets; never text). See scripts/presentation.mjs.
+  if (rel.startsWith('pages/')) out = presentPage(out);
+  else if (rel.startsWith('causes/')) out = presentCause(out);
+  else if (rel === 'site.json') out = presentSite(out);
   fs.writeFileSync(f, JSON.stringify(out, null, 2) + '\n');
 };
 const slugify = (s) => s.toLowerCase().replace(/^\//, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'home';
@@ -480,7 +485,7 @@ const site = {
     defaultTitle: D.campaign.name,
     defaultDescription: D.campaign.config.social.facebookDescription,
   },
-  globalCtas: { donate: { label: 'Donate Now', href: '/t/donate-to-one-tomorrow' } },
+  globalCtas: { donate: { label: 'Donate Now', href: '/donate' } },
   donation: {
     provider: 'raisely',
     currency: D.campaign.currency,

@@ -1,5 +1,6 @@
 import type { ContentBlock } from '@/lib/schemas';
-import { getArticles, getCause, getCauses, getSite, excerpt, formatDate } from '@/lib/content';
+import { getArticles, getCause, getCauses, getDonationCauses, getSite, excerpt, formatDate } from '@/lib/content';
+import Link from 'next/link';
 import { Ctas, Html, Img, SmartLink, looksLikeLogo } from './primitives';
 import { NewsFeed } from '../NewsFeed';
 import { ContactForm } from '../ContactForm';
@@ -43,6 +44,15 @@ export function Block({ block }: { block: ContentBlock }) {
               })}
             </div>
           </div>
+        </section>
+      );
+    case 'figure':
+      return (
+        <section className="section" id={id}>
+          <figure className="container figure">
+            <Img asset={block.image} />
+            {block.caption ? <figcaption>{block.caption}</figcaption> : null}
+          </figure>
         </section>
       );
     case 'imageBand':
@@ -94,7 +104,7 @@ export function Block({ block }: { block: ContentBlock }) {
             <ol className="steps">
               {block.items.map((s) => (
                 <li key={s.title}>
-                  <Img asset={s.image} alt="" />
+                  <Img asset={s.image} alt="" className="steps__icon" />
                   <h3>{s.title}</h3>
                   <Html html={s.html} />
                 </li>
@@ -188,9 +198,11 @@ export function Block({ block }: { block: ContentBlock }) {
       const site = getSite();
       const cause = getCause(block.causeId);
       return (
-        <section className="section" id={id || 'donate'}>
-          <div className="container" style={{ maxWidth: '34rem' }}>
-            <DonationForm causeSlug={block.causeId} causeName={cause?.name || ''} heading={block.heading || cause?.donationHeading} config={site.donation} />
+        <section className="section donate-section" id={id || 'donate'}>
+          <div className={`container ${block.introHtml ? 'donate-split' : 'donate-section__inner'}`}>
+            {block.introHtml ? <Html html={block.introHtml} className="donate-split__intro" /> : null}
+            <DonationForm causes={getDonationCauses()} initialCause={block.causeId} allowCauseChoice={block.allowCauseChoice}
+              heading={block.allowCauseChoice ? 'Make a donation' : block.heading || cause?.donationHeading} config={site.donation} />
           </div>
         </section>
       );
@@ -212,12 +224,19 @@ export function Block({ block }: { block: ContentBlock }) {
       );
     }
     case 'causeGrid': {
-      const causes = getCauses();
+      const all = getCauses().filter((c) => !c.isGeneralFund);
+      const featured = block.variant === 'featured';
+      const causes = featured ? all.slice(0, 6) : getCauses();
       return (
         <section className="section" id={id}>
           <div className="container">
             {block.heading ? <h2 className="center">{block.heading}</h2> : null}
-            <ul className="card-grid">{causes.map((c) => <li key={c.id}><CauseCard cause={c} /></li>)}</ul>
+            <ul className="cause-grid">{causes.map((c) => <li key={c.id}><CauseCard cause={c} /></li>)}</ul>
+            {featured ? (
+              <div className="btn-row btn-row--center">
+                <Link href="/causes" className="btn btn--secondary">See all {all.length} causes</Link>
+              </div>
+            ) : null}
           </div>
         </section>
       );

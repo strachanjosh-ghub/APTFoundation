@@ -33,5 +33,19 @@
     "title": "Grizzly Bear Foundation",
     "description": "Hope for grizzlies means hope for people. Now more than ever, we realize the importance of protecting planet earth to ensure the health and well-being of all li"
   },
-  "status": "published"
+  "status": "published",
+  "impactAmounts": [
+    {
+      "amount": 300,
+      "text": "will support our advocacy and policy reform projects to secure long-term protection."
+    },
+    {
+      "amount": 500,
+      "text": "will support Indigenous leadership in long-term grizzly bear conservation."
+    },
+    {
+      "amount": 1000,
+      "text": "will help reduce human-bear conflict and promote coexistence."
+    }
+  ]
 }

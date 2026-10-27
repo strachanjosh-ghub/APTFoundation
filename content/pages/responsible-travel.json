@@ -6,7 +6,11 @@
   "template": "standard",
   "hero": {
     "heading": "Responsible Travel",
-    "html": "<h2>What is Responsible Travel?</h2>\n<p>The world is waking up to the need for more sustainable ways of travelling, and here at the APT Foundation we understand we have a responsibility to our planet. Responsible travel is all about being socially and culturally aware, minimising our environmental footprint and travelling in a way that takes into consideration the locals, environment and individual cultures. We encourage this sustainable way of travel through journeys with the APT Travel Group (ATG).<br><br>The UN defines the responsible traveller as one who keeps an open mind towards new cultures and traditions. They respect human rights. They participate in activities which safeguard natural environments. And responsible travellers will buy local goods to contribute to social and economic development.  <br><br></p>"
+    "html": "<h2>What is Responsible Travel?</h2>\n<p>The world is waking up to the need for more sustainable ways of travelling, and here at the APT Foundation we understand we have a responsibility to our planet. Responsible travel is all about being socially and culturally aware, minimising our environmental footprint and travelling in a way that takes into consideration the locals, environment and individual cultures. We encourage this sustainable way of travel through journeys with the APT Travel Group (ATG).<br><br>The UN defines the responsible traveller as one who keeps an open mind towards new cultures and traditions. They respect human rights. They participate in activities which safeguard natural environments. And responsible travellers will buy local goods to contribute to social and economic development.  <br><br></p>",
+    "backgroundImage": {
+      "src": "/media/a-as-myanmar-workshop-tour-92-apt-1920-x-600-jpg-d05957.jpg",
+      "alt": ""
+    }
   },
   "contentBlocks": [
     {
@@ -26,12 +30,6 @@
     {
       "type": "richText",
       "html": "<h4>Good Health and Wellbeing</h4><p>Improving access to essential health services; addressing the burden of non-communicable diseases, including mental health; and stepping up the fight against antimicrobial resistance.</p><h4>Quality Education</h4><p>Increasing proficiency in reading and mathematics; ensuring quality of education keeps pace with technological advancement; and improving learning outcomes, particularly for women, girls and marginalised individuals.</p><h4>Life on the Land</h4><p>Halt and reverse land degradation; preserve and restore biodiversity; and protect endangered species from the threat of extinction. </p>"
-    },
-    {
-      "type": "imageBand",
-      "image": {
-        "src": "/media/a-as-myanmar-workshop-tour-92-apt-1920-x-600-jpg-d05957.jpg"
-      }
     },
     {
       "type": "mediaText",
@@ -98,12 +96,6 @@
       ],
       "imagePosition": "left",
       "html": "<h3>The APT Foundation</h3><p>By forming the APT Foundation, APT Travel Group (ATG) are taking the necessary steps towards responsible travel, continually finding ways to move closer to the ultimate goal of sustainability. Through guest and workplace giving programs, and a range of fundraising efforts, we are collectively working to help people and places around the world.</p>"
-    },
-    {
-      "type": "imageBand",
-      "image": {
-        "src": "/media/a-au-wa-kimberley-guide-hands-with-berries-52-apt-1920-x-600-jpg-1b6567.jpg"
-      }
     },
     {
       "type": "partnerBrands"

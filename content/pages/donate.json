@@ -8,34 +8,20 @@
     "heading": "Donate to the APT Foundation",
     "html": "<p>Make a tax-deductable donation to our chosen partners, and <strong>we’ll match you. Dollar for dollar</strong>. By doubling our impact, we believe that we can make a difference in the world together.</p>",
     "backgroundImage": {
-      "src": "/media/ot-18-campaign-image-1-jpg-cb6158.jpg"
+      "src": "/media/children-20151103-1539320-1920-x-600-jpg-338528.jpg",
+      "alt": ""
     }
   },
   "contentBlocks": [
     {
-      "type": "mediaText",
-      "images": [
-        {
-          "src": "/media/do-something-great-animated-clark-tibbs-oq-stl-2-l-5-ox-i-unsplash-800-x-333-gif-8f1ce7.gif",
-          "href": "/causes"
-        }
-      ],
-      "imagePosition": "left",
-      "html": "<p>The APT Foundation has partnered with some worthy causes around the globe; grassroots initiatives that make a true difference in the regions we visit. With your contribution, we can support a variety of charitable organisations who do good in the world. For every tax-deductable donation you make, we will match it, doubling your impact. </p><p>The process is easy. Select the project you wish to support, make your donation – which we’ll match* – and we’ll issue you with a tax receipt. Can’t decide? With a world of great initiatives out there, we can make your choice easy. Simply donate to the APT Foundation where all funds will be matched and split evenly among all of our worthy causes.</p><p>If you would like to donate to a specific cause, head to our cause page <a href=\"/causes\">here</a>.</p>"
-    },
-    {
       "type": "donationForm",
-      "causeId": "donate-to-one-tomorrow"
+      "causeId": "donate-to-one-tomorrow",
+      "allowCauseChoice": true,
+      "introHtml": "<p>The APT Foundation has partnered with some worthy causes around the globe; grassroots initiatives that make a true difference in the regions we visit. With your contribution, we can support a variety of charitable organisations who do good in the world. For every tax-deductable donation you make, we will match it, doubling your impact. </p><p>The process is easy. Select the project you wish to support, make your donation – which we’ll match* – and we’ll issue you with a tax receipt. Can’t decide? With a world of great initiatives out there, we can make your choice easy. Simply donate to the APT Foundation where all funds will be matched and split evenly among all of our worthy causes.</p><p>If you would like to donate to a specific cause, head to our cause page <a href=\"/causes\">here</a>.</p>"
     },
     {
       "type": "richText",
       "html": "<p><em>﻿ *The APT Foundation matches donations up to $200,000 per year and up to $1,000 per individual donor.</em></p>"
-    },
-    {
-      "type": "imageBand",
-      "image": {
-        "src": "/media/o-misc-hands-philanthropy-1014930184-s-jpg-b49523.jpg"
-      }
     },
     {
       "type": "partnerBrands"

@@ -129,7 +129,7 @@
       },
       {
         "title": "Donate",
-        "href": "/t/donate-to-one-tomorrow"
+        "href": "/donate"
       },
       {
         "title": "Privacy Policy",
@@ -256,7 +256,7 @@
   "globalCtas": {
     "donate": {
       "label": "Donate Now",
-      "href": "/t/donate-to-one-tomorrow"
+      "href": "/donate"
     }
   },
   "donation": {

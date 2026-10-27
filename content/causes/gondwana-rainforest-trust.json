@@ -32,5 +32,11 @@
     "title": "Gondwana Rainforest Trust",
     "description": "“Through planting trees and facilitating natural regeneration, we can restore damaged rainforest ecosystems.”"
   },
-  "status": "published"
+  "status": "published",
+  "impactAmounts": [
+    {
+      "amount": 50,
+      "text": "will buy back 20 square metres of the Daintree Rainforest."
+    }
+  ]
 }

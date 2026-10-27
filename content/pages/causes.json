@@ -6,13 +6,18 @@
   "template": "cause-listing",
   "hero": {
     "heading": "Causes the APT Foundation Supports",
-    "html": "<p>Discover the not-for-profit and grassroots causes hand-picked and supported by the APT Foundation</p>"
+    "html": "<p>Discover the not-for-profit and grassroots causes hand-picked and supported by the APT Foundation</p>",
+    "backgroundImage": {
+      "src": "/media/ot-ricefields-aerial-620701974-i-jpg-e5db53.jpg",
+      "alt": ""
+    }
   },
   "contentBlocks": [
     {
-      "type": "imageBand",
+      "type": "figure",
       "image": {
-        "src": "/media/ot-108-world-map-of-causes-2025-png-3527a1.png"
+        "src": "/media/world-map-of-causes-apt.png",
+        "alt": "World map showing where the causes we support are located"
       }
     },
     {
@@ -28,21 +33,21 @@
       "items": [
         {
           "image": {
-            "src": "/media/infographic-separate-2-white-3-logos-01-png-c0b036.png"
+            "src": "/media/step-01-you-donate-apt.png"
           },
           "title": "You donate",
           "html": "<p>Donate to a cause you feel passionate about.</p>"
         },
         {
           "image": {
-            "src": "/media/infographic-separate-2-white-3-logos-02-png-fb4c52.png"
+            "src": "/media/step-02-we-double-apt.png"
           },
           "title": "We double",
           "html": "<p>We will match your donation to double the impact.</p>"
         },
         {
           "image": {
-            "src": "/media/infographic-separate-2-white-3-logos-03-png-ce48c9.png"
+            "src": "/media/step-03-make-a-difference-apt.png"
           },
           "title": "Make a difference",
           "html": "<p>Together, our actions help shape the world.</p>"

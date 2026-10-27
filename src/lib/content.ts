@@ -66,3 +66,7 @@ export function formatDate(iso?: string): string {
   const get = (t: string) => parts.find((p) => p.type === t)?.value ?? '';
   return `${get('day')} ${get('month').slice(0, 3)} ${get('year')}`;
 }
+
+/** Minimal cause list for the client-side donation panel. */
+export const getDonationCauses = () =>
+  load().causes.map((c) => ({ slug: c.slug, name: c.name, isGeneralFund: c.isGeneralFund, impactAmounts: c.impactAmounts }));

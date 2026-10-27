@@ -4,13 +4,13 @@
 
 | # | Item | Status | Owner / action |
 |---|---|---|---|
-| 1 | **APT Foundation logo lockup** and **Adobe Fonts web project** | APT palette and type rules applied (`docs/BRAND.md`); typographic wordmark in place of a logo; system font fallbacks until the kit ID is set | Brand team: approved APT Foundation lockup (the APT monogram must not be altered). Set `NEXT_PUBLIC_ADOBE_FONTS_KIT` |
+| 1 | **APT Foundation logo lockup** | APT palette applied; free self-hosted lookalike fonts (`docs/BRAND.md`); typographic wordmark in place of a logo | Brand team: approved APT Foundation lockup (the APT monogram must not be altered) |
 | 2 | **Rename applied**: "OneTomorrow" / "OneTomorrow Charitable Fund" is now "The APT Foundation" in all copy (owner request, 27 Oct 2026; rules in `scripts/editorial.mjs`). Email addresses, URLs and image files still use onetomorrow | Done | Review the copy for tone. Images with the OneTomorrow logo remain (item 7) |
 | 3 | **Legal wording after the rename**: the privacy policy, FAQs and the **bequest wording** now say "the APT Foundation" is the ACF sub-fund and GDG partner. If the fund's registered name with ACF is still "OneTomorrow Charitable Fund", the bequest clause in particular could misdirect gifts | Needs review | Legal to confirm the fund's registered name with ACF/GDG before go-live |
 | 4 | **Contact details**: `info@onetomorrow.com.au`, (03) 8526 1631 / 1300 278 278, Moorabbin address | Migrated as published | Confirm or replace in `content/site.json` and `content/pages/contact.json` |
 | 5 | **Contact form delivery**: interim email to Josh.Strachan@aptouring.com.au via FormSubmit (`content/site.json` → `contact.form.deliveryEndpoint`). **FormSubmit emails an activation link on the first submission; it must be clicked before messages are delivered.** Messages pass through FormSubmit (a third-party service) | Interim | Replace with the Salesforce integration (override with `CONTACT_FORM_ENDPOINT`, or change the API route) |
 | 6 | **Donation checkout** is still the OneTomorrow-branded Raisely campaign | Hand-off implemented; amount and monthly prefill verified | Rebrand the Raisely theme and receipts, or replace the provider (`DONATIONS.md`) |
-| 7 | **OneTomorrow-branded imagery**: `onetomorrow-400-x-400` (general fund logo), `ot-108-world-map-of-causes-2025` (causes map), infographic step icons | In use | Supply APT Foundation versions; replace the files in `public/media/` or update the references |
+| 7 | **OneTomorrow-branded imagery** | Done: map and step icons recoloured to navy, general fund tile replaced, green leaf backgrounds replaced with photography. **The homepage video (Vimeo 408230655) may still show OneTomorrow branding.** It couldn't be played from the build environment, so check it | Review the video; replace or remove the `video` block in `content/pages/home.json` (via `scripts/presentation.mjs`) if needed |
 
 ## Source defects preserved verbatim (flag for editorial review)
 

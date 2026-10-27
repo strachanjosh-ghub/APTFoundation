@@ -32,5 +32,19 @@
     "title": "Opportunities of Development thru Art (ODA)",
     "description": "\"Over 1,450 children in Siem Reap’s outlying villages are receiving English lessons with ODA.\""
   },
-  "status": "published"
+  "status": "published",
+  "impactAmounts": [
+    {
+      "amount": 50,
+      "text": "will provide a child with a school uniform."
+    },
+    {
+      "amount": 80,
+      "text": "will supply a child with school books for the entire year."
+    },
+    {
+      "amount": 320,
+      "text": "will pay for an English teacher's salary."
+    }
+  ]
 }

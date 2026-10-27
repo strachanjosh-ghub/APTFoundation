@@ -8,7 +8,8 @@
   "hero": {
     "heading": "Frequently Asked Questions",
     "backgroundImage": {
-      "src": "/media/ot-18-campaign-image-1-jpg-cb6158.jpg"
+      "src": "/media/o-qld-daintree-rainforest-canopy-strip-1239507334-s-1920-x-400-jpg-82a2aa.jpg",
+      "alt": ""
     }
   },
   "contentBlocks": [
@@ -76,12 +77,6 @@
           "html": "<p>For our Privacy Policy, please see <a href=\"/PrivacyPolicy\">here</a>.</p>"
         }
       ]
-    },
-    {
-      "type": "imageBand",
-      "image": {
-        "src": "/media/ot-generic-hand-holding-tree-planting-1407793820-s-cropped-jpg-9f5579.jpg"
-      }
     },
     {
       "type": "partnerBrands"

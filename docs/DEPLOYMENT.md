@@ -14,7 +14,6 @@
 | Variable | Value | Scope |
 |---|---|---|
 | `NEXT_PUBLIC_SITE_URL` | The final domain, e.g. `https://www.aptfoundation.org`. If unset, Netlify's `URL` is used in production and the deploy URL for previews | Production |
-| `NEXT_PUBLIC_ADOBE_FONTS_KIT` | Adobe Fonts web project ID (Thermal VF, Beaufort Pro, Maison). Add the Netlify domain and the custom domain to the project | All |
 | `NEXT_PUBLIC_DONATION_PROVIDER` | `raisely` | All |
 | `NEXT_PUBLIC_DONATION_RAISELY_BASE_URL` | `https://one-tomorrow.raiselysite.com` | All |
 | `CONTACT_FORM_ENDPOINT` | Optional. Overrides `content/site.json → contact.form.deliveryEndpoint` (currently FormSubmit, emailing Josh.Strachan@aptouring.com.au). Use it for the Salesforce endpoint later | Production |
@@ -35,7 +34,8 @@ The app also runs on Vercel (zero config) or any Node host: `npm ci && npm run b
 
 ## Go-live checklist
 
-- [ ] Approved APT Foundation lockup in `/public/brand/` and `config/brand.ts`; Adobe Fonts kit set
+- [ ] Approved APT Foundation lockup in `/public/brand/` and `config/brand.ts`
+- [ ] Homepage video checked for OneTomorrow branding
 - [ ] Legal review of the renamed legal and bequest wording (see `MISSING-CONTENT.md`)
 - [ ] Contact form: send a test message and click FormSubmit's one-time activation email
 - [ ] Donation hand-off verified end to end on the live Raisely campaign (see `DONATIONS.md`)
