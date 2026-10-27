@@ -4,18 +4,18 @@
 
 | # | Item | Status | Owner / action |
 |---|---|---|---|
-| 1 | **APT Foundation brand assets**: logo (SVG), colour palette, typefaces | Placeholders in `config/brand.ts` (text wordmark, navy/gold/green tokens) | Supply assets; developer updates `config/brand.ts` |
-| 2 | **Editorial copy still says "OneTomorrow"** (headings, body text, FAQs, privacy policy, articles). Copied verbatim per the migration brief | Unchanged | Business decision: keep, or reword under APT Foundation. This is an editorial and legal rewrite, not a migration task |
-| 3 | **Legal and governance identity**: the privacy policy, FAQs and bequest wording name "OneTomorrow Charitable Fund" as an ACF sub-fund and GDG partner | Unchanged | Legal to confirm the APT Foundation structure before any wording changes |
+| 1 | **APT Foundation logo lockup** and **Adobe Fonts web project** | APT palette and type rules applied (`docs/BRAND.md`); typographic wordmark in place of a logo; system font fallbacks until the kit ID is set | Brand team: approved APT Foundation lockup (the APT monogram must not be altered). Set `NEXT_PUBLIC_ADOBE_FONTS_KIT` |
+| 2 | **Rename applied**: "OneTomorrow" / "OneTomorrow Charitable Fund" is now "The APT Foundation" in all copy (owner request, 27 Oct 2026; rules in `scripts/editorial.mjs`). Email addresses, URLs and image files still use onetomorrow | Done | Review the copy for tone. Images with the OneTomorrow logo remain (item 7) |
+| 3 | **Legal wording after the rename**: the privacy policy, FAQs and the **bequest wording** now say "the APT Foundation" is the ACF sub-fund and GDG partner. If the fund's registered name with ACF is still "OneTomorrow Charitable Fund", the bequest clause in particular could misdirect gifts | Needs review | Legal to confirm the fund's registered name with ACF/GDG before go-live |
 | 4 | **Contact details**: `info@onetomorrow.com.au`, (03) 8526 1631 / 1300 278 278, Moorabbin address | Migrated as published | Confirm or replace in `content/site.json` and `content/pages/contact.json` |
-| 5 | **Contact form backend**: the original Formspree form (`formspree.io/f/xoqrdwlj`) belongs to OneTomorrow | Not wired | Set `CONTACT_FORM_ENDPOINT` to an APT Foundation-owned endpoint |
-| 6 | **Donation checkout** is still the OneTomorrow-branded Raisely campaign | Hand-off implemented | See `DONATIONS.md`: verify the prefill parameters and rebrand the Raisely theme, or replace the provider |
+| 5 | **Contact form delivery**: interim email to Josh.Strachan@aptouring.com.au via FormSubmit (`content/site.json` → `contact.form.deliveryEndpoint`). **FormSubmit emails an activation link on the first submission; it must be clicked before messages are delivered.** Messages pass through FormSubmit (a third-party service) | Interim | Replace with the Salesforce integration (override with `CONTACT_FORM_ENDPOINT`, or change the API route) |
+| 6 | **Donation checkout** is still the OneTomorrow-branded Raisely campaign | Hand-off implemented; amount and monthly prefill verified | Rebrand the Raisely theme and receipts, or replace the provider (`DONATIONS.md`) |
 | 7 | **OneTomorrow-branded imagery**: `onetomorrow-400-x-400` (general fund logo), `ot-108-world-map-of-causes-2025` (causes map), infographic step icons | In use | Supply APT Foundation versions; replace the files in `public/media/` or update the references |
 
 ## Source defects preserved verbatim (flag for editorial review)
 
 - `/causes`: "Donations through  are tax deductible…". The organisation name is missing in the source (a template variable that never rendered).
-- The matching statements are inconsistent across the source: "$150,000 per year and up to $1000.00 per individual donor" (`/donate` and the legacy Antarctic page) vs "$200,000 per year and up to $1,000" (cause template). Confirm the current figure.
+- Matching statements were inconsistent in the source ("$150,000 / $1000.00" on `/donate` and the legacy Antarctic page vs "$200,000 / $1,000" on all cause pages). **Standardised on the most common wording, $200,000 per year and up to $1,000 per individual donor** (owner request, 27 Oct 2026).
 - Spellings as published: "Médecins San Frontieres", "tax-deductable", "Médecins San Frontiers" (About Us).
 - About Us: "for over 96 years" and "for over 97 years" in different sections.
 - Contact form: "Your Email (required)" and "Message (required)" are labelled required, but the original form only enforced the name field. The behaviour was reproduced; decide whether to enforce them (`content/site.json` → `contact.form.fields[].required`).

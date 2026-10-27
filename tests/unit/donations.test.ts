@@ -7,7 +7,7 @@ describe('donation provider abstraction', () => {
     const url = new URL(p.checkoutUrl({ causeSlug: 'rural-aid', amount: 50, interval: 'monthly', currency: 'AUD' })!);
     expect(url.origin + url.pathname).toBe('https://one-tomorrow.raiselysite.com/t/rural-aid');
     expect(url.searchParams.get('amount')).toBe('50');
-    expect(url.searchParams.get('interval')).toBe('MONTH');
+    expect(url.searchParams.get('frequency')).toBe('MONTH');
   });
   it('never collects payment data and can be disabled', () => {
     expect(noneProvider.checkoutUrl({ causeSlug: 'x', interval: 'once', currency: 'AUD' })).toBeNull();

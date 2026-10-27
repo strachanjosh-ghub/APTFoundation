@@ -163,6 +163,8 @@ export const Site = z.object({
       fields: z.array(z.object({ name: z.string(), label: z.string(), type: z.enum(['text', 'email', 'tel', 'textarea']), placeholder: z.string().optional(), required: z.boolean(), note: z.string().optional() })),
       submitLabel: z.string(),
       originalEndpoint: z.string().url(),
+      deliveryEndpoint: z.string().url().optional(),
+      deliverySubject: z.string().optional(),
       successMessage: z.string(),
     }),
   }),

@@ -12,7 +12,8 @@
 | `NEXT_PUBLIC_SITE_URL` | Yes | Canonical origin, e.g. `https://www.aptfoundation.org`. Used for canonical URLs, the sitemap and Open Graph |
 | `NEXT_PUBLIC_DONATION_PROVIDER` | Yes | `raisely` (default), `stripe` (not implemented, which disables donations) or `none` |
 | `NEXT_PUBLIC_DONATION_RAISELY_BASE_URL` | If `raisely` | Hosted Raisely campaign origin. Default `https://one-tomorrow.raiselysite.com` |
-| `CONTACT_FORM_ENDPOINT` | Yes for contact | Formspree (or compatible JSON POST) endpoint. Without it the form returns a clear "not configured" error |
+| `CONTACT_FORM_ENDPOINT` | No | Overrides `content/site.json → contact.form.deliveryEndpoint` (currently FormSubmit, emailing Josh.Strachan@aptouring.com.au) |
+| `NEXT_PUBLIC_ADOBE_FONTS_KIT` | Recommended | Adobe Fonts web project ID for Thermal VF, Beaufort Pro and Maison |
 | `NEXT_PUBLIC_GTM_ID` | No | Google Tag Manager container for the new site |
 | `CONTENT_PREVIEW` | No | `true` renders draft content (preview environments only) |
 
@@ -35,9 +36,9 @@ NODE_ENV=production PORT=3000 npm start
 
 ## Go-live checklist
 
-- [ ] Official APT Foundation brand assets applied in `config/brand.ts` (logo to `/public/brand/`)
-- [ ] Decision taken on editorial references to "OneTomorrow" (see `MISSING-CONTENT.md`)
-- [ ] `CONTACT_FORM_ENDPOINT` set to an inbox APT Foundation owns, and a test message received
+- [ ] Approved APT Foundation lockup in `/public/brand/` and `config/brand.ts`; Adobe Fonts kit set
+- [ ] Legal review of the renamed legal and bequest wording (see `MISSING-CONTENT.md`)
+- [ ] Contact form: send a test message and click FormSubmit's one-time activation email
 - [ ] Donation hand-off verified end to end on the live Raisely campaign (see `DONATIONS.md`)
 - [ ] `npm test` and `npm run test:e2e` green against the production URL (`E2E_BASE_URL=https://… npm run test:e2e`)
 - [ ] DNS: if `one-tomorrow.raiselysite.com` or another old domain is retired, point it at the new site. Original paths are preserved, so links keep working

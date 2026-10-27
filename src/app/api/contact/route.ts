@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import { z } from 'zod';
+import { getSite } from '@/lib/content';
 
 /**
  * Contact form handler. Validates server-side and forwards to the configured
@@ -21,14 +22,16 @@ export async function POST(req: Request) {
   const data = parsed.data;
   if (data._gotcha) return NextResponse.json({ ok: true }); // bot honeypot: accept silently
 
-  const endpoint = process.env.CONTACT_FORM_ENDPOINT;
+  // CONTACT_FORM_ENDPOINT (env) overrides the endpoint configured in content/site.json.
+  const form = getSite().contact.form;
+  const endpoint = process.env.CONTACT_FORM_ENDPOINT || form.deliveryEndpoint;
   if (!endpoint) {
     return NextResponse.json({ error: 'The contact form is not configured yet. Please email us directly.' }, { status: 503 });
   }
   const res = await fetch(endpoint, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-    body: JSON.stringify({ fullname: data.fullname, email: data._replyto, _replyto: data._replyto, phone: data.phone, message: data.message }),
+    body: JSON.stringify({ name: data.fullname, fullname: data.fullname, email: data._replyto, _replyto: data._replyto, phone: data.phone, message: data.message, _subject: form.deliverySubject || 'Website enquiry', _template: 'table', _captcha: 'false' }),
   });
   if (!res.ok) return NextResponse.json({ error: 'Your message could not be sent. Please try again or email us directly.' }, { status: 502 });
   return NextResponse.json({ ok: true });

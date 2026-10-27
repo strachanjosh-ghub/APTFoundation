@@ -1,6 +1,6 @@
 {
   "id": "donate-to-one-tomorrow",
-  "name": "OneTomorrow Charitable Fund",
+  "name": "The APT Foundation",
   "slug": "donate-to-one-tomorrow",
   "path": "/t/donate-to-one-tomorrow",
   "originalUrl": "https://one-tomorrow.raiselysite.com/t/donate-to-one-tomorrow",
@@ -8,7 +8,7 @@
   "isGeneralFund": true,
   "logo": {
     "src": "/media/onetomorrow-400-x-400-png-9e9404.png",
-    "alt": "OneTomorrow Charitable Fund logo"
+    "alt": "The APT Foundation logo"
   },
   "heroImage": {
     "src": "/media/do-something-great-animated-clark-tibbs-oq-stl-2-l-5-ox-i-unsplash-1920-x-600-gif-636d1f.gif"
@@ -17,7 +17,7 @@
     "src": "/media/o-misc-hands-philanthropy-1014930184-s-jpg-b49523.jpg"
   },
   "quote": "\"Make a tax-deductable donation to any of our chosen partners, and we’ll match you. Dollar for dollar.\"",
-  "description": "<h3 style=\"color:#006738;\">Donate and make a difference</h3>\n<p>The process is easy. Select the project you wish to support, make your donation – which we’ll match* – and we’ll issue you with a tax receipt. Can’t decide? With a world of great initiatives out there, we can make your choice easy. Simply donate to OneTomorrow where all funds will be matched and split evenly among all of our worthy causes.</p>\n<p>If you would like to donate to a specific cause, head to our cause page <a href=\"/causes\">here</a>.</p>\n<p>OneTomorrow has partnered with some worthy causes around the globe. Make a tax-deductable donation to any of our chosen partners, and we’ll match you. <b>Dollar for dollar</b>. By doubling our impact, we believe that we can make a difference in the world together.<br><br></p>",
+  "description": "<h3 style=\"color:#006738;\">Donate and make a difference</h3>\n<p>The process is easy. Select the project you wish to support, make your donation – which we’ll match* – and we’ll issue you with a tax receipt. Can’t decide? With a world of great initiatives out there, we can make your choice easy. Simply donate to the APT Foundation where all funds will be matched and split evenly among all of our worthy causes.</p>\n<p>If you would like to donate to a specific cause, head to our cause page <a href=\"/causes\">here</a>.</p>\n<p>The APT Foundation has partnered with some worthy causes around the globe. Make a tax-deductable donation to any of our chosen partners, and we’ll match you. <b>Dollar for dollar</b>. By doubling our impact, we believe that we can make a difference in the world together.<br><br></p>",
   "contentBlocks": [],
   "donationCampaignId": "b8b31080-635e-11ea-a1e5-e53ee2425a83",
   "fundraising": {
@@ -29,7 +29,7 @@
     "routing": "ACF"
   },
   "seo": {
-    "title": "OneTomorrow Charitable Fund",
+    "title": "The APT Foundation",
     "description": "\"Make a tax-deductable donation to any of our chosen partners, and we’ll match you. Dollar for dollar.\""
   },
   "status": "published"

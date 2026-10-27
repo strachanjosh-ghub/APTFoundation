@@ -17,6 +17,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { parse } from 'node-html-parser';
+import { applyEditorialDeep, EDITORIAL_CHANGES } from './editorial.mjs';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const SRC = process.argv[2] || path.join(ROOT, 'content/raw/onetomorrow-source-snapshot.json');
@@ -33,7 +34,10 @@ const assets = new Map(); // baseUrl -> {originalUrl, localPath, usedBy:Set}
 const write = (rel, obj) => {
   const f = path.join(OUT, rel);
   fs.mkdirSync(path.dirname(f), { recursive: true });
-  fs.writeFileSync(f, JSON.stringify(obj, null, 2) + '\n');
+  // Owner-approved editorial changes (rename, standardised statements) are applied to every
+  // content object except the raw snapshot and the registers. See scripts/editorial.mjs.
+  const out = /^(assets|migration-register)\.json$/.test(rel) ? obj : applyEditorialDeep(obj);
+  fs.writeFileSync(f, JSON.stringify(out, null, 2) + '\n');
 };
 const slugify = (s) => s.toLowerCase().replace(/^\//, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'home';
 
@@ -466,6 +470,9 @@ const site = {
       ],
       submitLabel: 'Send',
       originalEndpoint: 'https://formspree.io/f/xoqrdwlj',
+      // Interim delivery (27 Oct 2026): email to Josh Strachan via FormSubmit until the Salesforce integration replaces it.
+      deliveryEndpoint: 'https://formsubmit.co/ajax/Josh.Strachan@aptouring.com.au',
+      deliverySubject: 'APT Foundation website enquiry',
       successMessage: 'Thank you for contacting us. We will be in touch soon.',
     },
   },
@@ -503,5 +510,5 @@ write('assets.json', assetList);
 const excluded = D.pages.filter((p) => !PAGE_DEFS.some((d) => d.route === p.path) && !['/t/:id', '/:profile/posts/:post', 'layout'].includes(p.path))
   .map((p) => ({ originalUrl: ORIGIN + p.path, title: p.title, reason: p.path === '/page/about' ? 'Raisely theme placeholder page ("How to create a birthday fundraiser") with template filler text; not linked anywhere on the site.' : 'Raisely platform function (accounts, fundraiser profiles, login, search). Not part of the public editorial site; handled by the donation provider.' }));
 
-write('migration-register.json', { generatedAt: new Date().toISOString(), source: SRC.split('/').pop(), capturedAt: D.capturedAt, entries: register, linkFixes, brandReplacements, excluded });
+write('migration-register.json', { generatedAt: new Date().toISOString(), source: SRC.split('/').pop(), capturedAt: D.capturedAt, entries: register, linkFixes, brandReplacements, editorialChanges: EDITORIAL_CHANGES, excluded });
 console.log(`pages=${PAGE_DEFS.length} causes=${D.causes.length} articles=${D.posts.length} assets=${assetList.length} linkFixes=${linkFixes.length} excluded=${excluded.length}`);

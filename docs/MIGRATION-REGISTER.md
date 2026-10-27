@@ -1,6 +1,6 @@
 # Content migration and validation register
 
-Source: onetomorrow-source-snapshot.json (captured 2026-10-27T08:11:30.221Z). Validated: 2026-10-27T08:43:52.751Z.
+Source: onetomorrow-source-snapshot.json (captured 2026-10-27T08:11:30.221Z). Validated: 2026-10-27T09:01:46.960Z.
 
 **55 of 55** content objects validated as exact text matches against the source snapshot. Broken internal links: 0. Media problems: 0.
 

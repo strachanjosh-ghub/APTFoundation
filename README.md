@@ -2,9 +2,9 @@
 
 Rebuild of the OneTomorrow Charitable Fund website (`one-tomorrow.raiselysite.com`, hosted on Raisely) as an independently deployable Next.js application, rebranded as the **APT Foundation**.
 
-- **All original editorial content is preserved verbatim.** Every page, cause and article was migrated from a snapshot of the live site and is checked automatically against that snapshot (55/55 content objects match exactly; see `docs/MIGRATION-REGISTER.md`).
+- **All original editorial content is preserved**, with only owner-approved editorial changes applied on top: "OneTomorrow" renamed "The APT Foundation", and the donation-matching statement standardised (`scripts/editorial.mjs`). Every page, cause and article is checked automatically against the source snapshot with those changes applied (55/55 match; see `docs/MIGRATION-REGISTER.md`).
 - **All content is in structured, schema-validated CMS objects.** Editors change JSON in `/content`; no code changes are needed.
-- **Brand identity is isolated in `config/brand.ts`.** The APT Foundation values in it are currently **placeholders**, pending the official brand assets.
+- **Brand identity is isolated in `config/brand.ts`**, applied from the APT brand guidelines (colours, typefaces, logo rules) and adapted for screen and accessibility. See `docs/BRAND.md`.
 
 ## Quick start
 
@@ -71,6 +71,7 @@ npm run test:e2e       # Playwright (desktop + mobile): every route renders, red
 ## Documentation
 
 - `docs/DEPLOYMENT.md`: deployment and maintenance
+- `docs/BRAND.md`: how the APT brand guidelines are applied digitally
 - `docs/DONATIONS.md`: donation integration and configuration
 - `docs/CONTENT-EDITING.md`: editor guide and headless-CMS migration path
 - `docs/MIGRATION-REGISTER.md`: per-page migration and validation register (generated)

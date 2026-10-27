@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T08:43:52.073Z",
+  "generatedAt": "2026-10-27T08:57:16.472Z",
   "source": "onetomorrow-source-snapshot.json",
   "capturedAt": "2026-10-27T08:11:30.221Z",
   "entries": [
@@ -788,6 +788,20 @@
       "replacedWith": "APT Foundation brand hero (config/brand.ts)"
     }
   ],
+  "editorialChanges": [
+    {
+      "id": "matching-statement",
+      "date": "2026-10-27",
+      "requestedBy": "Josh Strachan",
+      "description": "Standardise matching statement on \"$200,000 per year and up to $1,000 per individual donor\" (most common wording)."
+    },
+    {
+      "id": "rename",
+      "date": "2026-10-27",
+      "requestedBy": "Josh Strachan",
+      "description": "Rename \"OneTomorrow\" / \"OneTomorrow Charitable Fund\" to \"The APT Foundation\"."
+    }
+  ],
   "excluded": [
     {
       "originalUrl": "https://one-tomorrow.raiselysite.com/signup",
@@ -855,7 +869,7 @@
       "reason": "Raisely theme placeholder page (\"How to create a birthday fundraiser\") with template filler text; not linked anywhere on the site."
     }
   ],
-  "validatedAt": "2026-10-27T08:43:52.751Z",
+  "validatedAt": "2026-10-27T09:01:46.960Z",
   "summary": {
     "total": 55,
     "exact": 55,

@@ -1,12 +1,12 @@
 {
   "id": "home",
-  "title": "OneTomorrow",
+  "title": "The APT Foundation",
   "slug": "home",
   "path": "/",
   "template": "home",
   "hero": {
-    "heading": "OneTomorrow",
-    "html": "<p>For nature. For humanity. For tomorrow.</p><p>OneTomorrow is the APT Travel Group’s (ATG) not-for-profit charitable fund. Joining the brands APT, Travelmarvel, Botanica, Captain’s Choice, Antarctica Flights and TravelGlo, OneTomorrow’s mission is to make a positive and enduring impact on nature and the communities we touch. This is achieved through immediate and long-term influence in various environmental and humanitarian causes.</p>",
+    "heading": "The APT Foundation",
+    "html": "<p>For nature. For humanity. For tomorrow.</p><p>The APT Foundation is the APT Travel Group’s (ATG) not-for-profit charitable fund. Joining the brands APT, Travelmarvel, Botanica, Captain’s Choice, Antarctica Flights and TravelGlo, the APT Foundation’s mission is to make a positive and enduring impact on nature and the communities we touch. This is achieved through immediate and long-term influence in various environmental and humanitarian causes.</p>",
     "ctas": [
       {
         "label": "Donate Now",
@@ -21,7 +21,7 @@
   "contentBlocks": [
     {
       "type": "richText",
-      "html": "<p>OneTomorrow is the philanthropic arm of the APT Travel Group (ATG) of companies </p>"
+      "html": "<p>The APT Foundation is the philanthropic arm of the APT Travel Group (ATG) of companies </p>"
     },
     {
       "type": "logoGrid",
@@ -71,7 +71,7 @@
     {
       "type": "video",
       "url": "https://vimeo.com/408230655",
-      "title": "OneTomorrow video"
+      "title": "The APT Foundation video"
     },
     {
       "type": "imageBand",
@@ -81,7 +81,7 @@
     },
     {
       "type": "richText",
-      "html": "<h2>Who do we support?</h2><p>OneTomorrow  has partnered with the following charities. You can choose who you want to support while being assured every dollar you donate will go directly to funding vital programs and services. Click on any of the logos below to find out more about a cause that interests you.</p>"
+      "html": "<h2>Who do we support?</h2><p>The APT Foundation  has partnered with the following charities. You can choose who you want to support while being assured every dollar you donate will go directly to funding vital programs and services. Click on any of the logos below to find out more about a cause that interests you.</p>"
     },
     {
       "type": "logoGrid",
@@ -194,7 +194,7 @@
     },
     {
       "type": "richText",
-      "html": "<h2>How it works</h2><p>Donate to select grassroots causes, or give directly to OneTomorrow, who will distribute the funds where they need to go. These causes have been carefully researched and selected by local experts based on the impact they make and the passion of their staff. With your financial support, local not-for-profit organisations can continue serving the world and their communities. The best part? Donations through OneTomorrow are tax deductible, and all donations will be matched.<strong> Dollar for dollar. </strong></p>"
+      "html": "<h2>How it works</h2><p>Donate to select grassroots causes, or give directly to the APT Foundation, who will distribute the funds where they need to go. These causes have been carefully researched and selected by local experts based on the impact they make and the passion of their staff. With your financial support, local not-for-profit organisations can continue serving the world and their communities. The best part? Donations through the APT Foundation are tax deductible, and all donations will be matched.<strong> Dollar for dollar. </strong></p>"
     },
     {
       "type": "steps",
@@ -239,7 +239,7 @@
     },
     {
       "type": "richText",
-      "html": "<h2>Responsible Travel</h2><p>At OneTomorrow, we aspire to reduce our global footprint when travelling. By following a set of guidelines for conscientious travel, we hope to continue the increasing trend of travelling the world without bringing harm to the culture, environment, economies or locals of the places we visit. </p>",
+      "html": "<h2>Responsible Travel</h2><p>At the APT Foundation, we aspire to reduce our global footprint when travelling. By following a set of guidelines for conscientious travel, we hope to continue the increasing trend of travelling the world without bringing harm to the culture, environment, economies or locals of the places we visit. </p>",
       "ctas": [
         {
           "label": "Learn More",
@@ -249,7 +249,7 @@
     },
     {
       "type": "richText",
-      "html": "<h2>News</h2><p>Our OneTomorrow bulletin to keep you up to date</p>"
+      "html": "<h2>News</h2><p>Our the APT Foundation bulletin to keep you up to date</p>"
     },
     {
       "type": "newsFeed",
@@ -261,8 +261,8 @@
     }
   ],
   "seo": {
-    "title": "OneTomorrow",
-    "description": "One Tomorrow : Make a donation today to support One Tomorrow"
+    "title": "The APT Foundation",
+    "description": "The APT Foundation : Make a donation today to support the APT Foundation"
   },
   "status": "published",
   "originalUrl": "https://one-tomorrow.raiselysite.com/",

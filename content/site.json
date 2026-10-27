@@ -191,14 +191,14 @@
       "email": true,
       "copy": true
     },
-    "shareText": "One Tomorrow : Make a donation today to support One Tomorrow",
+    "shareText": "The APT Foundation : Make a donation today to support the APT Foundation",
     "hashtag": "one-tomorrow",
     "emailSubject": "Help me support [campaign]",
     "emailBody": "Hi there,\n\nI'm supporting [campaign] and would love for you to join me! You can make a donation to [campaign] online at: [url]\n\nThanks for all your support!",
     "profiles": []
   },
   "contact": {
-    "organisation": "OneTomorrow Charitable Fund",
+    "organisation": "The APT Foundation",
     "addressLines": [
       "Level 1, Building 4, 15 Cochranes Road",
       "Moorabbin, VIC 3189",
@@ -244,12 +244,14 @@
       ],
       "submitLabel": "Send",
       "originalEndpoint": "https://formspree.io/f/xoqrdwlj",
+      "deliveryEndpoint": "https://formsubmit.co/ajax/Josh.Strachan@aptouring.com.au",
+      "deliverySubject": "APT Foundation website enquiry",
       "successMessage": "Thank you for contacting us. We will be in touch soon."
     }
   },
   "seo": {
-    "defaultTitle": "OneTomorrow",
-    "defaultDescription": "One Tomorrow : Make a donation today to support One Tomorrow"
+    "defaultTitle": "The APT Foundation",
+    "defaultDescription": "The APT Foundation : Make a donation today to support the APT Foundation"
   },
   "globalCtas": {
     "donate": {
@@ -287,7 +289,7 @@
       "One-time",
       "Monthly"
     ],
-    "matchingStatementHtml": "<p><em>* OneTomorrow Charitable Fund matches donations up to $200,000 per year and up to $1,000 per individual donor.</em></p><p><em>*gifts over $2 are tax deductible and received subject to our <a href=\"/PrivacyPolicy\">donate/privacy policy</a>.</em></p>",
+    "matchingStatementHtml": "<p><em>* The APT Foundation matches donations up to $200,000 per year and up to $1,000 per individual donor.</em></p><p><em>*gifts over $2 are tax deductible and received subject to our <a href=\"/PrivacyPolicy\">donate/privacy policy</a>.</em></p>",
     "thankYouTitle": "Thank You",
     "thankYouMessage": "You've successfully made a donation of [donation.amount]!",
     "steps": [

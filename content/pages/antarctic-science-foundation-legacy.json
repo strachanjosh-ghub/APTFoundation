@@ -29,7 +29,7 @@
         }
       ],
       "imagePosition": "right",
-      "html": "<p><em>*One Tomorrow Charitable Fund matches donations up to $150,000 per year &amp; up to $1000.00 per individual donor.</em></p>\n<p><strong><em>\"We must protect Antarctica’s unique ecosystems and wildlife for the wellbeing of our planet.\"</em></strong></p>"
+      "html": "<p><em>*The APT Foundation matches donations up to $200,000 per year and up to $1,000 per individual donor.</em></p>\n<p><strong><em>\"We must protect Antarctica’s unique ecosystems and wildlife for the wellbeing of our planet.\"</em></strong></p>"
     },
     {
       "type": "mediaText",
@@ -43,7 +43,7 @@
     },
     {
       "type": "richText",
-      "html": "<p><em>OneTomorrow in project partnership with ACF – </em><a href=\"/about-us#background\" target=\"_blank\" rel=\"noopener noreferrer\"><em>learn more</em></a><em></em></p>"
+      "html": "<p><em>The APT Foundation in project partnership with ACF – </em><a href=\"/about-us#background\" target=\"_blank\" rel=\"noopener noreferrer\"><em>learn more</em></a><em></em></p>"
     },
     {
       "type": "imageBand",
@@ -57,7 +57,7 @@
   ],
   "seo": {
     "title": "Antarctic Science Foundation",
-    "description": "One Tomorrow : Make a donation today to support One Tomorrow"
+    "description": "The APT Foundation : Make a donation today to support the APT Foundation"
   },
   "status": "published",
   "originalUrl": "https://one-tomorrow.raiselysite.com/antarctic-science-foundation",

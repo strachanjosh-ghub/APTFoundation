@@ -6,6 +6,9 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { parse } from 'node-html-parser';
 import { Article, Cause, Page, Site } from '../src/lib/schemas';
+// @ts-expect-error JS module without types
+import { applyEditorial } from './editorial.mjs';
+const ed = (s: string): string => applyEditorial(s);
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const C = (p: string) => path.join(ROOT, 'content', p);
@@ -19,6 +22,10 @@ const textOf = (html: string) => norm(parse(`<div>${html.replace(/<br\s*\/?>/g, 
 function units(html: string): string[] {
   const root = parse(`<div>${html}</div>`, { comment: false });
   return root.querySelectorAll('p, h1, h2, h3, h4, h5, h6, li, label').map((n) => norm(n.text)).filter((t) => t.length > 0);
+}
+/** Source units with the owner-approved editorial changes applied (see scripts/editorial.mjs). */
+function sourceUnits(html: string): string[] {
+  return units(ed(html));
 }
 
 // Source text that is platform chrome or dynamically generated (rendered by components from data)
@@ -63,7 +70,7 @@ export function runFidelity(): Result[] {
       const html = s.innerHTML;
       if (/You are currently on page/.test(html) && /\/(posts|t)\//.test(html)) { notes.push('Dynamic listing section rendered from content objects.'); continue; }
       if (/apt-logo-primary-blue/.test(html) && s === sections[sections.length - 1]) continue; // global partner brands strip
-      for (const u of units(html)) {
+      for (const u of sourceUnits(html)) {
         if (IGNORE.some((r) => r.test(u))) continue;
         if (!migrated.includes(u)) missing.push(u);
       }
@@ -77,9 +84,9 @@ export function runFidelity(): Result[] {
     const cause = Cause.parse(readJson(C(`causes/${f}`)));
     const src = srcCauses[cause.slug];
     const missing: string[] = [];
-    if (units(cause.description).join('\n') !== units(src.public?.richProfileDescription || '').join('\n')) missing.push('description text differs from source richProfileDescription');
-    if (norm(cause.quote) !== norm(src.description || '')) missing.push('quote differs from source description');
-    if (cause.name !== src.name.trim()) missing.push('name differs');
+    if (units(cause.description).join('\n') !== sourceUnits(src.public?.richProfileDescription || '').join('\n')) missing.push('description text differs from source richProfileDescription');
+    if (norm(cause.quote) !== norm(ed(src.description || ''))) missing.push('quote differs from source description');
+    if (cause.name !== ed(src.name.trim())) missing.push('name differs');
     results.push({ id: cause.id, type: 'Cause', validation: missing.length ? 'incomplete' : 'exact', missing, notes: [] });
   }
 
@@ -89,8 +96,8 @@ export function runFidelity(): Result[] {
     const a = Article.parse(readJson(C(`articles/${f}`)));
     const src = srcPosts[a.slug];
     const missing: string[] = [];
-    if (units(a.body).join('\n') !== units(src.body).join('\n')) missing.push('body text differs from source');
-    if (a.title !== src.title) missing.push('title differs');
+    if (units(a.body).join('\n') !== sourceUnits(src.body).join('\n')) missing.push('body text differs from source');
+    if (a.title !== ed(src.title)) missing.push('title differs');
     results.push({ id: a.id, type: 'Article', validation: missing.length ? 'incomplete' : 'exact', missing, notes: [] });
   }
   return results;

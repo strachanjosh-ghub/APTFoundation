@@ -12,8 +12,15 @@ describe('contact API', () => {
   it('rejects an invalid email', async () => {
     expect((await POST(req({ fullname: 'A B', _replyto: 'nope' }))).status).toBe(422);
   });
-  it('returns 503 when no backend is configured', async () => {
-    expect((await POST(req({ fullname: 'A B' }))).status).toBe(503);
+  it('delivers to the endpoint configured in site.json by default (interim email via FormSubmit)', async () => {
+    const f = vi.fn().mockResolvedValue(new Response('{}', { status: 200 })); vi.stubGlobal('fetch', f);
+    expect((await POST(req({ fullname: 'A B' }))).status).toBe(200);
+    expect(f.mock.calls[0][0]).toBe('https://formsubmit.co/ajax/Josh.Strachan@aptouring.com.au');
+    expect(JSON.parse(f.mock.calls[0][1].body)._subject).toBe('APT Foundation website enquiry');
+  });
+  it('reports a delivery failure', async () => {
+    vi.stubGlobal('fetch', vi.fn().mockResolvedValue(new Response('{}', { status: 500 })));
+    expect((await POST(req({ fullname: 'A B' }))).status).toBe(502);
   });
   it('silently accepts honeypot submissions without forwarding', async () => {
     const f = vi.fn(); vi.stubGlobal('fetch', f);

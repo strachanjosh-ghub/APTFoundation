@@ -29,15 +29,30 @@ const tokens = {
   '--color-surface-alt': brand.colors.surfaceAlt,
   '--color-border': brand.colors.border,
   '--color-focus': brand.colors.focus,
+  '--color-highlight': brand.colors.highlight,
+  '--color-overlay': brand.colors.overlay,
+  '--font-campaign': brand.fonts.campaign,
   '--font-heading': brand.fonts.heading,
   '--font-body': brand.fonts.body,
+  '--fw-heading-strong': brand.fontWeights.headingStrong,
+  '--fw-heading-regular': brand.fontWeights.headingRegular,
+  '--fw-cta': brand.fontWeights.cta,
   '--radius': brand.radius,
 } as CSSProperties;
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   const gtm = process.env.NEXT_PUBLIC_GTM_ID;
+  const adobeKit = process.env.NEXT_PUBLIC_ADOBE_FONTS_KIT;
   return (
     <html lang="en-AU" style={tokens}>
+      <head>
+        {adobeKit ? (
+          <>
+            <link rel="preconnect" href="https://use.typekit.net" crossOrigin="anonymous" />
+            <link rel="stylesheet" href={`https://use.typekit.net/${adobeKit}.css`} />
+          </>
+        ) : null}
+      </head>
       <body>
         {gtm ? (
           <Script id="gtm" strategy="afterInteractive">{`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','${gtm}');`}</Script>

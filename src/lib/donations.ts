@@ -34,10 +34,10 @@ export function raiselyProvider(baseUrl: string): DonationProvider {
     id: 'raisely',
     checkoutUrl({ causeSlug, amount, interval }) {
       const url = new URL(`/t/${encodeURIComponent(causeSlug)}`, baseUrl);
-      // Prefill parameters. Raisely's support for these query params on v3 donation
-      // forms must be verified against the live campaign (docs/DONATIONS.md).
+      // Prefill parameters verified on the live Raisely v3 form (27 Oct 2026):
+      // `amount` pre-selects the amount; `frequency=MONTH` pre-selects Monthly.
       if (amount) url.searchParams.set('amount', String(amount));
-      if (interval === 'monthly') url.searchParams.set('interval', 'MONTH');
+      if (interval === 'monthly') url.searchParams.set('frequency', 'MONTH');
       return url.toString();
     },
   };

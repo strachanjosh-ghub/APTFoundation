@@ -6,7 +6,7 @@
   "template": "news-listing",
   "hero": {
     "heading": "News",
-    "html": "<p>Catch up on the latest initiatives and news from OneTomorrow</p>"
+    "html": "<p>Catch up on the latest initiatives and news from the APT Foundation</p>"
   },
   "contentBlocks": [
     {
@@ -20,7 +20,7 @@
   ],
   "seo": {
     "title": "News",
-    "description": "One Tomorrow : Make a donation today to support One Tomorrow"
+    "description": "The APT Foundation : Make a donation today to support the APT Foundation"
   },
   "status": "published",
   "originalUrl": "https://one-tomorrow.raiselysite.com/news",

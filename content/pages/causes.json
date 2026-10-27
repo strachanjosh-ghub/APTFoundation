@@ -5,8 +5,8 @@
   "path": "/causes",
   "template": "cause-listing",
   "hero": {
-    "heading": "Causes OneTomorrow Supports",
-    "html": "<p>Discover the not-for-profit and grassroots causes hand-picked and supported by OneTomorrow</p>"
+    "heading": "Causes the APT Foundation Supports",
+    "html": "<p>Discover the not-for-profit and grassroots causes hand-picked and supported by the APT Foundation</p>"
   },
   "contentBlocks": [
     {
@@ -55,7 +55,7 @@
   ],
   "seo": {
     "title": "Causes",
-    "description": "One Tomorrow : Make a donation today to support One Tomorrow"
+    "description": "The APT Foundation : Make a donation today to support the APT Foundation"
   },
   "status": "published",
   "originalUrl": "https://one-tomorrow.raiselysite.com/causes",
