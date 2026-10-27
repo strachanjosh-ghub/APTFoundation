@@ -1,0 +1,866 @@
+{
+  "generatedAt": "2026-10-27T08:43:52.073Z",
+  "source": "onetomorrow-source-snapshot.json",
+  "capturedAt": "2026-10-27T08:11:30.221Z",
+  "entries": [
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/",
+      "newUrl": "/",
+      "contentType": "Page",
+      "contentId": "home",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 24,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/about-us",
+      "newUrl": "/about-us",
+      "contentType": "Page",
+      "contentId": "about-us",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 16,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/faqs",
+      "newUrl": "/faqs",
+      "contentType": "Page",
+      "contentId": "faqs",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 7,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/responsible-travel",
+      "newUrl": "/responsible-travel",
+      "contentType": "Page",
+      "contentId": "responsible-travel",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 16,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/causes",
+      "newUrl": "/causes",
+      "contentType": "Page",
+      "contentId": "causes",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 9,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/news",
+      "newUrl": "/news",
+      "contentType": "Page",
+      "contentId": "news",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 5,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/Contact",
+      "newUrl": "/Contact",
+      "contentType": "Page",
+      "contentId": "contact",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 6,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/donate",
+      "newUrl": "/donate",
+      "contentType": "Page",
+      "contentId": "donate",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 8,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/PrivacyPolicy",
+      "newUrl": "/PrivacyPolicy",
+      "contentType": "Page",
+      "contentId": "privacy-policy",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 7,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/antarctic-science-foundation",
+      "newUrl": "/antarctic-science-foundation",
+      "contentType": "Page",
+      "contentId": "antarctic-science-foundation-legacy",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 9,
+      "notes": "Legacy standalone page (not linked from navigation); superseded by /t/antarctic-science-foundation but preserved at its original URL.",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/t/thin-green-line",
+      "newUrl": "/t/thin-green-line",
+      "contentType": "Cause",
+      "contentId": "thin-green-line",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 3,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/t/terry-fox-foundation",
+      "newUrl": "/t/terry-fox-foundation",
+      "contentType": "Cause",
+      "contentId": "terry-fox-foundation",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 3,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/t/grizzly-bear-foundation",
+      "newUrl": "/t/grizzly-bear-foundation",
+      "contentType": "Cause",
+      "contentId": "grizzly-bear-foundation",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 3,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/t/habitat-for-humanity",
+      "newUrl": "/t/habitat-for-humanity",
+      "contentType": "Cause",
+      "contentId": "habitat-for-humanity",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 3,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/t/kilimatembo-school",
+      "newUrl": "/t/kilimatembo-school",
+      "contentType": "Cause",
+      "contentId": "kilimatembo-school",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 3,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/t/wunan-foundation",
+      "newUrl": "/t/wunan-foundation",
+      "contentType": "Cause",
+      "contentId": "wunan-foundation",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 3,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/t/donate-to-one-tomorrow",
+      "newUrl": "/t/donate-to-one-tomorrow",
+      "contentType": "Cause",
+      "contentId": "donate-to-one-tomorrow",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 3,
+      "notes": "General fund profile (OneTomorrow Charitable Fund); target of footer \"Donate\" link.",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/t/gondwana-rainforest-trust",
+      "newUrl": "/t/gondwana-rainforest-trust",
+      "contentType": "Cause",
+      "contentId": "gondwana-rainforest-trust",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 3,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/t/blue-dragon",
+      "newUrl": "/t/blue-dragon",
+      "contentType": "Cause",
+      "contentId": "blue-dragon",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 3,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/t/rural-aid",
+      "newUrl": "/t/rural-aid",
+      "contentType": "Cause",
+      "contentId": "rural-aid",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 3,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/t/medecins-san-frontieres-doctors-without-borders",
+      "newUrl": "/t/medecins-san-frontieres-doctors-without-borders",
+      "contentType": "Cause",
+      "contentId": "medecins-san-frontieres-doctors-without-borders",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 2,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/t/royal-flying-doctor-service-rfds",
+      "newUrl": "/t/royal-flying-doctor-service-rfds",
+      "contentType": "Cause",
+      "contentId": "royal-flying-doctor-service-rfds",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 3,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/t/oda",
+      "newUrl": "/t/oda",
+      "contentType": "Cause",
+      "contentId": "oda",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 3,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/t/antarctic-science-foundation",
+      "newUrl": "/t/antarctic-science-foundation",
+      "contentType": "Cause",
+      "contentId": "antarctic-science-foundation",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 3,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/one-tomorrow/posts/for-every-guest-who-joins-a-2025-lake-eyre-tour-apt-will-donate-dollar100-to-rural-aids-queensland-flood-appeal-with-a-matching-contribution-from-onetomorrow",
+      "newUrl": "/one-tomorrow/posts/for-every-guest-who-joins-a-2025-lake-eyre-tour-apt-will-donate-dollar100-to-rural-aids-queensland-flood-appeal-with-a-matching-contribution-from-onetomorrow",
+      "contentType": "Article",
+      "contentId": "for-every-guest-who-joins-a-2025-lake-eyre-tour-apt-will-donate-dollar100-to-rural-aids-queensland-flood-appeal-with-a-matching-contribution-from-onetomorrow",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 1,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/one-tomorrow/posts/apt-supports-rfds-victoria-gala-to-help-raise-over-dollar200000-for-vital-regional-healthcare",
+      "newUrl": "/one-tomorrow/posts/apt-supports-rfds-victoria-gala-to-help-raise-over-dollar200000-for-vital-regional-healthcare",
+      "contentType": "Article",
+      "contentId": "apt-supports-rfds-victoria-gala-to-help-raise-over-dollar200000-for-vital-regional-healthcare",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 1,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/one-tomorrow/posts/leading-change-collaborating-for-a-better-future-in-vietnam",
+      "newUrl": "/one-tomorrow/posts/leading-change-collaborating-for-a-better-future-in-vietnam",
+      "contentType": "Article",
+      "contentId": "leading-change-collaborating-for-a-better-future-in-vietnam",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 1,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/one-tomorrow/posts/onetomorrow-donates-over-dollar500000-in-2022",
+      "newUrl": "/one-tomorrow/posts/onetomorrow-donates-over-dollar500000-in-2022",
+      "contentType": "Article",
+      "contentId": "onetomorrow-donates-over-dollar500000-in-2022",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 1,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/one-tomorrow/posts/peace-village-walker-tracker-fundraiser",
+      "newUrl": "/one-tomorrow/posts/peace-village-walker-tracker-fundraiser",
+      "contentType": "Article",
+      "contentId": "peace-village-walker-tracker-fundraiser",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 1,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/one-tomorrow/posts/onetomorrow-donates-dollar7500-to-rainforest-4-foundation",
+      "newUrl": "/one-tomorrow/posts/onetomorrow-donates-dollar7500-to-rainforest-4-foundation",
+      "contentType": "Article",
+      "contentId": "onetomorrow-donates-dollar7500-to-rainforest-4-foundation",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 1,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/one-tomorrow/posts/onetomorrow-champions-sustainability-onboard-travelmarvels-european-river-ships",
+      "newUrl": "/one-tomorrow/posts/onetomorrow-champions-sustainability-onboard-travelmarvels-european-river-ships",
+      "contentType": "Article",
+      "contentId": "onetomorrow-champions-sustainability-onboard-travelmarvels-european-river-ships",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 1,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/one-tomorrow/posts/onetomorrow-donates-dollar120000-to-unicef-to-provide-covid-19-vaccines",
+      "newUrl": "/one-tomorrow/posts/onetomorrow-donates-dollar120000-to-unicef-to-provide-covid-19-vaccines",
+      "contentType": "Article",
+      "contentId": "onetomorrow-donates-dollar120000-to-unicef-to-provide-covid-19-vaccines",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 1,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/one-tomorrow/posts/how-can-ice-help-answer-our-climate-questions",
+      "newUrl": "/one-tomorrow/posts/how-can-ice-help-answer-our-climate-questions",
+      "contentType": "Article",
+      "contentId": "how-can-ice-help-answer-our-climate-questions",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 1,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/one-tomorrow/posts/how-football-can-change-a-childs-life",
+      "newUrl": "/one-tomorrow/posts/how-football-can-change-a-childs-life",
+      "contentType": "Article",
+      "contentId": "how-football-can-change-a-childs-life",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 1,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/one-tomorrow/posts/highlighting-water-first-on-world-water-day",
+      "newUrl": "/one-tomorrow/posts/highlighting-water-first-on-world-water-day",
+      "contentType": "Article",
+      "contentId": "highlighting-water-first-on-world-water-day",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 1,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/one-tomorrow/posts/onetomorrow-donates-dollar20000-to-australian-flood-support",
+      "newUrl": "/one-tomorrow/posts/onetomorrow-donates-dollar20000-to-australian-flood-support",
+      "contentType": "Article",
+      "contentId": "onetomorrow-donates-dollar20000-to-australian-flood-support",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 1,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/one-tomorrow/posts/onetomorrow-supports-downtown-eastside-womens-centres-events",
+      "newUrl": "/one-tomorrow/posts/onetomorrow-supports-downtown-eastside-womens-centres-events",
+      "contentType": "Article",
+      "contentId": "onetomorrow-supports-downtown-eastside-womens-centres-events",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 1,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/one-tomorrow/posts/onetomorrow-sponsors-leopard-sharks",
+      "newUrl": "/one-tomorrow/posts/onetomorrow-sponsors-leopard-sharks",
+      "contentType": "Article",
+      "contentId": "onetomorrow-sponsors-leopard-sharks",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 1,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/one-tomorrow/posts/peace-village-international-providing-medical-attention-to-children-living-in-war-zones",
+      "newUrl": "/one-tomorrow/posts/peace-village-international-providing-medical-attention-to-children-living-in-war-zones",
+      "contentType": "Article",
+      "contentId": "peace-village-international-providing-medical-attention-to-children-living-in-war-zones",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 1,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/one-tomorrow/posts/rainforest-4-purchase-portion-of-daintree",
+      "newUrl": "/one-tomorrow/posts/rainforest-4-purchase-portion-of-daintree",
+      "contentType": "Article",
+      "contentId": "rainforest-4-purchase-portion-of-daintree",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 1,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/one-tomorrow/posts/supporting-the-kimberley-major-grants-to-two-worthy-charities",
+      "newUrl": "/one-tomorrow/posts/supporting-the-kimberley-major-grants-to-two-worthy-charities",
+      "contentType": "Article",
+      "contentId": "supporting-the-kimberley-major-grants-to-two-worthy-charities",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 1,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/one-tomorrow/posts/onetomorrow-donates-dollar12000-to-royal-flying-doctor-service",
+      "newUrl": "/one-tomorrow/posts/onetomorrow-donates-dollar12000-to-royal-flying-doctor-service",
+      "contentType": "Article",
+      "contentId": "onetomorrow-donates-dollar12000-to-royal-flying-doctor-service",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 1,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/one-tomorrow/posts/royal-flying-doctor-service-guardians-of-the-sky",
+      "newUrl": "/one-tomorrow/posts/royal-flying-doctor-service-guardians-of-the-sky",
+      "contentType": "Article",
+      "contentId": "royal-flying-doctor-service-guardians-of-the-sky",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 1,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/one-tomorrow/posts/wunan-foundation-breaking-the-cycle",
+      "newUrl": "/one-tomorrow/posts/wunan-foundation-breaking-the-cycle",
+      "contentType": "Article",
+      "contentId": "wunan-foundation-breaking-the-cycle",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 1,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/one-tomorrow/posts/extending-a-helping-hand-dollar15000-to-opportunities-of-development-thru-art",
+      "newUrl": "/one-tomorrow/posts/extending-a-helping-hand-dollar15000-to-opportunities-of-development-thru-art",
+      "contentType": "Article",
+      "contentId": "extending-a-helping-hand-dollar15000-to-opportunities-of-development-thru-art",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 1,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/one-tomorrow/posts/australias-biggest-virtual-morning-tea-news-story",
+      "newUrl": "/one-tomorrow/posts/australias-biggest-virtual-morning-tea-news-story",
+      "contentType": "Article",
+      "contentId": "australias-biggest-virtual-morning-tea-news-story",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 1,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/one-tomorrow/posts/in-support-of-longer-healthier-lives-for-australias-men",
+      "newUrl": "/one-tomorrow/posts/in-support-of-longer-healthier-lives-for-australias-men",
+      "contentType": "Article",
+      "contentId": "in-support-of-longer-healthier-lives-for-australias-men",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 1,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/one-tomorrow/posts/20000-donation-to-rural-aid-to-support-aussie-farmers",
+      "newUrl": "/one-tomorrow/posts/20000-donation-to-rural-aid-to-support-aussie-farmers",
+      "contentType": "Article",
+      "contentId": "20000-donation-to-rural-aid-to-support-aussie-farmers",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 1,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/one-tomorrow/posts/empowering-local-communities-through-education",
+      "newUrl": "/one-tomorrow/posts/empowering-local-communities-through-education",
+      "contentType": "Article",
+      "contentId": "empowering-local-communities-through-education",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 1,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/one-tomorrow/posts/a-lifeline-for-a-vital-community-service",
+      "newUrl": "/one-tomorrow/posts/a-lifeline-for-a-vital-community-service",
+      "contentType": "Article",
+      "contentId": "a-lifeline-for-a-vital-community-service",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 1,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/one-tomorrow/posts/onetomorrow-donates-to-an-ozchild-carer-in-need",
+      "newUrl": "/one-tomorrow/posts/onetomorrow-donates-to-an-ozchild-carer-in-need",
+      "contentType": "Article",
+      "contentId": "onetomorrow-donates-to-an-ozchild-carer-in-need",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 1,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/one-tomorrow/posts/longstanding-partners-of-apt-travel-group-atg-support-bushfire-relief",
+      "newUrl": "/one-tomorrow/posts/longstanding-partners-of-apt-travel-group-atg-support-bushfire-relief",
+      "contentType": "Article",
+      "contentId": "longstanding-partners-of-apt-travel-group-atg-support-bushfire-relief",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 1,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/one-tomorrow/posts/bushfire-relief-fundraising-at-apt-travel-group-atg",
+      "newUrl": "/one-tomorrow/posts/bushfire-relief-fundraising-at-apt-travel-group-atg",
+      "contentType": "Article",
+      "contentId": "bushfire-relief-fundraising-at-apt-travel-group-atg",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 1,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/one-tomorrow/posts/onetomorrow-scores-at-2019-workplace-giving-awards",
+      "newUrl": "/one-tomorrow/posts/onetomorrow-scores-at-2019-workplace-giving-awards",
+      "contentType": "Article",
+      "contentId": "onetomorrow-scores-at-2019-workplace-giving-awards",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 1,
+      "notes": "",
+      "validationIssues": []
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/one-tomorrow/posts/onetomorrow-donates-to-blue-dragon",
+      "newUrl": "/one-tomorrow/posts/onetomorrow-donates-to-blue-dragon",
+      "contentType": "Article",
+      "contentId": "onetomorrow-donates-to-blue-dragon",
+      "migrationStatus": "complete",
+      "contentValidation": "exact",
+      "assets": 1,
+      "notes": "",
+      "validationIssues": []
+    }
+  ],
+  "linkFixes": [
+    {
+      "context": "/",
+      "from": "https://www.aptouring.com.au/ target=\"_blank\"",
+      "to": "https://www.aptouring.com.au/"
+    },
+    {
+      "context": "/",
+      "from": "https://one-tomorrow.raisely.com/t/antarctic-science-foundation",
+      "to": "/t/antarctic-science-foundation"
+    },
+    {
+      "context": "/",
+      "from": "https://one-tomorrow.raisely.com/t/blue-dragon",
+      "to": "/t/blue-dragon"
+    },
+    {
+      "context": "/",
+      "from": "https://one-tomorrow.raisely.com/t/gondwana-rainforest-trust",
+      "to": "/t/gondwana-rainforest-trust"
+    },
+    {
+      "context": "/",
+      "from": "https://one-tomorrow.raisely.com/t/grizzly-bear-foundation",
+      "to": "/t/grizzly-bear-foundation"
+    },
+    {
+      "context": "/",
+      "from": "https://one-tomorrow.raisely.com/t/habitat-for-humanity",
+      "to": "/t/habitat-for-humanity"
+    },
+    {
+      "context": "/",
+      "from": "https://one-tomorrow.raisely.com/t/kilimatembo-school",
+      "to": "/t/kilimatembo-school"
+    },
+    {
+      "context": "/",
+      "from": "https://one-tomorrow.raisely.com/t/medecins-san-frontieres-doctors-without-borders",
+      "to": "/t/medecins-san-frontieres-doctors-without-borders"
+    },
+    {
+      "context": "/",
+      "from": "https://one-tomorrow.raisely.com/t/oda",
+      "to": "/t/oda"
+    },
+    {
+      "context": "/",
+      "from": "https://one-tomorrow.raisely.com/t/royal-flying-doctor-service-rfds",
+      "to": "/t/royal-flying-doctor-service-rfds"
+    },
+    {
+      "context": "/",
+      "from": "https://one-tomorrow.raisely.com/t/rural-aid",
+      "to": "/t/rural-aid"
+    },
+    {
+      "context": "/",
+      "from": "https://one-tomorrow.raisely.com/t/terry-fox-foundation",
+      "to": "/t/terry-fox-foundation"
+    },
+    {
+      "context": "/",
+      "from": "https://one-tomorrow.raisely.com/t/thin-green-line",
+      "to": "/t/thin-green-line"
+    },
+    {
+      "context": "/",
+      "from": "https://one-tomorrow.raisely.com/t/wunan-foundation",
+      "to": "/t/wunan-foundation"
+    },
+    {
+      "context": "/Contact",
+      "from": "mailto: info@onetomorrow.com.au",
+      "to": "mailto:info@onetomorrow.com.au"
+    },
+    {
+      "context": "/PrivacyPolicy",
+      "from": "/www.communityfoundation.org.au/policies/privacy",
+      "to": "https://www.communityfoundation.org.au/policies/privacy"
+    },
+    {
+      "context": "/PrivacyPolicy",
+      "from": "/globaldevelopmentgroup.org/au/help/site-user-policy/",
+      "to": "https://globaldevelopmentgroup.org/au/help/site-user-policy/"
+    },
+    {
+      "context": "/antarctic-science-foundation",
+      "from": "https://one-tomorrow.raisely.com/about-us#background",
+      "to": "/about-us#background"
+    },
+    {
+      "context": "/t/habitat-for-humanity",
+      "from": "https://one-tomorrow.raisely.com/about-us",
+      "to": "/about-us"
+    },
+    {
+      "context": "/t/donate-to-one-tomorrow",
+      "from": "https://one-tomorrow.raisely.com/causes",
+      "to": "/causes"
+    },
+    {
+      "context": "/one-tomorrow/posts/onetomorrow-donates-dollar20000-to-australian-flood-support",
+      "from": "https://one-tomorrow.raisely.com/t/rural-aid",
+      "to": "/t/rural-aid"
+    },
+    {
+      "context": "/one-tomorrow/posts/onetomorrow-supports-downtown-eastside-womens-centres-events",
+      "from": "https://one-tomorrow.raisely.com/t/downtown-eastside-womens-centre",
+      "to": "/t/downtown-eastside-womens-centre"
+    },
+    {
+      "context": "/one-tomorrow/posts/onetomorrow-sponsors-leopard-sharks",
+      "from": "https://one-tomorrow.raisely.com/t/conservation-international-greater-mekong",
+      "to": "/t/conservation-international-greater-mekong"
+    },
+    {
+      "context": "/one-tomorrow/posts/peace-village-international-providing-medical-attention-to-children-living-in-war-zones",
+      "from": "https://one-tomorrow.raisely.com/t/peace-village-international",
+      "to": "/t/peace-village-international"
+    },
+    {
+      "context": "/one-tomorrow/posts/peace-village-international-providing-medical-attention-to-children-living-in-war-zones",
+      "from": "https://one-tomorrow.raisely.com/t/peace-village-international",
+      "to": "/t/peace-village-international"
+    },
+    {
+      "context": "/one-tomorrow/posts/rainforest-4-purchase-portion-of-daintree",
+      "from": "https://one-tomorrow.raisely.com/t/rainforest-4-foundation",
+      "to": "/t/rainforest-4-foundation"
+    },
+    {
+      "context": "/one-tomorrow/posts/supporting-the-kimberley-major-grants-to-two-worthy-charities",
+      "from": "https://one-tomorrow.raisely.com/t/wunan-foundation",
+      "to": "/t/wunan-foundation"
+    },
+    {
+      "context": "nav",
+      "from": "https://one-tomorrow.raisely.com/about-us#difference",
+      "to": "/about-us#difference"
+    },
+    {
+      "context": "nav",
+      "from": "https://one-tomorrow.raisely.com/about-us#background",
+      "to": "/about-us#background"
+    }
+  ],
+  "brandReplacements": [
+    {
+      "context": "/",
+      "asset": "https://raisely-images.imgix.net/one-tomorrow/uploads/ot-background-01-svg-5efa10.svg",
+      "replacedWith": "APT Foundation brand hero (config/brand.ts)"
+    },
+    {
+      "context": "/about-us",
+      "asset": "https://raisely-images.imgix.net/one-tomorrow/uploads/ot-background-01-svg-280ffc.svg",
+      "replacedWith": "APT Foundation brand hero (config/brand.ts)"
+    },
+    {
+      "context": "/responsible-travel",
+      "asset": "https://raisely-images.imgix.net/one-tomorrow/uploads/ot-background-01-svg-dcefc2.svg",
+      "replacedWith": "APT Foundation brand hero (config/brand.ts)"
+    },
+    {
+      "context": "/causes",
+      "asset": "https://raisely-images.imgix.net/one-tomorrow/uploads/ot-background-01-svg-5efa10.svg",
+      "replacedWith": "APT Foundation brand hero (config/brand.ts)"
+    },
+    {
+      "context": "/news",
+      "asset": "https://raisely-images.imgix.net/one-tomorrow/uploads/ot-background-01-svg-5efa10.svg",
+      "replacedWith": "APT Foundation brand hero (config/brand.ts)"
+    },
+    {
+      "context": "/Contact",
+      "asset": "https://raisely-images.imgix.net/one-tomorrow/uploads/ot-background-01-svg-dcefc2.svg",
+      "replacedWith": "APT Foundation brand hero (config/brand.ts)"
+    }
+  ],
+  "excluded": [
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/signup",
+      "title": "Sign Up • {{campaign.name}}",
+      "reason": "Raisely platform function (accounts, fundraiser profiles, login, search). Not part of the public editorial site; handled by the donation provider."
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/:id",
+      "title": "{{current.profile.name}} • {{campaign.name}}",
+      "reason": "Raisely platform function (accounts, fundraiser profiles, login, search). Not part of the public editorial site; handled by the donation provider."
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/dashboard",
+      "title": "Dashboard • {{campaign.name}}",
+      "reason": "Raisely platform function (accounts, fundraiser profiles, login, search). Not part of the public editorial site; handled by the donation provider."
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/:id/edit",
+      "title": "Edit Profile • {{campaign.name}}",
+      "reason": "Raisely platform function (accounts, fundraiser profiles, login, search). Not part of the public editorial site; handled by the donation provider."
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/create/:type",
+      "title": "Create Profile • {{campaign.name}}",
+      "reason": "Raisely platform function (accounts, fundraiser profiles, login, search). Not part of the public editorial site; handled by the donation provider."
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/search",
+      "title": "Search • {{campaign.name}}",
+      "reason": "Raisely platform function (accounts, fundraiser profiles, login, search). Not part of the public editorial site; handled by the donation provider."
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/reset/:passwordResetToken?",
+      "title": "Reset Your Password • {{campaign.name}}",
+      "reason": "Raisely platform function (accounts, fundraiser profiles, login, search). Not part of the public editorial site; handled by the donation provider."
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/login",
+      "title": "Log In • {{campaign.name}}",
+      "reason": "Raisely platform function (accounts, fundraiser profiles, login, search). Not part of the public editorial site; handled by the donation provider."
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/account/payment-methods/:id",
+      "title": "Update Payment Details • {{campaign.name}}",
+      "reason": "Raisely platform function (accounts, fundraiser profiles, login, search). Not part of the public editorial site; handled by the donation provider."
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/account/password",
+      "title": "Change Password • {{campaign.name}}",
+      "reason": "Raisely platform function (accounts, fundraiser profiles, login, search). Not part of the public editorial site; handled by the donation provider."
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/account/donations",
+      "title": "My Donations • {{campaign.name}}",
+      "reason": "Raisely platform function (accounts, fundraiser profiles, login, search). Not part of the public editorial site; handled by the donation provider."
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/account/details",
+      "title": "My Account • {{campaign.name}}",
+      "reason": "Raisely platform function (accounts, fundraiser profiles, login, search). Not part of the public editorial site; handled by the donation provider."
+    },
+    {
+      "originalUrl": "https://one-tomorrow.raiselysite.com/page/about",
+      "title": "About Fundraising • {{campaign.name}}",
+      "reason": "Raisely theme placeholder page (\"How to create a birthday fundraiser\") with template filler text; not linked anywhere on the site."
+    }
+  ],
+  "validatedAt": "2026-10-27T08:43:52.751Z",
+  "summary": {
+    "total": 55,
+    "exact": 55,
+    "incomplete": 0,
+    "brokenInternalLinks": [],
+    "mediaProblems": []
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "id": "about-us",
+  "title": "About Us",
+  "slug": "about-us",
+  "path": "/about-us",
+  "template": "about",
+  "hero": {
+    "heading": "About Us",
+    "html": "<p>OneTomorrow Charitable Fund is an initiative of the APT Travel Group (ATG), a not-for-profit program with a vision to strive for a positive, enduring impact on the nature and communities we touch. This is achieved through immediate and long-term influence in various environmental and humanitarian causes.</p><p>Over the years APT Travel Group (ATG) has contributed to and partnered with several worthy charities, both locally and abroad. The OneTomorrow Charitable Fund was created to establish a more formalised approach to these activities.<br></p>"
+  },
+  "contentBlocks": [
+    {
+      "type": "imageBand",
+      "image": {
+        "src": "/media/ot-generic-hand-holding-tree-planting-1407793820-s-cropped-jpg-9f5579.jpg"
+      }
+    },
+    {
+      "type": "mediaText",
+      "images": [
+        {
+          "src": "/media/o-misc-child-hand-holding-an-earth-toy-612398934-i-alt-400-x-200-jpg-b4abcf.jpg"
+        }
+      ],
+      "imagePosition": "right",
+      "html": "<h2>Making a Difference</h2><h3>Make Travel Mean More</h3><p>Travel changes us. Whether it’s those small moments that move you, or the lifelong memories you create, journeys can transform how we see the world. At OneTomorrow, we recognise the power that travel has. We want to take it one step further. Working with you and the great causes we support around the world, together we are creating a future where travel means more.<br></p>",
+      "anchor": "difference"
+    },
+    {
+      "type": "mediaText",
+      "images": [
+        {
+          "src": "/media/a-ship-rv-samatha-reception-491-apt-400-x-200-jpg-a9feb5.jpg"
+        }
+      ],
+      "imagePosition": "left",
+      "html": "<h3>Guest Giving</h3><p>Our world is a beautiful one, filled with diverse cultures and unique environments. As a guest of the APT Travel Group (ATG), you can now further immerse yourself in the places you visit. OneTomorrow’s Guest Giving program allows you to support worthy projects in different regions around the world, with our matched funding doubling your impact. Our partner organisations are carefully selected to better local communities and the environment.</p>"
+    },
+    {
+      "type": "mediaText",
+      "images": [
+        {
+          "src": "/media/o-blue-dragon-presentation-original-400-x-200-jpg-8532d7.jpg"
+        }
+      ],
+      "imagePosition": "right",
+      "html": "<h3>Grants and Donations</h3><p>As a family business, the APT Travel Group (ATG) has been driven by its community conscience and strong family values for over 96 years. These values led to the formation of OneTomorrow and are paramount in everything we do. From donating to our charity partners, matching our guests’ donations, supporting regions impacted by disaster and pouring what we can back into the global community, we ensure we live up to our vision as a responsible business. </p>"
+    },
+    {
+      "type": "mediaText",
+      "images": [
+        {
+          "src": "/media/o-workplace-giving-101-173-high-res-cmyk-400-x-200-jpg-be0334.jpg"
+        }
+      ],
+      "imagePosition": "left",
+      "html": "<h3>Workplace Giving</h3><p>Making a difference starts from the ground up, and our Workplace Giving program encourages charitable giving within the APT Travel Group (ATG). Regular tax-deductible donations from our staff go towards local charities, with funds matched by OneTomorrow. For our efforts, we were awarded the bronze medal at the Australian Workplace Giving Awards, showing the impact we can make on a personal level.</p><p>Our Workplace Giving charities, chosen by our staff, include Cancer Council, The Smith Family, Backpack4Kids, Blue Dragon, Royal Flying Doctor Service, Rural Aid, The Salvation Army, STREAT, Australian Animal Protection Society, Beyond Blue, Médecins San Frontiers (Doctors without Borders) and The Royal Children's Hospital Melbourne.</p>"
+    },
+    {
+      "type": "mediaText",
+      "images": [
+        {
+          "src": "/media/o-charity-day-15-jan-2020-recycle-boutique-deb-fox-dsc-6918-400-x-200-jpg-01b879.jpg"
+        }
+      ],
+      "imagePosition": "right",
+      "html": "<h3>Our People</h3><p>OneTomorrow and the APT Travel Group (ATG) are made up of a team of incredible staff whose personal values shine through in what they do. Volunteer days and staff fundraising initiatives, ranging from office bake sales to raffles, allows us to express our support for causes we feel passionate about. Instigated and run by staff voluntarily, these activities are supported by APT Travel Group and furthered by OneTomorrow’s matched funding.</p>"
+    },
+    {
+      "type": "imageBand",
+      "image": {
+        "src": "/media/o-misc-hands-philanthropy-1014930184-s-jpg-15067b.jpg"
+      }
+    },
+    {
+      "type": "richText",
+      "html": "<h2>Background</h2><h3>OneTomorrow's Origin</h3><p> OneTomorrow has been 21 years in the making, since the APT Travel Group (ATG) first established a philanthropic fund with the Australian Communities Foundation (ACF). Owned and operated by the McGeary family for over 97 years, the APT Travel Group (ATG) has always stood by its social integrity and strong family values. Today, this means delivering guests exceptional journeys globally, while providing meaningful connections and strategic philanthropic investment within the communities they visit. Launched in 2019, OneTomorrow is the resulting philanthropic initiative of the APT Travel Group (ATG). </p><h3>Our Mission</h3><p>OneTomorrow strives to have a positive, enduring impact on the nature and communities we touch. Our mission is conscientious travel, and we hope to achieve this by creating an immediate and long-term positive influence on the environmental and humanitarian causes we support. This is achieved through:</p><ul><li><p>Connecting the world with sustainable movements. </p></li><li><p>Enhancing and empowering the livelihood of communities. </p></li><li><p>Being leaders in change, and educating through our global business and social reach. </p></li><li><p>Forging meaningful connections between OneTomorrow and our guests that are preserved long after their return home.</p></li></ul><h3>Accountability and Governance</h3><p>OneTomorrow Charitable Fund is a not-for-profit sub-fund of the Australian Communities Foundation (ACF: ABN 57967620066) and a partner of Australian NGO, Global Development Group (GDG: ABN 57 102 400 993). Together these provide a formalised, legally compliant framework to ensure donated funds benefit the designated projects. </p>",
+      "anchor": "background"
+    },
+    {
+      "type": "mediaText",
+      "images": [
+        {
+          "src": "/media/acf-500-x-300-top-png-c6e513.png",
+          "href": "https://communityfoundation.org.au/"
+        }
+      ],
+      "imagePosition": "left",
+      "html": "<p>The <a href=\"https://www.communityfoundation.org.au/\" target=\"_blank\" rel=\"noopener noreferrer\">Australian Communities Foundation</a>, as a registered Deductible Gift Recipient for tax purposes, manages the money invested by APT Travel Group. </p>"
+    },
+    {
+      "type": "mediaText",
+      "images": [
+        {
+          "src": "/media/gdg-top-500-x-300-png-659d50.png",
+          "href": "https://globaldevelopmentgroup.org/au/"
+        }
+      ],
+      "imagePosition": "left",
+      "html": "<p><a href=\"https://globaldevelopmentgroup.org/au/\" target=\"_blank\" rel=\"noopener noreferrer\">Global Development Group</a> is an Item 1 Deductible Gift Recipient and ACNC-registered charity, a member of the Australian Council for International Development (ACFID) and an approved organisation under DFAT’s Overseas Aid Gift Deduction Scheme, carrying out approved projects overseas with smaller, grassroots in-country project partners around the world.</p>"
+    },
+    {
+      "type": "richText",
+      "html": "<h3>APT Travel Group (ATG) Brands</h3><p>Through a comprehensive suite of travel brands, the APT Travel Group (ATG) has pioneered global and domestic travel experiences that cater to everyone. The APT Travel Group (ATG) is comprised of the brands APT, Travelmarvel, Captain’s Choice, Botanica World Discoveries, Antarctica Flights and TravelGlo. </p>"
+    },
+    {
+      "type": "logoGrid",
+      "items": [
+        {
+          "image": {
+            "src": "/media/apt-logo-primary-blue-png-a4c5eb.png",
+            "alt": "APT"
+          },
+          "label": "APT",
+          "href": "https://www.aptouring.com"
+        },
+        {
+          "image": {
+            "src": "/media/tm-logo-centered-pine-png-d88b94.png",
+            "alt": "Travelmarvel"
+          },
+          "label": "Travelmarvel",
+          "href": "https://www.travelmarvel.com/"
+        },
+        {
+          "image": {
+            "src": "/media/captains-choice-500-x-300-png-e29070.png",
+            "alt": "Captain's Choice"
+          },
+          "label": "Captain's Choice",
+          "href": "https://www.captainschoice.com.au/"
+        },
+        {
+          "image": {
+            "src": "/media/botanica-500-x-300-png-f149d1.png",
+            "alt": "Botanica"
+          },
+          "label": "Botanica",
+          "href": "https://www.botanicatours.com/"
+        },
+        {
+          "image": {
+            "src": "/media/antarctica-flights-logo-500-x-300-png-3cb3e4.png",
+            "alt": "Antarctica Flights"
+          },
+          "label": "Antarctica Flights",
+          "href": "https://www.antarcticaflights.com.au/"
+        }
+      ]
+    },
+    {
+      "type": "imageBand",
+      "image": {
+        "src": "/media/o-as-vie-a-43-r-9606-apt-exp-1-11-19-1920-x-600-jpg-294149.jpg"
+      }
+    },
+    {
+      "type": "richText",
+      "html": "<h2>FAQs</h2><p>If you have a specific question or want to know more, please check our FAQ page.</p>",
+      "ctas": [
+        {
+          "label": "Find Out More",
+          "href": "/faqs"
+        }
+      ]
+    },
+    {
+      "type": "partnerBrands"
+    }
+  ],
+  "seo": {
+    "title": "About Us",
+    "description": "One Tomorrow : Make a donation today to support One Tomorrow"
+  },
+  "status": "published",
+  "originalUrl": "https://one-tomorrow.raiselysite.com/about-us",
+  "source": {
+    "raiselyPageUuid": "0443dc70-449a-11ea-acf2-1104c6a8956d",
+    "updatedAt": "2026-03-30T23:16:45.893Z"
+  }
+}

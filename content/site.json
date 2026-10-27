@@ -1,0 +1,321 @@
+{
+  "identity": {
+    "sourceName": "OneTomorrow",
+    "sourceTagline": "For nature. For humanity. For tomorrow.",
+    "sourceLogo": {
+      "src": "/media/ot-main-logo-01-svg-385184.svg",
+      "alt": "OneTomorrow Logo"
+    }
+  },
+  "navigation": {
+    "primary": [
+      {
+        "title": "About Us",
+        "href": "/about-us",
+        "children": [
+          {
+            "title": "Making a Difference",
+            "href": "/about-us#difference"
+          },
+          {
+            "title": "Background",
+            "href": "/about-us#background"
+          },
+          {
+            "title": "FAQs",
+            "href": "/faqs"
+          }
+        ]
+      },
+      {
+        "title": "Responsible Travel",
+        "href": "/responsible-travel",
+        "style": "secondary",
+        "children": []
+      },
+      {
+        "title": "Causes",
+        "href": "/causes",
+        "children": [
+          {
+            "title": "Antarctic Science Foundation",
+            "href": "/t/antarctic-science-foundation"
+          },
+          {
+            "title": "Blue Dragon Children's Foundation",
+            "href": "/t/blue-dragon"
+          },
+          {
+            "title": "Gondwana Rainforest Trust",
+            "href": "/t/gondwana-rainforest-trust"
+          },
+          {
+            "title": "Grizzly Bear Foundation",
+            "href": "/t/grizzly-bear-foundation"
+          },
+          {
+            "title": "Habitat for Humanity",
+            "href": "/t/habitat-for-humanity"
+          },
+          {
+            "title": " Kilimatembo School ",
+            "href": "/t/kilimatembo-school"
+          },
+          {
+            "title": "Médecins San Frontieres (Doctors Without Borders)",
+            "href": "/t/medecins-san-frontieres-doctors-without-borders"
+          },
+          {
+            "title": "Opportunities of Development Thru Art (ODA) ",
+            "href": "/t/oda"
+          },
+          {
+            "title": "Royal Flying Doctor Service (RFDS)",
+            "href": "/t/royal-flying-doctor-service-rfds"
+          },
+          {
+            "title": "Rural Aid",
+            "href": "/t/rural-aid"
+          },
+          {
+            "title": "Terry Fox Foundation",
+            "href": "/t/terry-fox-foundation"
+          },
+          {
+            "title": "Thin Green Line",
+            "href": "/t/thin-green-line"
+          },
+          {
+            "title": "Wunan Foundation",
+            "href": "/t/wunan-foundation"
+          }
+        ]
+      },
+      {
+        "title": "News",
+        "href": "/news",
+        "style": "secondary",
+        "children": []
+      },
+      {
+        "title": "Contact",
+        "href": "/Contact",
+        "style": "secondary",
+        "children": []
+      }
+    ]
+  },
+  "footer": {
+    "links": [
+      {
+        "title": "About Us",
+        "href": "/about-us"
+      },
+      {
+        "title": "Responsible Travel",
+        "href": "/responsible-travel"
+      },
+      {
+        "title": "Causes",
+        "href": "/causes"
+      },
+      {
+        "title": "News",
+        "href": "/news"
+      },
+      {
+        "title": "Contact",
+        "href": "/Contact"
+      },
+      {
+        "title": "Donate",
+        "href": "/t/donate-to-one-tomorrow"
+      },
+      {
+        "title": "Privacy Policy",
+        "href": "/PrivacyPolicy"
+      },
+      {
+        "title": "FAQs",
+        "href": "/faqs"
+      }
+    ],
+    "sourceCopyright": "©️ OneTomorrow 2025"
+  },
+  "partnerBrands": [
+    {
+      "name": "www.aptouring.com",
+      "image": {
+        "src": "/media/apt-logo-primary-blue-png-a4c5eb.png",
+        "alt": "www.aptouring.com"
+      },
+      "href": "https://www.aptouring.com"
+    },
+    {
+      "name": "www.travelmarvel.com",
+      "image": {
+        "src": "/media/tm-logo-centered-pine-png-d88b94.png",
+        "alt": "www.travelmarvel.com"
+      },
+      "href": "https://www.travelmarvel.com"
+    },
+    {
+      "name": "www.captainschoice.com.au",
+      "image": {
+        "src": "/media/captains-choice-500-x-300-png-e29070.png",
+        "alt": "www.captainschoice.com.au"
+      },
+      "href": "http://www.captainschoice.com.au/"
+    },
+    {
+      "name": "https://www.botanicatours.com/",
+      "image": {
+        "src": "/media/botanica-500-x-300-png-f149d1.png",
+        "alt": "https://www.botanicatours.com/"
+      },
+      "href": "https://www.botanicatours.com/"
+    },
+    {
+      "name": "Antarctica Flights",
+      "image": {
+        "src": "/media/antarctica-flights-logo-500-x-300-png-a354cf.png",
+        "alt": "Antarctica Flights"
+      },
+      "href": "https://antarcticaflights.com.au/"
+    }
+  ],
+  "social": {
+    "shareEnabled": {
+      "facebook": true,
+      "twitter": true,
+      "email": true,
+      "copy": true
+    },
+    "shareText": "One Tomorrow : Make a donation today to support One Tomorrow",
+    "hashtag": "one-tomorrow",
+    "emailSubject": "Help me support [campaign]",
+    "emailBody": "Hi there,\n\nI'm supporting [campaign] and would love for you to join me! You can make a donation to [campaign] online at: [url]\n\nThanks for all your support!",
+    "profiles": []
+  },
+  "contact": {
+    "organisation": "OneTomorrow Charitable Fund",
+    "addressLines": [
+      "Level 1, Building 4, 15 Cochranes Road",
+      "Moorabbin, VIC 3189",
+      "Australia"
+    ],
+    "email": "info@onetomorrow.com.au",
+    "phones": [
+      "(03) 8526 1631",
+      "1300 278 278"
+    ],
+    "form": {
+      "intro": "Let's connect!",
+      "fields": [
+        {
+          "name": "fullname",
+          "label": "Your Full Name (required)",
+          "type": "text",
+          "placeholder": "First and Last",
+          "required": true
+        },
+        {
+          "name": "_replyto",
+          "label": "Your Email (required)",
+          "type": "email",
+          "placeholder": "email@domain.tld",
+          "required": false,
+          "note": "Labelled \"(required)\" in the source but not enforced by the original form."
+        },
+        {
+          "name": "phone",
+          "label": "Your Phone Number",
+          "type": "tel",
+          "placeholder": "#### ### ###",
+          "required": false
+        },
+        {
+          "name": "message",
+          "label": "Message (required)",
+          "type": "textarea",
+          "required": false,
+          "note": "Labelled \"(required)\" in the source but not enforced by the original form."
+        }
+      ],
+      "submitLabel": "Send",
+      "originalEndpoint": "https://formspree.io/f/xoqrdwlj",
+      "successMessage": "Thank you for contacting us. We will be in touch soon."
+    }
+  },
+  "seo": {
+    "defaultTitle": "OneTomorrow",
+    "defaultDescription": "One Tomorrow : Make a donation today to support One Tomorrow"
+  },
+  "globalCtas": {
+    "donate": {
+      "label": "Donate Now",
+      "href": "/t/donate-to-one-tomorrow"
+    }
+  },
+  "donation": {
+    "provider": "raisely",
+    "currency": "AUD",
+    "amounts": {
+      "once": [
+        25,
+        50,
+        100,
+        500,
+        1000
+      ],
+      "monthly": [
+        5,
+        10,
+        25,
+        50,
+        100
+      ]
+    },
+    "renderedAmounts": [
+      25,
+      50,
+      100,
+      500,
+      1000
+    ],
+    "intervals": [
+      "One-time",
+      "Monthly"
+    ],
+    "matchingStatementHtml": "<p><em>* OneTomorrow Charitable Fund matches donations up to $200,000 per year and up to $1,000 per individual donor.</em></p><p><em>*gifts over $2 are tax deductible and received subject to our <a href=\"/PrivacyPolicy\">donate/privacy policy</a>.</em></p>",
+    "thankYouTitle": "Thank You",
+    "thankYouMessage": "You've successfully made a donation of [donation.amount]!",
+    "steps": [
+      "Step 1",
+      "Step 2",
+      "Step 3"
+    ],
+    "detailsHeading": "Your Details",
+    "paymentsHeading": "Your Payment Details",
+    "paymentMethods": [
+      "Apple Pay",
+      "Google Pay",
+      "Visa",
+      "Mastercard",
+      "American Express",
+      "Diners Club",
+      "Discover",
+      "JCB",
+      "Union Pay"
+    ],
+    "raisely": {
+      "campaignPath": "one-tomorrow",
+      "campaignUuid": "f860da90-04ff-11ea-a05f-e568734ff3b2",
+      "hostedBaseUrl": "https://one-tomorrow.raiselysite.com"
+    }
+  },
+  "analytics": {
+    "sourceGtm": "GTM-TZ8P6J5",
+    "sourceGa": "UA-35854632-19"
+  }
+}

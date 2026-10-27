@@ -1,0 +1,33 @@
+{
+  "id": "medecins-san-frontieres-doctors-without-borders",
+  "name": "Médecins San Frontieres (Doctors Without Borders)",
+  "slug": "medecins-san-frontieres-doctors-without-borders",
+  "path": "/t/medecins-san-frontieres-doctors-without-borders",
+  "originalUrl": "https://one-tomorrow.raiselysite.com/t/medecins-san-frontieres-doctors-without-borders",
+  "order": 11,
+  "isGeneralFund": false,
+  "logo": {
+    "src": "/media/msfapprovedlogo-png-339749.png",
+    "alt": "Médecins San Frontieres (Doctors Without Borders) logo"
+  },
+  "heroImage": {
+    "src": "/media/doctors-without-borders-jpg-feb0a2.jpg"
+  },
+  "quote": "\"The act of humanitarianism comes down to one thing: individual human beings reaching out to those others who find themselves in the most difficult circumstances. And they reach out one bandage at a time, one suture at a time, one vaccination at a time. Humanitarian responsibility has no frontiers\"\nDr James Orbinski – former international president of Doctors Without Borders",
+  "description": "<h4 style=\"\"><br></h4><blockquote>Médecins Sans Frontières / Doctors Without Borders (MSF) is an international independent medical humanitarian organisation delivering emergency medical aid to people affected by armed conflict, epidemics, natural disasters, and exclusion from healthcare in over 70 countries worldwide. MSF medical teams act fast to save people’s lives. Everywhere they work, the circumstances are unique, but rapid and effective response to emergencies is at the core of their work.</blockquote><h6><h3><br><span><b>The Problem</b></span></h3></h6><p>When a crisis like COVID-19 strikes, MSF doctors, nurses and midwives are on the frontline of the response. Supported by 50 years of experience responding to emergencies, MSF teams work to protect the most vulnerable — people whose lives are in danger, who are at risk of hunger and disease, people trapped in conflict zones where health systems have collapsed, people who are excluded from healthcare, or at risk of exploitation.</p><h3>The Solution\n</h3><p>MSF provide free medical care to people who need it. It doesn’t matter which country they are from, which religion they belong to, or what their political affiliations are. All that matters is they are human beings in need.\n</p><p style=\"\"><b><br></b>In a conflict situation, MSF don’t take sides, but go where people’s medical needs are greatest. In the ward of one Médecins Sans Frontières field hospital, you might find wounded civilians alongside injured soldiers from opposing sides. Hostilities and weapons must be left at the gate.</p><p style=\"\"><br></p><p style=\"\">\n</p><h3 style=\"\"><b>What difference will your money make?</b></h3><p style=\"\"><b>$25.00 </b>per month over a year could provide urgent ready to use therapeutic food to 690 malnourished children</p><div><b>$45.00 </b>per month over a year could provide 1350 vital vaccines to combat a measles outbreak.</div><p><b>$75.00 </b>per month over a year could supply a medical team with emergency health kits to treat 300 people in need.</p><p><a href=\"https://msf.org.au/\" target=\"_blank\" rel=\"noopener noreferrer\">https://msf.org.au/</a></p>\n<p style=\"\"><span><i>OneTomorrow in project partnership with Australian Communities Foundation (ACF) – <a href=\"/about-us#background\" target=\"_blank\" rel=\"noopener noreferrer\">learn more</a></i></span></p><blockquote><span><i><br></i></span><span><i>Image: MSF Nurse Activity Manager Awa Abdumadou shares light moments with two community volunteers during a weekly visit to one of the 17 Integrated Community Case Management sites in Abyei. ©Isaac Buay/MSF</i></span></blockquote>",
+  "contentBlocks": [],
+  "donationCampaignId": "90e64590-4e28-11ea-989f-432643e36122",
+  "fundraising": {
+    "currency": "AUD",
+    "goal": 1000000,
+    "totalAtMigration": 89234,
+    "donationCount": 31,
+    "project": "20131n",
+    "routing": "ACF"
+  },
+  "seo": {
+    "title": "Médecins San Frontieres (Doctors Without Borders)",
+    "description": "\"The act of humanitarianism comes down to one thing: individual human beings reaching out to those others who find themselves in the most difficult circumstance"
+  },
+  "status": "published"
+}

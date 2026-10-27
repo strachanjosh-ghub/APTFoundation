@@ -1,0 +1,36 @@
+{
+  "id": "oda",
+  "name": "Opportunities of Development thru Art (ODA)",
+  "slug": "oda",
+  "path": "/t/oda",
+  "originalUrl": "https://one-tomorrow.raiselysite.com/t/oda",
+  "order": 13,
+  "isGeneralFund": false,
+  "logo": {
+    "src": "/media/oda-400-x-400-png-0eac87.png",
+    "alt": "Opportunities of Development thru Art (ODA) logo"
+  },
+  "heroImage": {
+    "src": "/media/20151103-153932-jpg-2cb7a9.jpg"
+  },
+  "footerImage": {
+    "src": "/media/ot-apsara-strip-1084183574-i-jpg-fd7ee1.jpg"
+  },
+  "quote": "\"Over 1,450 children in Siem Reap’s outlying villages are receiving English lessons with ODA.\"",
+  "description": "<h4 style=\"color:#006738;\"><i><span>Cambodia</span></i></h4><p>The mission for ODA is simple: to provide free English education to children living in Siem Reap’s remote villages, with the aim to improve future employment opportunities.\n</p><h3>The Problem\n</h3><p>A large number of children from outlying villages around Siem Reap have to stay home each day to help run their family farm, making it impossible to attend school. Without an education, future employment prospects for these children are limited, and the cycle of poverty remains unbroken.\n</p><h3>The Solution\n</h3><p>With your help, ODA are able to improve the future employment opportunities for village children with free English education and an introduction to computer skills. Continued funding means continued services, and a fighting chance for kids to change their own lives. In addition, the ODA Art Project gives students the chance to attend art classes and sell their artwork in the ODA school’s on-site gallery.</p>\n<h3 style><b>What difference will your money make?</b></h3><p style><b>$50</b> will provide a child with a school uniform. </p><p style><b>$80</b> will supply a child with school books for the entire year. </p><p style><b>$320</b> will pay for an English teacher's salary. </p><h4 style><br></h4>\n<p><span><a href=\"https://www.odaopportunitiescambodia.org/\" target=\"_blank\" rel=\"noopener noreferrer\">odaopportunitiescambodia.org</a></span></p>\n<p style><span><i>OneTomorrow in project partnership with Global Development Group (GDG) – <a href=\"/about-us#background\" target=\"_blank\" rel=\"noopener noreferrer\">learn more</a></i></span></p>",
+  "contentBlocks": [],
+  "donationCampaignId": "d7c51cb0-4e24-11ea-b16c-05b6e00ed9b6",
+  "fundraising": {
+    "currency": "AUD",
+    "goal": 1000000,
+    "totalAtMigration": 1457209,
+    "donationCount": 222,
+    "project": "J1080Nc",
+    "routing": "GDG"
+  },
+  "seo": {
+    "title": "Opportunities of Development thru Art (ODA)",
+    "description": "\"Over 1,450 children in Siem Reap’s outlying villages are receiving English lessons with ODA.\""
+  },
+  "status": "published"
+}

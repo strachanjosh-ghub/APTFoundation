@@ -1,0 +1,66 @@
+{
+  "id": "causes",
+  "title": "Causes",
+  "slug": "causes",
+  "path": "/causes",
+  "template": "cause-listing",
+  "hero": {
+    "heading": "Causes OneTomorrow Supports",
+    "html": "<p>Discover the not-for-profit and grassroots causes hand-picked and supported by OneTomorrow</p>"
+  },
+  "contentBlocks": [
+    {
+      "type": "imageBand",
+      "image": {
+        "src": "/media/ot-108-world-map-of-causes-2025-png-3527a1.png"
+      }
+    },
+    {
+      "type": "causeGrid",
+      "heading": "Our Causes Include"
+    },
+    {
+      "type": "richText",
+      "html": "<p>Donations through  are tax deductible, and all donations will be matched. Dollar for dollar.</p>"
+    },
+    {
+      "type": "steps",
+      "items": [
+        {
+          "image": {
+            "src": "/media/infographic-separate-2-white-3-logos-01-png-c0b036.png"
+          },
+          "title": "You donate",
+          "html": "<p>Donate to a cause you feel passionate about.</p>"
+        },
+        {
+          "image": {
+            "src": "/media/infographic-separate-2-white-3-logos-02-png-fb4c52.png"
+          },
+          "title": "We double",
+          "html": "<p>We will match your donation to double the impact.</p>"
+        },
+        {
+          "image": {
+            "src": "/media/infographic-separate-2-white-3-logos-03-png-ce48c9.png"
+          },
+          "title": "Make a difference",
+          "html": "<p>Together, our actions help shape the world.</p>"
+        }
+      ]
+    },
+    {
+      "type": "partnerBrands"
+    }
+  ],
+  "seo": {
+    "title": "Causes",
+    "description": "One Tomorrow : Make a donation today to support One Tomorrow"
+  },
+  "status": "published",
+  "originalUrl": "https://one-tomorrow.raiselysite.com/causes",
+  "source": {
+    "raiselyPageUuid": "f937e550-5dc2-11ea-acfe-dffeebd926e4",
+    "updatedAt": "2025-06-16T09:50:46.064Z"
+  }
+}

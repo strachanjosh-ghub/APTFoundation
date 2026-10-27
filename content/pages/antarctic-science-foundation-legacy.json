@@ -1,0 +1,68 @@
+{
+  "id": "antarctic-science-foundation-legacy",
+  "title": "Antarctic Science Foundation",
+  "slug": "antarctic-science-foundation",
+  "path": "/antarctic-science-foundation",
+  "template": "standard",
+  "contentBlocks": [
+    {
+      "type": "imageBand",
+      "image": {
+        "src": "/media/a-ant-antarctica-iceberg-3212663-l-i-1920-x-600-jpg-29848a.jpg"
+      }
+    },
+    {
+      "type": "richText",
+      "html": "<h1>Antarctic Science Foundation</h1><h4><em>Antarctica</em></h4><p><strong>The Antarctic Science Foundation’s ultimate mission is to protect our planet. This Australian-based charity funds critical research to understand and protect Antarctica in order to help the world prepare and adapt to climate change, now and for generations to come.</strong></p>\n<h3>The Problem</h3><p>Antarctica is experiencing major warming due to climate change. This wild continent feels the effects of climate change faster than the rest of the planet, and Antarctica’s wildlife – including penguins, whales and seals – are particularly vulnerable to this. Climate science undertaken in Antarctica is the key to understanding our global climate future.</p>\n<h3>The Solution</h3><p>Regular donations ensure funding of critical research into climate change and Antarctica’s wildlife and oceans. With the development of innovative technology and working with some of the world’s top Antarctic scientists, Antarctic Science Foundation can continue their work protecting wildlife and making accurate predictions of global climate. </p><h3>What difference will your money make?</h3><p><strong>$50</strong> provides DNA diet analysis to study penguin’s foraging habits.</p><p><strong>$200 </strong>can analyse seawater to assess the effects of climate change on plankton.</p><p><strong>$1,000 </strong>purchases one probe to collect data about the changing Antarctic environment from the deep ocean. </p><p><strong>$6,000 </strong>builds one new wildlife monitoring camera.<strong> </strong></p>"
+    },
+    {
+      "type": "donationForm",
+      "causeId": "antarctic-science-foundation",
+      "heading": "Donate to Antarctic Science Foundation*"
+    },
+    {
+      "type": "mediaText",
+      "images": [
+        {
+          "src": "/media/australian-conservation-foundation-480-x-300-png-0b6f92.png",
+          "href": "https://antarcticsciencefoundation.org/"
+        }
+      ],
+      "imagePosition": "right",
+      "html": "<p><em>*One Tomorrow Charitable Fund matches donations up to $150,000 per year &amp; up to $1000.00 per individual donor.</em></p>\n<p><strong><em>\"We must protect Antarctica’s unique ecosystems and wildlife for the wellbeing of our planet.\"</em></strong></p>"
+    },
+    {
+      "type": "mediaText",
+      "images": [
+        {
+          "src": "/media/acf-300-x-144-png-82fc5e.png"
+        }
+      ],
+      "imagePosition": "left",
+      "html": ""
+    },
+    {
+      "type": "richText",
+      "html": "<p><em>OneTomorrow in project partnership with ACF – </em><a href=\"/about-us#background\" target=\"_blank\" rel=\"noopener noreferrer\"><em>learn more</em></a><em></em></p>"
+    },
+    {
+      "type": "imageBand",
+      "image": {
+        "src": "/media/o-ant-antarctica-penguins-strip-878417830-i-jpg-071517.jpg"
+      }
+    },
+    {
+      "type": "partnerBrands"
+    }
+  ],
+  "seo": {
+    "title": "Antarctic Science Foundation",
+    "description": "One Tomorrow : Make a donation today to support One Tomorrow"
+  },
+  "status": "published",
+  "originalUrl": "https://one-tomorrow.raiselysite.com/antarctic-science-foundation",
+  "source": {
+    "raiselyPageUuid": "00c87860-4d4d-11ea-ac61-57a512710faa",
+    "updatedAt": "2020-11-24T02:07:03.482Z"
+  }
+}

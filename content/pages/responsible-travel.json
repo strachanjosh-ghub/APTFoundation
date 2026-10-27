@@ -1,0 +1,122 @@
+{
+  "id": "responsible-travel",
+  "title": "Responsible Travel",
+  "slug": "responsible-travel",
+  "path": "/responsible-travel",
+  "template": "standard",
+  "hero": {
+    "heading": "Responsible Travel",
+    "html": "<h2>What is Responsible Travel?</h2>\n<p>The world is waking up to the need for more sustainable ways of travelling, and here at OneTomorrow we understand we have a responsibility to our planet. Responsible travel is all about being socially and culturally aware, minimising our environmental footprint and travelling in a way that takes into consideration the locals, environment and individual cultures. We encourage this sustainable way of travel through journeys with the APT Travel Group (ATG).<br><br>The UN defines the responsible traveller as one who keeps an open mind towards new cultures and traditions. They respect human rights. They participate in activities which safeguard natural environments. And responsible travellers will buy local goods to contribute to social and economic development.  <br><br></p>"
+  },
+  "contentBlocks": [
+    {
+      "type": "richText",
+      "html": "<h2>Our Guiding Principles</h2><p>Our vision of conscientious travel involves protecting the environment, respecting local communities and ensuring the wellbeing of the individuals within those communities. </p>"
+    },
+    {
+      "type": "mediaText",
+      "images": [
+        {
+          "src": "/media/un-sustainable-development-goals-logo-2743224-png-44f19b.png"
+        }
+      ],
+      "imagePosition": "left",
+      "html": "<p>As part of our commitment to achieving this, we have embraced the <strong>UN’s Sustainable Development Goals (SDGs)</strong>. The SDGs address the global challenges we face, and present a set plan to achieve a fair and sustainable future for everyone. In order to make a more powerful impact, we will begin by focussing on the three SDGs listed below. Our ultimate vision is to incorporate more goals with time in order to attain our shared aspiration for a better future.</p>"
+    },
+    {
+      "type": "richText",
+      "html": "<h4>Good Health and Wellbeing</h4><p>Improving access to essential health services; addressing the burden of non-communicable diseases, including mental health; and stepping up the fight against antimicrobial resistance.</p><h4>Quality Education</h4><p>Increasing proficiency in reading and mathematics; ensuring quality of education keeps pace with technological advancement; and improving learning outcomes, particularly for women, girls and marginalised individuals.</p><h4>Life on the Land</h4><p>Halt and reverse land degradation; preserve and restore biodiversity; and protect endangered species from the threat of extinction. </p>"
+    },
+    {
+      "type": "imageBand",
+      "image": {
+        "src": "/media/a-as-myanmar-workshop-tour-92-apt-1920-x-600-jpg-d05957.jpg"
+      }
+    },
+    {
+      "type": "mediaText",
+      "images": [
+        {
+          "src": "/media/a-au-wa-kimberley-guide-with-plants-11-apt-890-x-600-jpg-f22820.jpg"
+        }
+      ],
+      "imagePosition": "right",
+      "html": "<h2>Our Responsible Travel Commitments</h2><p>The APT Travel Group (ATG) cares about giving its guests unforgettable journeys – ones that benefit everyone involved. Here at OneTomorrow, we endorse various initiatives across the company, working together so you can travel with the assurance that the places you visit are impacted positively. Below is a snapshot of the various initiatives we are running.</p>"
+    },
+    {
+      "type": "mediaText",
+      "images": [
+        {
+          "src": "/media/eco-certified-advanced-ecotourism-logo-500-x-216-jpg-494a96.jpg"
+        },
+        {
+          "src": "/media/a-au-wa-kimberley-guide-with-passengers-02-apt-400-x-200-jpg-0187b5.jpg"
+        }
+      ],
+      "imagePosition": "left",
+      "html": "<h3>Supporting Indigenous Communities in the Kimberley</h3><p>An Advanced Ecotourism certificate in the Kimberley speaks volumes about the commitment APT Travel Group (ATG) and OneTomorrow have to maintain our long-standing Indigenous partnerships in Australia. Some of our areas of work include creating sustainable employment opportunities and making donations to the local communities.</p>"
+    },
+    {
+      "type": "mediaText",
+      "images": [
+        {
+          "src": "/media/tm-bottles-400-x-200-jpg-a4d993.jpg"
+        }
+      ],
+      "imagePosition": "right",
+      "html": "<h3>Reducing Plastic Waste on Tour</h3><p>For each minute of every single day, the equivalent of a truckload of plastic enters our world’s waterways. The APT Travel Group (ATG) is committed to changing this. From July 2019, all single-use plastic bottles have been removed on APT and Travelmarvel Mekong and Irrawaddy river cruises. Brand-new Travelmarvel ships on Europe’s waterways are now fitted with environmental water stations. And on our APT Small Ships, refillable water bottles are provided to all guests. Each day, we continue to work with our suppliers in the effort to eliminate single-use plastic bottles in other areas on tour.</p>"
+    },
+    {
+      "type": "mediaText",
+      "images": [
+        {
+          "src": "/media/roc-logo-768-x-310-png-134973.png"
+        },
+        {
+          "src": "/media/a-au-wa-kimberley-wanjina-rock-art-couples-with-guide-kwa-2015-151-apt-400-x-200-jpg-aac40a.jpg"
+        }
+      ],
+      "imagePosition": "left",
+      "html": "<h3>Respecting Local Cultures</h3><p>Throughout journeys with APT Travel Group (ATG), we place a heavy importance on respecting the rights, history, culture and dignity of local and Indigenous people, wherever we go. Encountering local cultures is often the highlight of travelling the world, and it’s important as visitors that we honour them.</p>"
+    },
+    {
+      "type": "mediaText",
+      "images": [
+        {
+          "src": "/media/o-misc-hands-planting-a-tree-649766830-s-400-x-200-jpg-d24be7.jpg"
+        }
+      ],
+      "imagePosition": "right",
+      "html": "<h3>Plant-a-Tree Scheme</h3><p>We’ve reduced the amount of paper used company-wide, choosing to go digital wherever possible. We envision a future where guests on tour with APT Travel Group (ATG) will be able to opt to receive their travel documents electronically. When you choose to go paper-free, OneTomorrow will plant a tree in bushfire-stricken communities. This way, we can help support a more sustainable future.</p>"
+    },
+    {
+      "type": "mediaText",
+      "images": [
+        {
+          "src": "/media/o-minh-rural-aid-visit-2-400-x-200-jpg-734873.jpg"
+        }
+      ],
+      "imagePosition": "left",
+      "html": "<h3>OneTomorrow Charitable Fund</h3><p>By forming OneTomorrow, APT Travel Group (ATG) are taking the necessary steps towards responsible travel, continually finding ways to move closer to the ultimate goal of sustainability. Through guest and workplace giving programs, and a range of fundraising efforts, we are collectively working to help people and places around the world.</p>"
+    },
+    {
+      "type": "imageBand",
+      "image": {
+        "src": "/media/a-au-wa-kimberley-guide-hands-with-berries-52-apt-1920-x-600-jpg-1b6567.jpg"
+      }
+    },
+    {
+      "type": "partnerBrands"
+    }
+  ],
+  "seo": {
+    "title": "Responsible Travel",
+    "description": "One Tomorrow : Make a donation today to support One Tomorrow"
+  },
+  "status": "published",
+  "originalUrl": "https://one-tomorrow.raiselysite.com/responsible-travel",
+  "source": {
+    "raiselyPageUuid": "7ad83b80-582f-11ea-9c44-dfaabb4bdb53",
+    "updatedAt": "2024-08-21T00:45:23.777Z"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "grizzly-bear-foundation",
+  "name": "Grizzly Bear Foundation",
+  "slug": "grizzly-bear-foundation",
+  "path": "/t/grizzly-bear-foundation",
+  "originalUrl": "https://one-tomorrow.raiselysite.com/t/grizzly-bear-foundation",
+  "order": 3,
+  "isGeneralFund": false,
+  "region": "Canada",
+  "logo": {
+    "src": "/media/grizzly-bear-foundation-logo-jpg-5cf389.jpg",
+    "alt": "Grizzly Bear Foundation logo"
+  },
+  "heroImage": {
+    "src": "/media/grizzly-bear-family-by-john-e-marriott-jpg-52e669.jpg"
+  },
+  "footerImage": {
+    "src": "/media/t-causa-canada-grizzly-bears-1168967430-g-low-res-jpg-372f59.jpg"
+  },
+  "quote": "Hope for grizzlies means hope for people. Now more than ever, we realize the importance of protecting planet earth to ensure the health and well-being of all living things, including ourselves. Protecting bears is one way we can effectively take action to restore our planet.",
+  "description": "<h2><i>Canada</i></h2><p>In 2014 home builder, philanthropist and art collector Michael Audain, O.C., O.B.C., was visited by a grizzly bear and her two cubs in a dream. Curious, Michael travelled to the Great Bear Rainforest, where he lived a similar personal experience. Inspired, Michael returned to Vancouver to establish the Grizzly Bear Foundation.</p><h3><b>The Problem\n</b></h3><p>Prior to the Grizzly Bear Foundation the majestic Grizzly Bear had no voice in our communities, governments, and in the public’s hearts and minds. Sparked by the fight to end the hunting of grizzly bears in British Columbia, Michael’s vision to ensure a safe and healthy future for grizzly bears all across North America continues to fuel the Grizzly Bear Foundation’s important work many years later.</p><h4><br></h4><h3><b>The Solution\n</b></h3><p>We believe coexistence with grizzly bears is possible. As an organization, we work with communities, governments, and industry to achieve this goal. We support human-bear coexistence through research, outreach, and education by working collaboratively with the BC Conservation Officer Service, the Ministry of Agriculture, First Nations, partner organizations, and local communities.</p><p>To foster coexistence, we host public workshops, social activities, presentations, and webinars and produce informational brochures, podcasts and videos to further non-lethal coexistence tools and techniques.</p><h3><br><b>What difference will your money make?\n</b></h3><p><b>$300</b> will support our advocacy and policy reform projects to secure long-term protection.\n</p><p><b>$500 </b>will support Indigenous leadership in long-term grizzly bear conservation.\n</p><p><b>$1000</b> will help reduce human-bear conflict and promote coexistence. \n</p><p>&nbsp;*  OneTomorrow Charitable Fund matches donations up to $200,000 per year and up to $1,000 per individual donor.&nbsp;</p><p>* Gifts to the Grizzly Foundation do not receive a Tax deductable receipt and are received subject to our donate/privacy policy.</p>",
+  "contentBlocks": [],
+  "donationCampaignId": "e9b8c800-35d6-11f0-aad6-a5e0b25405bf",
+  "fundraising": {
+    "currency": "AUD",
+    "goal": 1000000,
+    "totalAtMigration": 14404,
+    "donationCount": 3,
+    "project": "H115",
+    "routing": "MYR"
+  },
+  "seo": {
+    "title": "Grizzly Bear Foundation",
+    "description": "Hope for grizzlies means hope for people. Now more than ever, we realize the importance of protecting planet earth to ensure the health and well-being of all li"
+  },
+  "status": "published"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "news",
+  "title": "News",
+  "slug": "news",
+  "path": "/news",
+  "template": "news-listing",
+  "hero": {
+    "heading": "News",
+    "html": "<p>Catch up on the latest initiatives and news from OneTomorrow</p>"
+  },
+  "contentBlocks": [
+    {
+      "type": "newsFeed",
+      "pageSize": 6,
+      "showPagination": true
+    },
+    {
+      "type": "partnerBrands"
+    }
+  ],
+  "seo": {
+    "title": "News",
+    "description": "One Tomorrow : Make a donation today to support One Tomorrow"
+  },
+  "status": "published",
+  "originalUrl": "https://one-tomorrow.raiselysite.com/news",
+  "source": {
+    "raiselyPageUuid": "f89cd22a-04ff-11ea-a05f-e568734ff3b2",
+    "updatedAt": "2020-06-17T00:42:40.858Z"
+  }
+}

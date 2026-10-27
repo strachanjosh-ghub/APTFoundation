@@ -1,0 +1,36 @@
+{
+  "id": "gondwana-rainforest-trust",
+  "name": "Gondwana Rainforest Trust",
+  "slug": "gondwana-rainforest-trust",
+  "path": "/t/gondwana-rainforest-trust",
+  "originalUrl": "https://one-tomorrow.raiselysite.com/t/gondwana-rainforest-trust",
+  "order": 8,
+  "isGeneralFund": false,
+  "logo": {
+    "src": "/media/grt-logo-vfa-2-jpg-0f3664.jpg",
+    "alt": "Gondwana Rainforest Trust logo"
+  },
+  "heroImage": {
+    "src": "/media/o-qld-daintree-tree-roots-591824724-1920-x-600-jpg-423352.jpg"
+  },
+  "footerImage": {
+    "src": "/media/o-qld-daintree-rainforest-canopy-strip-1239507334-s-1920-x-400-jpg-82a2aa.jpg"
+  },
+  "quote": "“Through planting trees and facilitating natural regeneration, we can restore damaged rainforest ecosystems.”",
+  "description": "<h4 style=\"\"><i><span>Australia<br></span></i></h4><p>Gondwana Rainforest Trust is dedicated to safeguarding the future of the world’s rainforests. Programs include land buy-back, tree-planting, and unique partnerships with Traditional Custodians to ensure the protection and restoration of our rainforests.  The Daintree Lowland Rainforest is the oldest rainforest on Earth, having existed continuously for over 120 million years. It holds exceptionally high biodiversity and conservation value and is the largest continuous area of tropical rainforest remaining in Australia. In only the last forty years, the rainforest has been under threat by over-development.</p><h3><br></h3><h3><i>The Problem&nbsp;</i></h3><p><span>The 1980s saw the Queensland Government approve a rural residential subdivision within the Daintree Lowland Rainforest. This removed the land from the protection of the rainforest’s World Heritage status, resulting in the construction of roads and houses which introduced weeds and traffic pollution to the area. Due to these factors, rare and endangered species living in the rainforest are under threat.&nbsp; </span></p><h3><br></h3><h3>The Solution</h3><p>Gondwana Rainforest Trust are buying back land to remove any threat of future development. At the same time, they are ensuring their efforts support the Traditional Land Owners of the Kuku Yalanji people. By buying properties currently residing in the Daintree Lowland Rainforest, the protected Daintree National Park and Wet Tropics World Heritage Area will regain its lost land. With your help, they can return the Daintree Rainforest to its former glory.</p><h3 style=\"\"><b>What difference will your money make?</b></h3><p style=\"\"><b>$50</b> will buy back 20 square metres of the Daintree Rainforest. </p><br>\n<p><span><a href=\"https://www.rainforest4.org/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.gondwanarainforesttrust.org/</a></span></p>\n<p style=\"\"><span><i>OneTomorrow in project partnership with Australian Communities Foundation (ACF) – <a href=\"/about-us#background\" target=\"_blank\" rel=\"noopener noreferrer\">learn more</a></i></span></p>",
+  "contentBlocks": [],
+  "donationCampaignId": "38525320-52e1-11ea-a429-3b854baf3ef5",
+  "fundraising": {
+    "currency": "AUD",
+    "goal": 1000000,
+    "totalAtMigration": 22900,
+    "donationCount": 4,
+    "project": "20131w",
+    "routing": "ACF"
+  },
+  "seo": {
+    "title": "Gondwana Rainforest Trust",
+    "description": "“Through planting trees and facilitating natural regeneration, we can restore damaged rainforest ecosystems.”"
+  },
+  "status": "published"
+}

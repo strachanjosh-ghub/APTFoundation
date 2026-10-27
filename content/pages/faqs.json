@@ -1,0 +1,100 @@
+{
+  "id": "faqs",
+  "title": "Frequently Asked Questions",
+  "slug": "faqs",
+  "path": "/faqs",
+  "template": "faq",
+  "parentId": "about-us",
+  "hero": {
+    "heading": "Frequently Asked Questions",
+    "backgroundImage": {
+      "src": "/media/ot-18-campaign-image-1-jpg-cb6158.jpg"
+    }
+  },
+  "contentBlocks": [
+    {
+      "type": "faq",
+      "items": [
+        {
+          "question": "Why should I support OneTomorrow?",
+          "html": "<p>When you give to OneTomorrow, you make twice as much difference in the world. Donations from you are matched by us, dollar for dollar. This means that, together, we can double our impact across the globe.</p>"
+        },
+        {
+          "question": "What is the relationship between OneTomorrow and the APT Travel Group (ATG)?",
+          "html": "<p>OneTomorrow is the charitable fund of the APT Travel Group (ATG). Proudly owned by the McGeary family, the group is comprised of the brands APT, Travelmarvel, TravelGlo, Captain’s Choice, Antarctica Flights and Botanica World Discoveries. Born in 2019, the OneTomorrow Charitable Fund now formalises the history of charitable activities carried out by APT Travel Group (ATG).</p>"
+        },
+        {
+          "question": "How does OneTomorrow select the projects they support?",
+          "html": "<p>OneTomorrow seeks out projects in the areas to which we travel to which, through their generosity and selflessness, create an appreciable difference to our environment and the people living within it. Our partner causes must also align with the United Nation’s Sustainable Development Goals.</p>"
+        },
+        {
+          "question": "What are Sustainable Development Goals (SDGs) and how do they involve OneTomorrow?",
+          "html": "<p>The Sustainable Development Goals (SDGs) are a global plan of action put forward by the United Nations (UN) to drive peace and prosperity for people and planet. They form the UN’s 2030 Agenda for Sustainable Development and highlight 17 key areas of focus. We’ve chosen three specific SDGs to address through OneTomorrow: Good Health and Wellbeing; Quality Education; and Life on Land.</p>"
+        },
+        {
+          "question": "Where does the OneTomorrow Charitable Fund get their money from?",
+          "html": "<p>The APT Travel Group (ATG) established a philanthropic fund with the Australian Communities Foundation (ACF) in 2005. Since then the company has placed a percentage of its profits each year in the fund. As the fund has grown, so too has the amount of interest earnt. Today, the fund has grown to such a degree that the company uses the interest earnt each year for philanthropic endeavours, now under the header of OneTomorrow.</p>"
+        },
+        {
+          "question": "How do I know my money makes a difference?",
+          "html": "<p>The OneTomorrow Charitable Fund is a sub-fund of the Australian Communities Foundation (ACF: ABN 57967620066) and a partner of Global Development Group (GDG: ABN 57 102 400 993); both are registered Deductible Gift Recipient for tax purposes and comply with all Australian legal obligations and are responsible for ensuring the money donated supports the correct ACF or GDG project. The ACF manages the money invested by APT Travel Group. </p><p>On OneTomorrow’s end, our passionate and dedicated personnel maintain regular, direct contact with our charitable partners. The most rewarding aspect of our work is witnessing the results of our efforts and their measurable impacts upon those most in need. By selecting the News tab on our website, you can also keep up to date on all of the latest developments resulting from OneTomorrow’s work.</p>"
+        },
+        {
+          "question": "Is my donation tax-deductible?",
+          "html": "<p>All donations to OneTomorrow (as a sub-fund of ACF and thanks to our project partnership with GDG) are eligible as tax-deductible gifts for Australian and United States ($2 and over), and New Zealand citizens ($5 and over) donating in their local currency. As required by the Australian Taxation Office (ATO) we advise that if any causes are over-supported that funds may support other approved causes. For European and United Kingdom citizens, we can provide you with an acknowledgement of the donation.</p>"
+        },
+        {
+          "question": "Are there any fees on my donation?",
+          "html": "<p>Staff costs for OneTomorrow are covered by APT Touring Group.  OneTomorrow does not deduct any costs from your donation.</p><p><br>You may tick the optional amount box when you donate to cover the fundraising costs associated with the Raisely website platform.  This is optional and does not impact the amount a cause receives.</p>"
+        },
+        {
+          "question": "Can I donate if I live overseas?",
+          "html": "<p>Absolutely! As part of a global travel company, OneTomorrow encourages donations from all over the world. </p>"
+        },
+        {
+          "question": "How can I update my details?",
+          "html": "<p>To update your details please contact info@aptouring.com.au</p>"
+        },
+        {
+          "question": "I’ve signed up online for an ongoing monthly donation. What date will my donations come out of my account?",
+          "html": "<p>Your recurring donation will come out of your account on the same day of the month that you set up your initial donation (give or take a few business days).</p>"
+        },
+        {
+          "question": "How do I change or cancel my ongoing monthly donations?",
+          "html": "<p>On the email receipt you receive each month, simply click on the ‘manage my donation’ button. This will give you the option to change or cancel your recurring donation.</p>"
+        },
+        {
+          "question": "Does OneTomorrow have a refund policy?",
+          "html": "<p>OneTomorrow  does not have a refund policy. All donations are made in good faith and as such are non-refundable.  If your donation has been processed in error, please contact us as soon as possible so that we can work with you to address the issue. info@onetomorrow.com.au</p>"
+        },
+        {
+          "question": "Can I leave a bequest for the OneTomorrow Charitable Fund?",
+          "html": "<p>Yes, you can. Bequests make a great difference to the projects we support. As a first step, it is recommended you seek qualified legal advice when creating or updating a Will. If you do want to make a bequest to us, you may wish to use the below wording as a guide.<br><br>I give [type of gift] to Australian Communities Foundation Limited, as Trustee of Australian Communities Foundation Fund (ABN 57 967 620 066) to be held on trust in the Australian Communities Foundation Fund and request, without obligation, the Trustee of the Fund hold the bequest in the OneTomorrow Charitable Fund and to apply the funds as the Trustee decides/in favour of [name of one of OneTomorrow Charitable Fund’s select causes] purposes and to acknowledge grants from the OneTomorrow Charitable Fund, wherever practical in the Trustee’s discretion. The executor may accept a receipt from the secretary of the Trustee of the Fund as sufficient discharge for this gift. </p><p>Examples of types of gift:<br>A bequest is the gift of an asset or other right provided as part of a Will, intestacy or settlement. Bequests may be for a particular asset, amount or percentage of an estate.</p><p>There are several different types of bequests:</p><ul><li><p><strong>Pecuniary bequest:</strong> a fixed amount specified in a Will. </p></li><li><p><strong>Residuary bequest:</strong> the remaining value of an estate when all other bequests to family and friends have been made and liabilities have been paid. </p></li><li><p><strong>Reversionary bequest:</strong> allows a surviving partner to benefit from your estate during their lifetime and then for the balance of the estate to be paid to Australian Communities Foundation upon their death. </p></li></ul><p><br>For further advice, please consult a qualified legal practitioner. <br></p>"
+        },
+        {
+          "question": "What is your privacy policy?",
+          "html": "<p>For our Privacy Policy, please see <a href=\"/PrivacyPolicy\">here</a>.</p>"
+        }
+      ]
+    },
+    {
+      "type": "imageBand",
+      "image": {
+        "src": "/media/ot-generic-hand-holding-tree-planting-1407793820-s-cropped-jpg-9f5579.jpg"
+      }
+    },
+    {
+      "type": "partnerBrands"
+    }
+  ],
+  "seo": {
+    "title": "Frequently Asked Questions",
+    "description": "One Tomorrow : Make a donation today to support One Tomorrow"
+  },
+  "status": "published",
+  "originalUrl": "https://one-tomorrow.raiselysite.com/faqs",
+  "source": {
+    "raiselyPageUuid": "ac5f3680-6361-11ea-8b40-55d005aa99f7",
+    "updatedAt": "2026-09-29T03:29:53.837Z"
+  }
+}

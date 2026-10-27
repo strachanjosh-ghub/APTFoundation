@@ -1,0 +1,37 @@
+{
+  "id": "terry-fox-foundation",
+  "name": "Terry Fox Foundation",
+  "slug": "terry-fox-foundation",
+  "path": "/t/terry-fox-foundation",
+  "originalUrl": "https://one-tomorrow.raiselysite.com/t/terry-fox-foundation",
+  "order": 2,
+  "isGeneralFund": false,
+  "region": "Canada",
+  "logo": {
+    "src": "/media/terry-fox-png-51315d.png",
+    "alt": "Terry Fox Foundation logo"
+  },
+  "heroImage": {
+    "src": "/media/terry-marathon-3-jpg-2b2537.jpg"
+  },
+  "footerImage": {
+    "src": "/media/road-png-e0272a.png"
+  },
+  "quote": "“I could not leave [the cancer ward] knowing these faces and feelings would still exist, even though I would be set free from mine. I was determined to take myself to the limit for this cause.” - Terry Fox",
+  "description": "<h2><i>Canada</i></h2><p>This story is simple and powerful. Terry Fox lost his leg to osteogenic sarcoma at age 18, underwent 16 months of treatment and found he could not ignore the suffering he witnessed in the cancer wards. Terry decided to run across Canada to raise money for cancer research in a Marathon of Hope. He wasn’t doing the run to become famous; he wanted to create change and fund a cure for all cancers.</p><h3>The Problem\n</h3><p>Terry died on June 28, 1981 at the age 22. This bold and courageous Canadian was gone, but his legacy was just beginning. To date, over $900 million has been raised for cancer research in Terry’s name through the annual Terry Fox Run, held across Canada and around the world.  Nearly 2 in 5 people in Canada will develop cancer during their lifetime and about 1 out of 4 Canadians are expected to die from cancer.</p><h3>The Solution\n</h3><p>Terry’s personal experience and research led him to a simple conclusion – more money was needed for cancer research.  We support bold, innovative cancer research across Canada that helps lead to better diagnosis, treatment options and quality of life for those facing cancer. We invest your donations in the very best scientists in laboratories, clinics, and hospitals around the country.</p><h3><br>What difference will your money make?\n</h3><p><b>$100</b> will accelerate cancer research\n</p><p><b>$200</b> is an investment in the future that ensures we can continue to make progress in the fight against cancer for future generations.\n</p><p><b>$500</b>&nbsp;can support the Canadian Tissue Repository Network (CTRNet)</p>",
+  "contentBlocks": [],
+  "donationCampaignId": "dee6eb60-35df-11f0-b589-777b3f82c210",
+  "fundraising": {
+    "currency": "CAD",
+    "goal": 1000000,
+    "totalAtMigration": 15763,
+    "donationCount": 4,
+    "project": "H113",
+    "routing": "MYR"
+  },
+  "seo": {
+    "title": "Terry Fox Foundation",
+    "description": "“I could not leave [the cancer ward] knowing these faces and feelings would still exist, even though I would be set free from mine. I was determined to take mys"
+  },
+  "status": "published"
+}

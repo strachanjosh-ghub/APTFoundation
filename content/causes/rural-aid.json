@@ -1,0 +1,36 @@
+{
+  "id": "rural-aid",
+  "name": "Rural Aid",
+  "slug": "rural-aid",
+  "path": "/t/rural-aid",
+  "originalUrl": "https://one-tomorrow.raiselysite.com/t/rural-aid",
+  "order": 10,
+  "isGeneralFund": false,
+  "logo": {
+    "src": "/media/rural-aid-400-x-400-png-e3c685.png",
+    "alt": "Rural Aid logo"
+  },
+  "heroImage": {
+    "src": "/media/banner-rural-aid-png-6ced5c.png"
+  },
+  "footerImage": {
+    "src": "/media/qld-rural-aid-png-756e49.png"
+  },
+  "quote": "\"With your contribution, you can safeguard Australian farmers and communities from devastation.\"",
+  "description": "<h3 style=\"\">Rural Aid work to ensure that Australian farmers and rural communities are given financial and emotional support in times of severe hardship. Run entirely by volunteers, their programs help Aussie farmers in distress and have included the widely successful ‘Buy A Bale’ campaign.&nbsp;&nbsp;</h3><div><br></div><h3 style=\"\">About&nbsp;</h3><p>Rural Aid work to ensure that Australian farmers and rural communities are given financial and emotional support in times of severe hardship. Run entirely by volunteers, their programs help Aussie farmers in distress and have included the widely successful ‘Buy A Bale’ campaign.\n</p><h3 style=\"\">The Situation</h3><p>Australia is a land of environmental extremes. During times of drought, flood and fire, farming and rural communities struggle to recover economically. With 10,000 farmers and 10 million farm animals affected by the recent bushfires, the Australian rural community is facing some of its toughest times yet.\n</p><h3 style=\"\">The Solution\n</h3><p>Supporting Rural Aid ensures that livelihoods are saved during times of natural disaster. With your contribution, you can safeguard Australian farmers and communities from devastation. Rural Aid designs programs centred around rebuilding and repairing, providing economic and empathetic assistance to those who have lost land and livestock.</p>\n<h3 style=\"\"><b>What difference will your money make?</b></h3><p style=\"\"><b>$100</b> buys a large 400kg bale of hay.</p><p style=\"\"><b>$450</b> provides a tank of fresh drinking water. </p><p style=\"\"><b>$5,700</b> buys an entire truckload of hay.</p><h4 style=\"\"><br></h4>\n<p><span><a href=\"https://www.ruralaid.org.au/\" target=\"_blank\" rel=\"noopener noreferrer\">ruralaid.org.au</a></span></p>\n<p style=\"\"><span><i>OneTomorrow in project partnership with Australian Communities Foundation (ACF) – <a href=\"/about-us#background\" target=\"_blank\" rel=\"noopener noreferrer\">learn more</a></i></span></p>",
+  "contentBlocks": [],
+  "donationCampaignId": "d169ed60-4e28-11ea-b16c-05b6e00ed9b6",
+  "fundraising": {
+    "currency": "AUD",
+    "goal": 1000000,
+    "totalAtMigration": 171220,
+    "donationCount": 7,
+    "project": "20131v",
+    "routing": "ACF"
+  },
+  "seo": {
+    "title": "Rural Aid",
+    "description": "\"With your contribution, you can safeguard Australian farmers and communities from devastation.\""
+  },
+  "status": "published"
+}
